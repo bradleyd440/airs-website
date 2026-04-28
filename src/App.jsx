@@ -118,8 +118,13 @@ const translations = {
     ],
     contactTitle: "Contact",
     followTitle: "Follow",
-    footerText: "A modern nonprofit website built around clarity, trust, accessibility, and action.",
-    footerCopyright: "© 2026 AIRS. Website redesign prototype.",
+    footerText: "AIRS helps refugee and immigrant families access support, resources, and community connections across Arizona.",
+    footerQuickLinks: "Quick Links",
+    footerServicesTitle: "Services",
+    footerGetInvolved: "Get Involved",
+    footerLegalTitle: "Nonprofit Note",
+    footerLegalText: "This website prototype should be updated with AIRS official contact information, donation links, privacy details, and nonprofit registration information before launch.",
+    footerCopyright: "© 2026 AIRS. All rights reserved.",
     addPhone: "Add phone number",
     addEmail: "Add email address",
   },
@@ -527,7 +532,7 @@ const translations = {
     footerCopyright: "© 2026 AIRS. Prototype de refonte du site web.",
     addPhone: "Ajouter un numéro de téléphone",
     addEmail: "Ajouter une adresse e-mail",
-  },,
+  },
   Kinyarwanda: {
     siteName: "AIRS",
     siteFullName: "Serivisi z’Abimukira n’Impunzi muri Arizona",
@@ -822,33 +827,70 @@ function Events({ t }) {
 }
 
 function ContactFooter({ t }) {
+  const quickLinks = t.nav.map((item) => ({ label: item, href: `#${getSectionId(item)}` }));
+  const serviceLinks = (t.services || []).slice(0, 6).map((service) => ({ label: service.title, href: "#services" }));
+  const involvedLinks = [
+    { label: t.donateButton, href: "#donate" },
+    { label: t.volunteerButton, href: "#volunteer" },
+    { label: t.getHelpButton, href: "#get-help" },
+  ];
+
   return (
     <footer id="contact" className="border-t border-slate-200 bg-white">
-      <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 lg:grid-cols-[1.1fr_0.9fr_0.7fr] lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 lg:grid-cols-[1.2fr_0.8fr_0.9fr_0.8fr] lg:px-8">
         <div>
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-teal-700 text-white"><Handshake size={23} /></div>
             <div><p className="font-black text-slate-950">{t.siteName}</p><p className="text-sm text-slate-500">{t.siteFullName}</p></div>
           </div>
           <p className="mt-5 max-w-md leading-7 text-slate-600">{t.footerText}</p>
-        </div>
-        <div>
-          <h3 className="font-black text-slate-950">{t.contactTitle}</h3>
-          <div className="mt-4 space-y-3 text-slate-600">
-            <p className="flex gap-3"><MapPin size={18} className="mt-0.5 text-teal-700" /> {t.location}</p>
-            <p className="flex gap-3"><Phone size={18} className="mt-0.5 text-teal-700" /> {t.addPhone}</p>
-            <p className="flex gap-3"><Mail size={18} className="mt-0.5 text-teal-700" /> {t.addEmail}</p>
+          <div className="mt-6 space-y-3 text-slate-600">
+            <p className="flex gap-3"><MapPin size={18} className="mt-0.5 shrink-0 text-teal-700" /> {t.location}</p>
+            <p className="flex gap-3"><Phone size={18} className="mt-0.5 shrink-0 text-teal-700" /> {t.addPhone}</p>
+            <p className="flex gap-3"><Mail size={18} className="mt-0.5 shrink-0 text-teal-700" /> {t.addEmail}</p>
           </div>
         </div>
+
         <div>
-          <h3 className="font-black text-slate-950">{t.followTitle}</h3>
+          <h3 className="font-black text-slate-950">{t.footerQuickLinks || "Quick Links"}</h3>
+          <div className="mt-4 grid gap-3">
+            {quickLinks.map((link) => (
+              <a key={link.label} href={link.href} className="text-sm font-bold text-slate-600 transition hover:text-teal-700">{link.label}</a>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="font-black text-slate-950">{t.footerServicesTitle || t.servicesLabel}</h3>
+          <div className="mt-4 grid gap-3">
+            {serviceLinks.map((link) => (
+              <a key={link.label} href={link.href} className="text-sm font-bold text-slate-600 transition hover:text-teal-700">{link.label}</a>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="font-black text-slate-950">{t.footerGetInvolved || "Get Involved"}</h3>
+          <div className="mt-4 grid gap-3">
+            {involvedLinks.map((link) => (
+              <a key={link.label} href={link.href} className="text-sm font-bold text-slate-600 transition hover:text-teal-700">{link.label}</a>
+            ))}
+          </div>
+
+          <h3 className="mt-8 font-black text-slate-950">{t.followTitle}</h3>
           <div className="mt-4 flex gap-3">
-            <a href="#" className="rounded-2xl bg-slate-100 p-3 text-slate-700 transition hover:bg-teal-50 hover:text-teal-700" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></a>
-            <a href="#" className="rounded-2xl bg-slate-100 p-3 text-slate-700 transition hover:bg-teal-50 hover:text-teal-700" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg></a>
+            <a href="#" className="rounded-2xl bg-slate-100 p-3 text-slate-700 transition hover:bg-teal-50 hover:text-teal-700" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></a>
+            <a href="#" className="rounded-2xl bg-slate-100 p-3 text-slate-700 transition hover:bg-teal-50 hover:text-teal-700" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg></a>
           </div>
         </div>
       </div>
-      <div className="border-t border-slate-200 px-5 py-5 text-center text-sm text-slate-500">{t.footerCopyright}</div>
+
+      <div className="border-t border-slate-200 bg-slate-50">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-6 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+          <p>{t.footerCopyright}</p>
+          <p className="max-w-2xl">{t.footerLegalText || "Update this section with official nonprofit, privacy, and donation information before launch."}</p>
+        </div>
+      </div>
     </footer>
   );
 }
