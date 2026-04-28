@@ -8,7 +8,6 @@ import {
   FileText,
   GraduationCap,
   HandHeart,
-  Handshake,
   Heart,
   Home,
   Languages,
@@ -727,6 +726,47 @@ function DirectionalArrow({ isRtl, size = 18, className = "" }) {
   return <ArrowRight size={size} className={`${isRtl ? "rotate-180" : ""} ${className}`} />;
 }
 
+
+function BrandLogo({ t, compact = false, light = false }) {
+  return (
+    <div className="flex items-center gap-3">
+      <div className={`flex ${compact ? "h-11 w-11" : "h-14 w-14"} shrink-0 items-center justify-center rounded-2xl bg-teal-700 text-white shadow-sm ring-1 ring-teal-900/10`}>
+        <span className={`${compact ? "text-sm" : "text-base"} font-black tracking-tight`}>AIRS</span>
+      </div>
+      <div>
+        <p className={`${compact ? "text-lg" : "text-xl"} font-black leading-tight ${light ? "text-white" : "text-slate-950"}`}>{t.siteName}</p>
+        <p className={`max-w-[15rem] text-xs font-semibold leading-4 ${light ? "text-slate-200" : "text-slate-500"}`}>{t.siteFullName}</p>
+      </div>
+    </div>
+  );
+}
+
+function PartnerLogos({ t }) {
+  return (
+    <section className="bg-white py-10">
+      <div className="mx-auto max-w-7xl px-5 lg:px-8">
+        <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
+          <p className="text-sm font-black uppercase tracking-[0.2em] text-slate-500">Brand & Partner Identity</p>
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
+            <div className="rounded-3xl bg-white p-5 shadow-sm">
+              <BrandLogo t={t} />
+            </div>
+            <div className="flex items-center gap-4 rounded-3xl bg-white p-5 shadow-sm">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                <span className="text-sm font-black tracking-tight">ECDC</span>
+              </div>
+              <div>
+                <p className="text-xl font-black leading-tight text-slate-950">ECDC</p>
+                <p className="text-xs font-semibold leading-4 text-slate-500">AIRS subsidiary / partner reference</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Navbar({ language, setLanguage, t }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -734,13 +774,7 @@ function Navbar({ language, setLanguage, t }) {
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
         <a href="#home" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-teal-700 text-white shadow-sm">
-            <Handshake size={24} />
-          </div>
-          <div>
-            <p className="text-lg font-black leading-tight text-slate-950">{t.siteName}</p>
-            <p className="text-xs font-semibold text-slate-500">{t.siteFullName}</p>
-          </div>
+          <BrandLogo t={t} compact />
         </a>
 
         <nav className="hidden items-center gap-6 lg:flex">
@@ -990,10 +1024,7 @@ function ContactFooter({ t }) {
     <footer id="contact" className="border-t border-slate-200 bg-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 lg:grid-cols-[1.2fr_0.8fr_0.9fr_0.8fr] lg:px-8">
         <div>
-          <div className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-teal-700 text-white"><Handshake size={23} /></div>
-            <div><p className="font-black text-slate-950">{t.siteName}</p><p className="text-sm text-slate-500">{t.siteFullName}</p></div>
-          </div>
+          <BrandLogo t={t} compact />
           <p className="mt-5 max-w-md leading-7 text-slate-600">{t.footerText}</p>
           <div className="mt-6 space-y-3 text-slate-600">
             <p className="flex gap-3"><MapPin size={18} className="mt-0.5 shrink-0 text-teal-700" /> {t.location}</p>
@@ -1052,6 +1083,7 @@ export default function App() {
       <Navbar language={language} setLanguage={setLanguage} t={t} />
       <main>
         <Hero t={t} isRtl={isRtl} />
+        <PartnerLogos t={t} />
         <About t={t} />
         <Services t={t} isRtl={isRtl} />
         <GetHelp t={t} language={language} />
