@@ -34,6 +34,61 @@ const languageCodes = {
   Kinyarwanda: "rw",
 };
 
+const languageNames = {
+  English: { English: "English", Spanish: "Spanish", Arabic: "Arabic", Dari: "Dari", Swahili: "Swahili", French: "French", Kinyarwanda: "Kinyarwanda" },
+  Spanish: { English: "Inglés", Spanish: "Español", Arabic: "Árabe", Dari: "Dari", Swahili: "Suajili", French: "Francés", Kinyarwanda: "Kinyarwanda" },
+    footerQuickLinks: "Enlaces rápidos",
+    footerServicesTitle: "Servicios",
+    footerGetInvolved: "Participar",
+    footerLegalTitle: "Nota sin fines de lucro",
+    footerLegalText: "Este prototipo debe actualizarse con la información oficial de contacto de AIRS, enlaces de donación, detalles de privacidad e información de registro sin fines de lucro antes del lanzamiento.",
+  Arabic: { English: "الإنجليزية", Spanish: "الإسبانية", Arabic: "العربية", Dari: "الدَرية", Swahili: "السواحيلية", French: "الفرنسية", Kinyarwanda: "الكينيارواندا" },
+    siteName: "AIRS",
+    footerQuickLinks: "روابط سريعة",
+    footerServicesTitle: "الخدمات",
+    footerGetInvolved: "شارك معنا",
+    footerLegalTitle: "ملاحظة للمنظمة غير الربحية",
+    footerLegalText: "يجب تحديث هذا النموذج بمعلومات الاتصال الرسمية لـ AIRS وروابط التبرع وتفاصيل الخصوصية ومعلومات التسجيل غير الربحي قبل الإطلاق.",
+  Dari: { English: "انگلیسی", Spanish: "اسپانیایی", Arabic: "عربی", Dari: "دری", Swahili: "سواحیلی", French: "فرانسوی", Kinyarwanda: "کینیارواندا" },
+    siteName: "AIRS",
+    footerQuickLinks: "لینک\u200cهای سریع",
+    footerServicesTitle: "خدمات",
+    footerGetInvolved: "همراه شوید",
+    footerLegalTitle: "یادداشت نهاد غیرانتفاعی",
+    footerLegalText: "این نمونه وب\u200cسایت باید پیش از راه\u200cاندازی با معلومات رسمی تماس AIRS، لینک\u200cهای کمک مالی، جزئیات حریم خصوصی و معلومات ثبت غیرانتفاعی به\u200cروزرسانی شود.",
+  Swahili: { English: "Kiingereza", Spanish: "Kihispania", Arabic: "Kiarabu", Dari: "Kidarí", Swahili: "Kiswahili", French: "Kifaransa", Kinyarwanda: "Kinyarwanda" },
+    siteName: "AIRS",
+    footerQuickLinks: "Viungo vya Haraka",
+    footerServicesTitle: "Huduma",
+    footerGetInvolved: "Shiriki",
+    footerLegalTitle: "Taarifa ya Shirika Lisilo la Faida",
+    footerLegalText: "Mfano huu wa tovuti unapaswa kusasishwa kwa taarifa rasmi za mawasiliano za AIRS, viungo vya michango, maelezo ya faragha, na taarifa za usajili wa shirika lisilo la faida kabla ya kuzinduliwa.",
+  French: { English: "Anglais", Spanish: "Espagnol", Arabic: "Arabe", Dari: "Dari", Swahili: "Swahili", French: "Français", Kinyarwanda: "Kinyarwanda" },
+    siteName: "AIRS",
+    footerQuickLinks: "Liens rapides",
+    footerServicesTitle: "Services",
+    footerGetInvolved: "Participer",
+    footerLegalTitle: "Note de l’organisation à but non lucratif",
+    footerLegalText: "Ce prototype de site doit être mis à jour avec les coordonnées officielles d’AIRS, les liens de don, les informations de confidentialité et les détails d’enregistrement de l’organisation avant le lancement.",
+  Kinyarwanda: { English: "Icyongereza", Spanish: "Icyesipanyoli", Arabic: "Icyarabu", Dari: "Ikidari", Swahili: "Igiswahili", French: "Igifaransa", Kinyarwanda: "Ikinyarwanda" },
+};
+
+const footerLabels = {
+    footerQuickLinks: "Amahuriro yihuse",
+    footerServicesTitle: "Serivisi",
+    footerGetInvolved: "Gira uruhare",
+    footerLegalTitle: "Icyitonderwa cy’umuryango udaharanira inyungu",
+    footerLegalText: "Iyi prototype y’urubuga igomba gushyirwamo amakuru yemewe ya AIRS yo kuvugana, amahuza yo gutangiraho inkunga, amakuru yerekeye ibanga, n’amakuru yo kwiyandikisha nk’umuryango udaharanira inyungu mbere yo gutangizwa.",
+  English: { footerQuickLinks: "Quick Links", footerServicesTitle: "Services", footerGetInvolved: "Get Involved", footerLegalTitle: "Nonprofit Note", footerLegalText: "This website prototype should be updated with AIRS official contact information, donation links, privacy details, and nonprofit registration information before launch." },
+  Spanish: { footerQuickLinks: "Enlaces rápidos", footerServicesTitle: "Servicios", footerGetInvolved: "Participar", footerLegalTitle: "Nota sin fines de lucro", footerLegalText: "Este prototipo debe actualizarse con la información oficial de contacto de AIRS, enlaces de donación, detalles de privacidad e información de registro sin fines de lucro antes del lanzamiento." },
+  Arabic: { footerQuickLinks: "روابط سريعة", footerServicesTitle: "الخدمات", footerGetInvolved: "شارك معنا", footerLegalTitle: "ملاحظة للمنظمة غير الربحية", footerLegalText: "يجب تحديث هذا النموذج بمعلومات الاتصال الرسمية لـ AIRS وروابط التبرع وتفاصيل الخصوصية ومعلومات التسجيل غير الربحي قبل الإطلاق." },
+  Dari: { footerQuickLinks: "لینک‌های سریع", footerServicesTitle: "خدمات", footerGetInvolved: "همراه شوید", footerLegalTitle: "یادداشت نهاد غیرانتفاعی", footerLegalText: "این نمونه وب‌سایت باید پیش از راه‌اندازی با معلومات رسمی تماس AIRS، لینک‌های کمک مالی، جزئیات حریم خصوصی و معلومات ثبت غیرانتفاعی به‌روزرسانی شود." },
+  Swahili: { footerQuickLinks: "Viungo vya Haraka", footerServicesTitle: "Huduma", footerGetInvolved: "Shiriki", footerLegalTitle: "Taarifa ya Shirika Lisilo la Faida", footerLegalText: "Mfano huu wa tovuti unapaswa kusasishwa kwa taarifa rasmi za mawasiliano za AIRS, viungo vya michango, maelezo ya faragha, na taarifa za usajili wa shirika lisilo la faida kabla ya kuzinduliwa." },
+  French: { footerQuickLinks: "Liens rapides", footerServicesTitle: "Services", footerGetInvolved: "Participer", footerLegalTitle: "Note de l’organisation à but non lucratif", footerLegalText: "Ce prototype de site doit être mis à jour avec les coordonnées officielles d’AIRS, les liens de don, les informations de confidentialité et les détails d’enregistrement de l’organisation avant le lancement." },
+  Kinyarwanda: { footerQuickLinks: "Amahuriro yihuse", footerServicesTitle: "Serivisi", footerGetInvolved: "Gira uruhare", footerLegalTitle: "Icyitonderwa cy’umuryango udaharanira inyungu", footerLegalText: "Iyi prototype y’urubuga igomba gushyirwamo amakuru yemewe ya AIRS yo kuvugana, amahuza yo gutangiraho inkunga, amakuru yerekeye ibanga, n’amakuru yo kwiyandikisha nk’umuryango udaharanira inyungu mbere yo gutangizwa." },
+};
+
+
 const translations = {
   English: {
     siteName: "AIRS",
@@ -215,6 +270,11 @@ const translations = {
     footerCopyright: "© 2026 AIRS. Prototipo de rediseño del sitio web.",
     addPhone: "Agregar número de teléfono",
     addEmail: "Agregar dirección de correo electrónico",
+    footerQuickLinks: 'Enlaces rápidos',
+    footerServicesTitle: 'Servicios',
+    footerGetInvolved: 'Participar',
+    footerLegalTitle: 'Nota sin fines de lucro',
+    footerLegalText: 'Este prototipo debe actualizarse con la información oficial de contacto de AIRS, enlaces de donación, detalles de privacidad e información de registro sin fines de lucro antes del lanzamiento.',
   },
 
   Arabic: {
@@ -295,6 +355,12 @@ const translations = {
     footerCopyright: "© 2026 AIRS. نموذج أولي لإعادة تصميم الموقع.",
     addPhone: "أضف رقم الهاتف",
     addEmail: "أضف عنوان البريد الإلكتروني",
+    siteName: 'AIRS',
+    footerQuickLinks: 'روابط سريعة',
+    footerServicesTitle: 'الخدمات',
+    footerGetInvolved: 'شارك معنا',
+    footerLegalTitle: 'ملاحظة للمنظمة غير الربحية',
+    footerLegalText: 'يجب تحديث هذا النموذج بمعلومات الاتصال الرسمية لـ AIRS وروابط التبرع وتفاصيل الخصوصية ومعلومات التسجيل غير الربحي قبل الإطلاق.',
   },
   Dari: {
     siteFullName: "خدمات مهاجرین و پناهندگان آریزونا",
@@ -374,6 +440,12 @@ const translations = {
     footerCopyright: "© 2026 AIRS. نمونه بازطراحی وب‌سایت.",
     addPhone: "شماره تلفن را اضافه کنید",
     addEmail: "آدرس ایمیل را اضافه کنید",
+    siteName: 'AIRS',
+    footerQuickLinks: 'لینک\u200cهای سریع',
+    footerServicesTitle: 'خدمات',
+    footerGetInvolved: 'همراه شوید',
+    footerLegalTitle: 'یادداشت نهاد غیرانتفاعی',
+    footerLegalText: 'این نمونه وب\u200cسایت باید پیش از راه\u200cاندازی با معلومات رسمی تماس AIRS، لینک\u200cهای کمک مالی، جزئیات حریم خصوصی و معلومات ثبت غیرانتفاعی به\u200cروزرسانی شود.',
   },
   Swahili: {
     siteFullName: "Huduma za Wahamiaji na Wakimbizi wa Arizona",
@@ -453,6 +525,12 @@ const translations = {
     footerCopyright: "© 2026 AIRS. Mfano wa usanifu mpya wa tovuti.",
     addPhone: "Ongeza namba ya simu",
     addEmail: "Ongeza anwani ya barua pepe",
+    siteName: 'AIRS',
+    footerQuickLinks: 'Viungo vya Haraka',
+    footerServicesTitle: 'Huduma',
+    footerGetInvolved: 'Shiriki',
+    footerLegalTitle: 'Taarifa ya Shirika Lisilo la Faida',
+    footerLegalText: 'Mfano huu wa tovuti unapaswa kusasishwa kwa taarifa rasmi za mawasiliano za AIRS, viungo vya michango, maelezo ya faragha, na taarifa za usajili wa shirika lisilo la faida kabla ya kuzinduliwa.',
   },
   French: {
     siteFullName: "Services aux immigrants et réfugiés de l’Arizona",
@@ -532,6 +610,12 @@ const translations = {
     footerCopyright: "© 2026 AIRS. Prototype de refonte du site web.",
     addPhone: "Ajouter un numéro de téléphone",
     addEmail: "Ajouter une adresse e-mail",
+    siteName: 'AIRS',
+    footerQuickLinks: 'Liens rapides',
+    footerServicesTitle: 'Services',
+    footerGetInvolved: 'Participer',
+    footerLegalTitle: 'Note de l’organisation à but non lucratif',
+    footerLegalText: 'Ce prototype de site doit être mis à jour avec les coordonnées officielles d’AIRS, les liens de don, les informations de confidentialité et les détails d’enregistrement de l’organisation avant le lancement.',
   },
   Kinyarwanda: {
     siteName: "AIRS",
@@ -541,15 +625,82 @@ const translations = {
     languageLabel: "Hitamo ururimi",
     heroBadge: "Ubufasha mu ndimi nyinshi ku miryango yo muri Arizona",
     heroTitle: "Gufasha impunzi n’abimukira kubaka ubuzima bushya muri Arizona.",
-    heroText: "AIRS ihuza imiryango n’ubufasha bufatika, amakuru y’umuryango, ubujyanama ku byerekeye abimukira, uburezi, n’inzira zigana ku mutekano urambye.",
+    heroText: "AIRS ihuza imiryango n’ubufasha bufatika, amakuru y’umuryango, ubujyanama ku byerekeye kwimukira mu gihugu, uburezi, n’inzira zigana ku mutekano urambye.",
     getHelpButton: "Saba ubufasha",
     volunteerButton: "Ba umukorerabushake",
+    heroCardTitle: "Intangiriro itekanye. Ejo hazaza hakomeye.",
+    heroCardText: "Urubuga rushya rufasha abakiriya, abatanga inkunga, abakorerabushake, n’abafatanyabikorwa kubona intambwe ikurikira ibakwiriye.",
+    statYears: "Imyaka yo gukorera umuryango",
+    statServices: "Ibyiciro by’ingenzi bya serivisi",
+    statLanguages: "Amahitamo y’indimi",
+    mostNeededLabel: "Ibikenewe cyane",
+    mostNeededText: "Ibikoresho byo mu rugo, ibikoresho by’isuku, imyambaro, ibikoresho by’ishuri, n’abakorerabushake bo mu muryango.",
     aboutLabel: "Ibyerekeye AIRS",
+    aboutTitle: "Inkuru isobanutse yubaka icyizere kurushaho.",
+    aboutText1: "AIRS ifasha impunzi, abimukira, n’imiryango ya SIV mu kwimukira no gutura, akazi, uburezi, amakuru ajyanye n’abimukira, n’ubuzima bwo mu muryango muri Arizona.",
+    aboutText2: "Urubuga rushya rugomba kuba rwakira abantu, rwizewe, kandi rworoshye gukoresha ku bantu bashobora kuba bafite umunaniro, bakoresha telefoni, cyangwa basoma mu rurimi rwa kabiri.",
+    aboutBadges: ["Rworoshye kugeraho", "Indimi nyinshi", "Rwubakiwe telefoni mbere"],
     servicesLabel: "Serivisi",
+    servicesTitle: "Inzira zisobanutse zo kubona ubufasha aho kuba amapaji agoye gusoma.",
+    servicesText: "Buri cyiciro cya serivisi kigomba kugira ibisobanuro byoroshye, ibisabwa, amasaha y’akazi, n’intambwe ikurikira isobanutse.",
+    services: [
+      { title: "Ubufasha bwo gutura", text: "Ubufasha bufatika ku miryango y’impunzi n’abimukira bageze vuba batangira ubuzima muri Arizona." },
+      { title: "Serivisi z’akazi", text: "Kwitegura akazi, ubufasha mu gukora CV, no koherezwa ku makuru y’akazi yo hafi." },
+      { title: "Ubuyobozi ku by’abimukira", text: "Ubufasha ku mafishi, gahunda, koherezwa ku nzego zikwiye, n’amakuru y’umuryango ajyanye n’abimukira." },
+      { title: "Amasomo n’uburezi", text: "Kwiga Icyongereza, amasomo yo kumenyera, ubumenyi bw’ubuzima, n’amahugurwa afasha imiryango." },
+      { title: "Ubufasha bw’ingendo", text: "Gufasha abakiriya kugera kuri gahunda z’ingenzi, serivisi, n’ubufasha bwo mu muryango." },
+      { title: "Ubufasha ku miryango ya SIV", text: "Ubufasha bwihariye ku miryango ya SIV n’impunzi mu kongera kubaka umutekano, ituze, n’ubwigenge." },
+    ],
+    requestHelp: "Saba ubufasha",
     getHelpLabel: "Saba ubufasha",
+    getHelpTitle: "Ifishi yoroshye yo kwakira abakiriya.",
+    getHelpText: "Iyi fishi ni urugero rwa front-end kuri ubu. Nyuma dushobora kuyihuza na email, Google Forms, Firebase, Airtable, cyangwa CRM.",
+    officeInfo: "Amakuru y’ibiro",
+    location: "Phoenix, Arizona",
+    phonePlaceholder: "Ongeramo nimero nyamukuru y’ibiro",
+    emailPlaceholder: "Ongeramo email yemewe yo kwakira ubusabe",
+    fullName: "Amazina yose",
+    fullNamePlaceholder: "Amazina yawe",
+    contactMethod: "Telefoni cyangwa Email",
+    contactPlaceholder: "Uburyo bwiza bwo kukuvugisha",
+    preferredLanguage: "Ururimi ukunda",
+    serviceNeeded: "Serivisi ikenewe",
+    serviceOptions: ["Ubufasha ku by’abimukira", "Ubufasha bw’aho gutura", "Ubufasha bw’akazi", "Amasomo cyangwa uburezi", "Ibindi"],
+    message: "Ubutumwa",
+    messagePlaceholder: "Tubwire icyo ukeneyeho ubufasha",
+    consent: "Nemeye ko AIRS ishobora kunyandikira cyangwa kumpamagara ku bijyanye n’ubusabe bwanjye.",
+    submitRequest: "Ohereza ubusabe",
+    donateTitle: "Inkunga yawe ifasha imiryango gutangira bundi bushya.",
+    donateText: "Ipaji y’inkunga igomba koroshya gutanga: amafaranga, ibikoresho, aho kubishyira, n’inyemezabwishyu.",
     donateNow: "Tanga inkunga ubu",
+    donationCategories: "Ibyiciro by’inkunga",
+    donationItems: ["Ibikoresho by’ingenzi byo mu rugo", "Ibikoresho by’isuku", "Ibikoresho by’ishuri", "Imyambaro", "Ibikoresho byo mu nzu", "Amakarita y’impano"],
+    nextBuildStep: "Intambwe ikurikira yo kubaka:",
+    nextBuildText: "ongeramo Stripe, PayPal, Donorbox, cyangwa uburyo bwo gutanga inkunga AIRS isanzwe ikoresha.",
+    volunteerLabel: "Ubukorerabushake",
+    volunteerTitle: "Gusimbuza ama-download adakora inzira nyayo y’abakorerabushake.",
+    volunteerText: "Abakorerabushake bagomba gusaba online, guhitamo ibyo bashaka gufashamo, no kubona intambwe zikurikira zisobanutse.",
+    applyVolunteer: "Saba kuba umukorerabushake",
+    volunteerRoles: ["Kuyobora no gufasha", "Ubufasha bw’ingendo", "Gutondeka inkunga", "Gufasha mu masomo y’Icyongereza", "Ibikorwa by’umuryango", "Ubufasha mu biro"],
+    eventsLabel: "Ibikorwa",
+    eventsTitle: "Kalendari nyayo, si ipaji irimo ubusa.",
+    viewEvents: "Reba ibikorwa byose",
+    events: [
+      { title: "Kumenyereza umuryango", date: "Ongeramo itariki", text: "Ikiganiro cyo kwakira imiryango mishya n’abafatanyabikorwa bo mu muryango." },
+      { title: "Isomo ry’Icyongereza", date: "Ongeramo itariki", text: "Kwiga Icyongereza gifatika ku buzima bwa buri munsi, akazi, na gahunda." },
+      { title: "Umunsi wo gutanga inkunga", date: "Ongeramo itariki", text: "Igikorwa cy’umuryango cyo gutanga ibikoresho byo mu rugo n’ibikoresho by’isuku bikenewe cyane." },
+    ],
     contactTitle: "Twandikire",
     followTitle: "Dukurikire",
+    footerText: "AIRS ifasha imiryango y’impunzi n’abimukira kubona ubufasha, amakuru, n’imikoranire y’umuryango muri Arizona.",
+    footerCopyright: "© 2026 AIRS. Uburenganzira bwose burabitswe.",
+    addPhone: "Ongeramo nimero ya telefoni",
+    addEmail: "Ongeramo aderesi ya email",
+    footerQuickLinks: 'Amahuriro yihuse',
+    footerServicesTitle: 'Serivisi',
+    footerGetInvolved: 'Gira uruhare',
+    footerLegalTitle: 'Icyitonderwa cy’umuryango udaharanira inyungu',
+    footerLegalText: 'Iyi prototype y’urubuga igomba gushyirwamo amakuru yemewe ya AIRS yo kuvugana, amahuza yo gutangiraho inkunga, amakuru yerekeye ibanga, n’amakuru yo kwiyandikisha nk’umuryango udaharanira inyungu mbere yo gutangizwa.',
   },
 
 };
@@ -602,7 +753,7 @@ function Navbar({ language, setLanguage, t }) {
 
         <div className="hidden items-center gap-3 lg:flex">
           <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-700 outline-none focus:border-teal-700" aria-label={t.languageLabel}>
-            {languages.map((lang) => <option key={lang}>{lang}</option>)}
+            {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
           </select>
           <a href="#donate" className="rounded-xl bg-orange-500 px-5 py-2.5 text-sm font-black text-white shadow-sm transition hover:bg-orange-600">{t.donateButton}</a>
         </div>
@@ -621,7 +772,7 @@ function Navbar({ language, setLanguage, t }) {
               </a>
             ))}
             <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold" aria-label={t.languageLabel}>
-              {languages.map((lang) => <option key={lang}>{lang}</option>)}
+              {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
             </select>
           </div>
         </div>
@@ -725,7 +876,7 @@ function Services({ t, isRtl }) {
   );
 }
 
-function GetHelp({ t }) {
+function GetHelp({ t, language }) {
   return (
     <section id="get-help" className="bg-white py-20">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.85fr_1.15fr] lg:px-8">
@@ -747,7 +898,7 @@ function GetHelp({ t }) {
           <div className="grid gap-4 sm:grid-cols-2">
             <label className="grid gap-2 text-sm font-black text-slate-700">{t.fullName}<input className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.fullNamePlaceholder} /></label>
             <label className="grid gap-2 text-sm font-black text-slate-700">{t.contactMethod}<input className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.contactPlaceholder} /></label>
-            <label className="grid gap-2 text-sm font-black text-slate-700">{t.preferredLanguage}<select className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">{languages.map((lang) => <option key={lang}>{lang}</option>)}</select></label>
+            <label className="grid gap-2 text-sm font-black text-slate-700">{t.preferredLanguage}<select className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">{languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}</select></label>
             <label className="grid gap-2 text-sm font-black text-slate-700">{t.serviceNeeded}<select className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">{t.serviceOptions.map((option) => <option key={option}>{option}</option>)}</select></label>
           </div>
           <label className="mt-4 grid gap-2 text-sm font-black text-slate-700">{t.message}<textarea rows="5" className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.messagePlaceholder} /></label>
@@ -876,12 +1027,6 @@ function ContactFooter({ t }) {
               <a key={link.label} href={link.href} className="text-sm font-bold text-slate-600 transition hover:text-teal-700">{link.label}</a>
             ))}
           </div>
-
-          <h3 className="mt-8 font-black text-slate-950">{t.followTitle}</h3>
-          <div className="mt-4 flex gap-3">
-            <a href="#" className="rounded-2xl bg-slate-100 p-3 text-slate-700 transition hover:bg-teal-50 hover:text-teal-700" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></a>
-            <a href="#" className="rounded-2xl bg-slate-100 p-3 text-slate-700 transition hover:bg-teal-50 hover:text-teal-700" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg></a>
-          </div>
         </div>
       </div>
 
@@ -897,7 +1042,7 @@ function ContactFooter({ t }) {
 
 export default function App() {
   const [language, setLanguage] = useState("English");
-  const t = { ...translations.English, ...(translations[language] || {}) };
+  const t = { ...translations.English, ...footerLabels.English, ...(translations[language] || {}), ...(footerLabels[language] || {}) };
   const direction = languageDirections[language] || "ltr";
   const isRtl = direction === "rtl";
   const languageCode = languageCodes[language] || "en";
@@ -909,7 +1054,7 @@ export default function App() {
         <Hero t={t} isRtl={isRtl} />
         <About t={t} />
         <Services t={t} isRtl={isRtl} />
-        <GetHelp t={t} />
+        <GetHelp t={t} language={language} />
         <Donate t={t} isRtl={isRtl} />
         <Volunteer t={t} isRtl={isRtl} />
         <Events t={t} />
