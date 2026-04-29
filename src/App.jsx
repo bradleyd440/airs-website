@@ -729,41 +729,14 @@ function DirectionalArrow({ isRtl, size = 18, className = "" }) {
 
 function BrandLogo({ t, compact = false, light = false }) {
   return (
-    <div className="flex items-center gap-3">
-      <div className={`flex ${compact ? "h-11 w-11" : "h-14 w-14"} shrink-0 items-center justify-center rounded-2xl bg-teal-700 text-white shadow-sm ring-1 ring-teal-900/10`}>
-        <span className={`${compact ? "text-sm" : "text-base"} font-black tracking-tight`}>AIRS</span>
-      </div>
-      <div>
-        <p className={`${compact ? "text-lg" : "text-xl"} font-black leading-tight ${light ? "text-white" : "text-slate-950"}`}>{t.siteName}</p>
-        <p className={`max-w-[15rem] text-xs font-semibold leading-4 ${light ? "text-slate-200" : "text-slate-500"}`}>{t.siteFullName}</p>
+    <div className="flex items-center">
+      <div className={light ? "text-white" : "text-slate-950"}>
+        <p className={`${compact ? "text-3xl" : "text-4xl"} font-black leading-none tracking-tight`}>AIRS</p>
+        <p className={`${compact ? "text-[11px]" : "text-sm"} mt-1 max-w-[16rem] font-semibold leading-4 ${light ? "text-slate-200" : "text-slate-600"}`}>
+          Arizona Immigrant & Refugee Services
+        </p>
       </div>
     </div>
-  );
-}
-
-function PartnerLogos({ t }) {
-  return (
-    <section className="bg-white py-10">
-      <div className="mx-auto max-w-7xl px-5 lg:px-8">
-        <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
-          <p className="text-sm font-black uppercase tracking-[0.2em] text-slate-500">Brand & Partner Identity</p>
-          <div className="mt-5 grid gap-4 md:grid-cols-2">
-            <div className="rounded-3xl bg-white p-5 shadow-sm">
-              <BrandLogo t={t} />
-            </div>
-            <div className="flex items-center gap-4 rounded-3xl bg-white p-5 shadow-sm">
-              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <span className="text-sm font-black tracking-tight">ECDC</span>
-              </div>
-              <div>
-                <p className="text-xl font-black leading-tight text-slate-950">ECDC</p>
-                <p className="text-xs font-semibold leading-4 text-slate-500">AIRS subsidiary / partner reference</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   );
 }
 
@@ -1083,7 +1056,6 @@ export default function App() {
       <Navbar language={language} setLanguage={setLanguage} t={t} />
       <main>
         <Hero t={t} isRtl={isRtl} />
-        <PartnerLogos t={t} />
         <About t={t} />
         <Services t={t} isRtl={isRtl} />
         <GetHelp t={t} language={language} />
