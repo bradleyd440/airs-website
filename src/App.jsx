@@ -22,6 +22,17 @@ import {
   X,
 } from "lucide-react";
 
+import airsLogo from "./assets/airs-logo.png";
+import refugeeGroupPhoto from "./assets/original-refugees-group.jpg";
+import familyFieldPhoto from "./assets/original-family-field.jpg";
+import capitolFieldTripPhoto from "./assets/original-capitol-field-trip.jpg";
+
+const originalSitePhotos = [
+  { src: capitolFieldTripPhoto, title: "Community field trip", text: "AIRS community members during an Arizona civic field trip." },
+  { src: familyFieldPhoto, title: "Resettlement support", text: "Original AIRS website imagery showing refugee family support and resettlement context." },
+  { src: refugeeGroupPhoto, title: "Why the work matters", text: "Original AIRS website image used to communicate refugee displacement and humanitarian need." },
+];
+
 const languages = ["English", "Spanish", "Arabic", "Dari", "Swahili", "French", "Kinyarwanda"];
 const languageDirections = { Arabic: "rtl", Dari: "rtl" };
 const languageCodes = {
@@ -361,11 +372,12 @@ function DirectionalArrow({ isRtl, size = 18, className = "" }) {
 function BrandLogo({ compact = false, light = false }) {
   return (
     <div className="flex items-center gap-3">
-      <div className={`${compact ? "h-11 w-11" : "h-14 w-14"} flex items-center justify-center rounded-2xl bg-gradient-to-br from-sky-600 to-teal-500 font-black text-white shadow-sm`}>A</div>
-      <div className={light ? "text-white" : "text-slate-950"}>
-        <p className={`${compact ? "text-2xl" : "text-4xl"} font-black leading-none tracking-tight`}>AIRS</p>
-        <p className={`${compact ? "text-[11px]" : "text-sm"} mt-1 max-w-[16rem] font-semibold leading-4 ${light ? "text-slate-200" : "text-slate-600"}`}>Arizona Immigrant & Refugee Services</p>
-      </div>
+      <img
+        src={airsLogo}
+        alt="AIRS Arizona Immigrant & Refugee Services logo"
+        className={`${compact ? "h-16 w-24" : "h-24 w-36"} object-contain`}
+      />
+      <span className="sr-only">Arizona Immigrant & Refugee Services</span>
     </div>
   );
 }
@@ -416,13 +428,14 @@ function Hero({ t, isRtl }) {
           </div>
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.55, delay: 0.1 }} className="relative">
-          <div className="rounded-[2rem] border border-white bg-white p-4 shadow-2xl">
-            <div className="min-h-[22rem] rounded-[1.5rem] bg-gradient-to-br from-sky-200 via-sky-100 to-teal-100 p-6">
-              <div className="flex h-full min-h-[20rem] flex-col justify-end rounded-[1.2rem] bg-white/55 p-6 backdrop-blur-sm">
-                <Users className="mb-4 text-sky-700" size={40} />
-                <p className="text-sm font-black uppercase tracking-wider text-sky-700">{t.heroImageLabel}</p>
-                <h2 className="mt-3 text-2xl font-black text-slate-950">{t.heroCardTitle}</h2>
-                <p className="mt-3 text-sm leading-6 text-slate-700">{t.heroCardText}</p>
+          <div className="overflow-hidden rounded-[2rem] border border-white bg-white shadow-2xl">
+            <div className="relative min-h-[26rem]">
+              <img src={capitolFieldTripPhoto} alt="AIRS community field trip" className="absolute inset-0 h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/78 via-slate-950/20 to-transparent" />
+              <div className="absolute inset-x-0 bottom-0 p-6 text-white">
+                <p className="text-sm font-black uppercase tracking-wider text-sky-100">{t.heroImageLabel}</p>
+                <h2 className="mt-3 text-2xl font-black">{t.heroCardTitle}</h2>
+                <p className="mt-3 text-sm leading-6 text-slate-100">{t.heroCardText}</p>
               </div>
             </div>
           </div>
@@ -450,6 +463,32 @@ function OfficialInfo({ t }) {
         <div className="grid gap-4 sm:grid-cols-3">
           {[{ icon: FileText, title: t.missionLabel, text: t.missionText }, { icon: Clock, title: t.hoursLabel, text: t.hoursText }, { icon: Mail, title: t.donationEmailLabel, text: t.donationEmailText }].map(({ icon: Icon, title, text }) => (
             <div key={title} className="rounded-3xl border border-white/10 bg-white/10 p-5"><Icon className="text-sky-300" size={24} /><h3 className="mt-4 font-black">{title}</h3><p className="mt-2 text-sm leading-6 text-slate-300">{text}</p></div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+function PhotoGallery() {
+  return (
+    <section className="bg-white py-20">
+      <div className="mx-auto max-w-7xl px-5 lg:px-8">
+        <div className="max-w-3xl">
+          <SectionLabel>Original AIRS photos</SectionLabel>
+          <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">Real imagery from the current website.</h2>
+          <p className="mt-4 text-lg leading-8 text-slate-600">These photos help the redesign feel connected to the existing organization while giving the page a stronger visual story.</p>
+        </div>
+        <div className="mt-10 grid gap-5 md:grid-cols-3">
+          {originalSitePhotos.map((photo) => (
+            <figure key={photo.title} className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+              <img src={photo.src} alt={photo.title} className="h-56 w-full object-cover" />
+              <figcaption className="p-5">
+                <h3 className="font-black text-slate-950">{photo.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{photo.text}</p>
+              </figcaption>
+            </figure>
           ))}
         </div>
       </div>
@@ -520,5 +559,5 @@ export default function App() {
   const direction = languageDirections[language] || "ltr";
   const isRtl = direction === "rtl";
   const languageCode = languageCodes[language] || "en";
-  return <div className={`min-h-screen bg-slate-50 text-slate-900 ${isRtl ? "text-right" : "text-left"}`} dir={direction} lang={languageCode}><Navbar language={language} setLanguage={setLanguage} t={t} /><main><Hero t={t} isRtl={isRtl} /><Stats t={t} /><OfficialInfo t={t} /><CurrentSiteDetails /><About t={t} /><Services t={t} isRtl={isRtl} /><GetHelp t={t} language={language} /><Donate t={t} isRtl={isRtl} /><Volunteer t={t} isRtl={isRtl} /><Events t={t} /></main><ContactFooter t={t} /></div>;
+  return <div className={`min-h-screen bg-slate-50 text-slate-900 ${isRtl ? "text-right" : "text-left"}`} dir={direction} lang={languageCode}><Navbar language={language} setLanguage={setLanguage} t={t} /><main><Hero t={t} isRtl={isRtl} /><Stats t={t} /><OfficialInfo t={t} /><PhotoGallery /><CurrentSiteDetails /><About t={t} /><Services t={t} isRtl={isRtl} /><GetHelp t={t} language={language} /><Donate t={t} isRtl={isRtl} /><Volunteer t={t} isRtl={isRtl} /><Events t={t} /></main><ContactFooter t={t} /></div>;
 }
