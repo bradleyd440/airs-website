@@ -23,14 +23,14 @@ import {
 } from "lucide-react";
 
 import airsLogo from "./assets/airs-logo.png";
-import refugeeGroupPhoto from "./assets/original-refugees-group.jpg";
-import familyFieldPhoto from "./assets/original-family-field.jpg";
-import capitolFieldTripPhoto from "./assets/original-capitol-field-trip.jpg";
+import heroCommunityPhoto from "./assets/airs-hero-community.jpg";
+import donationVolunteersPhoto from "./assets/airs-volunteer-donations.jpg";
+import clientSupportPhoto from "./assets/airs-client-support.jpg";
 
-const originalSitePhotos = [
-  { src: capitolFieldTripPhoto, title: "Community field trip", text: "AIRS community members during an Arizona civic field trip." },
-  { src: familyFieldPhoto, title: "Resettlement support", text: "Original AIRS website imagery showing refugee family support and resettlement context." },
-  { src: refugeeGroupPhoto, title: "Why the work matters", text: "Original AIRS website image used to communicate refugee displacement and humanitarian need." },
+const positiveSitePhotos = [
+  { src: heroCommunityPhoto, title: "Community and family support", text: "Warm, hopeful imagery for the homepage hero and community message." },
+  { src: clientSupportPhoto, title: "Client support appointments", text: "A practical service image showing one-on-one help in an office setting." },
+  { src: donationVolunteersPhoto, title: "Donations and volunteers", text: "Positive volunteer imagery for donation drives, clothing support, and community giving." },
 ];
 
 const languages = ["English", "Spanish", "Arabic", "Dari", "Swahili", "French", "Kinyarwanda"];
@@ -430,7 +430,7 @@ function Hero({ t, isRtl }) {
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.55, delay: 0.1 }} className="relative">
           <div className="overflow-hidden rounded-[2rem] border border-white bg-white shadow-2xl">
             <div className="relative min-h-[26rem]">
-              <img src={capitolFieldTripPhoto} alt="AIRS community field trip" className="absolute inset-0 h-full w-full object-cover" />
+              <img src={heroCommunityPhoto} alt="Smiling families and community members receiving support" className="absolute inset-0 h-full w-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/78 via-slate-950/20 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-6 text-white">
                 <p className="text-sm font-black uppercase tracking-wider text-sky-100">{t.heroImageLabel}</p>
@@ -476,12 +476,12 @@ function PhotoGallery() {
     <section className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="max-w-3xl">
-          <SectionLabel>Original AIRS photos</SectionLabel>
-          <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">Real imagery from the current website.</h2>
-          <p className="mt-4 text-lg leading-8 text-slate-600">These photos help the redesign feel connected to the existing organization while giving the page a stronger visual story.</p>
+          <SectionLabel>Positive imagery</SectionLabel>
+          <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">Warm, hopeful photos that avoid sad or crisis-heavy imagery.</h2>
+          <p className="mt-4 text-lg leading-8 text-slate-600">These photos focus on dignity, support, family, service appointments, donations, and community rebuilding.</p>
         </div>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
-          {originalSitePhotos.map((photo) => (
+          {positiveSitePhotos.map((photo) => (
             <figure key={photo.title} className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
               <img src={photo.src} alt={photo.title} className="h-56 w-full object-cover" />
               <figcaption className="p-5">
@@ -535,7 +535,7 @@ function GetHelp({ t, language }) {
 }
 
 function Donate({ t, isRtl }) {
-  return <section id="donate" className="mx-auto max-w-7xl px-5 py-20 lg:px-8"><div className="grid gap-8 lg:grid-cols-3"><div className="rounded-[2rem] bg-sky-700 p-8 text-white lg:col-span-1"><Heart size={34} /><h2 className="mt-5 text-3xl font-black">{t.donateTitle}</h2><p className="mt-4 leading-7 text-sky-50">{t.donateText}</p><a href="#contact" className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 font-black text-sky-800">{t.donateNow} <DirectionalArrow isRtl={isRtl} size={18} /></a></div><div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm lg:col-span-2"><SectionLabel color="text-orange-600">{t.donationCategories}</SectionLabel><div className="mt-6 grid gap-4 sm:grid-cols-2">{t.donationItems.map((item) => <div key={item} className="flex items-center gap-3 rounded-2xl bg-slate-100 p-4 font-black text-slate-700"><HandHeart className="text-orange-600" size={19} /> {item}</div>)}</div><div className="mt-6 rounded-3xl bg-orange-50 p-5 text-slate-700">{t.donationNote}</div></div></div></section>;
+  return <section id="donate" className="mx-auto max-w-7xl px-5 py-20 lg:px-8"><div className="grid gap-8 lg:grid-cols-3"><div className="overflow-hidden rounded-[2rem] bg-sky-700 text-white lg:col-span-1"><img src={donationVolunteersPhoto} alt="Volunteers holding donation boxes" className="h-56 w-full object-cover" loading="lazy" /><div className="p-8"><Heart size={34} /><h2 className="mt-5 text-3xl font-black">{t.donateTitle}</h2><p className="mt-4 leading-7 text-sky-50">{t.donateText}</p><a href="#contact" className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 font-black text-sky-800">{t.donateNow} <DirectionalArrow isRtl={isRtl} size={18} /></a></div></div><div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm lg:col-span-2"><SectionLabel color="text-orange-600">{t.donationCategories}</SectionLabel><div className="mt-6 grid gap-4 sm:grid-cols-2">{t.donationItems.map((item) => <div key={item} className="flex items-center gap-3 rounded-2xl bg-slate-100 p-4 font-black text-slate-700"><HandHeart className="text-orange-600" size={19} /> {item}</div>)}</div><div className="mt-6 rounded-3xl bg-orange-50 p-5 text-slate-700">{t.donationNote}</div></div></div></section>;
 }
 
 function Volunteer({ t, isRtl }) {
