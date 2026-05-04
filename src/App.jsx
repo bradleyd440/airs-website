@@ -419,11 +419,64 @@ function ProgramDetails({ t }) {
 }
 
 function Donate({ t, isRtl }) {
+  const paypalTestLink = "https://www.paypal.com/donate";
+
   return (
     <section id="donate" className={sectionClass}>
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-stretch">
-        <div className="overflow-hidden rounded-[2rem] bg-teal-700 text-white shadow-xl"><img src={donationsImage} alt="Volunteers holding donation boxes" className="h-64 w-full object-cover" loading="lazy" /><div className="p-8"><Heart size={34} /><h2 className="mt-5 text-3xl font-black">{t.donateTitle}</h2><p className="mt-4 leading-7 text-teal-50">{t.donateText}</p><a href="#contact" className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 font-black text-teal-800">{t.donateNow} <DirectionalArrow isRtl={isRtl} /></a></div></div>
-        <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm"><SectionLabel color="text-orange-600">{t.donationCategories}</SectionLabel><div className="mt-6 grid gap-4 sm:grid-cols-2">{t.donationItems.map((item) => <div key={item} className="flex items-center gap-3 rounded-2xl bg-slate-100 p-4 font-black text-slate-700"><HandHeart className="text-orange-600" size={19} /> {item}</div>)}</div><div className="mt-6 rounded-3xl bg-orange-50 p-5 leading-7 text-slate-700">{t.donationNote}</div></div>
+        <div className="overflow-hidden rounded-[2rem] bg-teal-700 text-white shadow-xl">
+          <img
+            src={donationsImage}
+            alt="Volunteers organizing donation boxes for families"
+            className="h-64 w-full object-cover"
+            loading="lazy"
+          />
+          <div className="p-8">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/15">
+              <Heart size={34} />
+            </div>
+            <h2 className="mt-5 text-3xl font-black">{t.donateTitle}</h2>
+            <p className="mt-4 leading-7 text-teal-50">{t.donateText}</p>
+
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a
+                href={paypalTestLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-5 py-3 font-black text-teal-800 shadow-sm transition hover:bg-teal-50"
+              >
+                {t.donateNow}
+                <DirectionalArrow isRtl={isRtl} />
+              </a>
+
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/20 bg-white/10 px-5 py-3 font-black text-white transition hover:bg-white/15"
+              >
+                Ask About Donations
+              </a>
+            </div>
+
+            <p className="mt-4 text-sm font-semibold leading-6 text-teal-50">
+              Donations are securely processed through PayPal. The current PayPal button is a test link and should be replaced with AIRS’s official donation link before launch.
+            </p>
+          </div>
+        </div>
+
+        <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
+          <SectionLabel color="text-orange-600">{t.donationCategories}</SectionLabel>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            {t.donationItems.map((item) => (
+              <div key={item} className="flex items-start gap-3 rounded-2xl bg-slate-100 p-4 font-black text-slate-700">
+                <HandHeart className="mt-0.5 shrink-0 text-orange-600" size={19} />
+                <span>{item}</span>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 rounded-3xl bg-orange-50 p-5 leading-7 text-slate-700">
+            <strong>Donation note:</strong> {t.donationNote}
+          </div>
+        </div>
       </div>
     </section>
   );
