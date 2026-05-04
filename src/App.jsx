@@ -287,6 +287,32 @@ function Services({ t, isRtl }) {
 }
 
 function GetHelp({ t, language }) {
+  const [formStatus, setFormStatus] = useState("idle");
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setFormStatus("loading");
+
+    const formData = new FormData(event.currentTarget);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xjglyqqe", {
+        method: "POST",
+        body: formData,
+        headers: { Accept: "application/json" },
+      });
+
+      if (response.ok) {
+        event.currentTarget.reset();
+        setFormStatus("success");
+      } else {
+        setFormStatus("error");
+      }
+    } catch (error) {
+      setFormStatus("error");
+    }
+  };
+
   return (
     <section id="get-help" className="bg-white">
       <div className={`${sectionClass} grid gap-10 lg:grid-cols-[0.85fr_1.15fr]`}>
@@ -296,9 +322,44 @@ function GetHelp({ t, language }) {
           <p className="mt-4 text-lg leading-8 text-slate-600">{t.getHelpText}</p>
           <div className="mt-8 rounded-3xl bg-slate-100 p-6"><h3 className="font-black text-slate-950">{t.officeInfo}</h3><div className="mt-4 space-y-3 text-slate-600"><p className="flex gap-3"><MapPin className="mt-0.5 text-teal-700" size={19} /> {t.location}</p><p className="flex gap-3"><Phone className="mt-0.5 text-teal-700" size={19} /> {t.phonePlaceholder}</p><p className="flex gap-3"><Mail className="mt-0.5 text-teal-700" size={19} /> {t.emailPlaceholder}</p><p className="flex gap-3"><CalendarDays className="mt-0.5 text-teal-700" size={19} /> {t.officeHours}</p><p className="text-sm font-semibold text-slate-500">{t.holidayNote}</p><p className="text-sm font-semibold text-slate-500">{t.fax}</p></div></div>
         </div>
-        <form className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
-          <div className="grid gap-4 sm:grid-cols-2"><label className="grid gap-2 text-sm font-black text-slate-700">{t.fullName}<input required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.fullNamePlaceholder} /></label><label className="grid gap-2 text-sm font-black text-slate-700">{t.contactMethod}<input required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.contactPlaceholder} /></label><label className="grid gap-2 text-sm font-black text-slate-700">{t.preferredLanguage}<select className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">{languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}</select></label><label className="grid gap-2 text-sm font-black text-slate-700">{t.serviceNeeded}<select className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">{t.serviceOptions.map((option) => <option key={option}>{option}</option>)}</select></label></div>
-          <label className="mt-4 grid gap-2 text-sm font-black text-slate-700">{t.message}<textarea required rows="5" className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.messagePlaceholder} /></label><label className="mt-4 flex gap-3 text-sm leading-6 text-slate-600"><input required type="checkbox" className="mt-1" /> {t.consent}</label><button type="submit" className="mt-6 w-full rounded-2xl bg-teal-700 px-6 py-3 font-black text-white transition hover:bg-teal-800">{t.submitRequest}</button>
+        <form onSubmit={handleSubmit} className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
+          <input type="hidden" name="_subject" value="New AIRS Help Request" />
+          <div className="grid gap-4 sm:grid-cols-2">
+            <label className="grid gap-2 text-sm font-black text-slate-700">
+              {t.fullName}
+              <input name="fullName" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.fullNamePlaceholder} />
+            </label>
+            <label className="grid gap-2 text-sm font-black text-slate-700">
+              {t.contactMethod}
+              <input name="contact" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.contactPlaceholder} />
+            </label>
+            <label className="grid gap-2 text-sm font-black text-slate-700">
+              {t.preferredLanguage}
+              <select name="preferredLanguage" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
+                {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
+              </select>
+            </label>
+            <label className="grid gap-2 text-sm font-black text-slate-700">
+              {t.serviceNeeded}
+              <select name="serviceNeeded" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
+                {t.serviceOptions.map((option) => <option key={option} value={option}>{option}</option>)}
+              </select>
+            </label>
+          </div>
+          <label className="mt-4 grid gap-2 text-sm font-black text-slate-700">
+            {t.message}
+            <textarea name="message" required rows="5" className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.messagePlaceholder} />
+          </label>
+          <label className="mt-4 flex gap-3 text-sm leading-6 text-slate-600">
+            <input name="consent" required type="checkbox" className="mt-1" /> {t.consent}
+          </label>
+          <button type="submit" disabled={formStatus === "loading"} className="mt-6 w-full rounded-2xl bg-teal-700 px-6 py-3 font-black text-white transition hover:bg-teal-800 disabled:cursor-not-allowed disabled:opacity-70">
+            {formStatus === "loading" ? "Sending..." : t.submitRequest}
+          </button>
+          <div aria-live="polite">
+            {formStatus === "success" && <p className="mt-4 rounded-2xl bg-green-50 p-4 text-sm font-bold text-green-800">Thank you. Your request has been received and AIRS will follow up soon.</p>}
+            {formStatus === "error" && <p className="mt-4 rounded-2xl bg-red-50 p-4 text-sm font-bold text-red-800">Something went wrong. Please try again or contact AIRS directly.</p>}
+          </div>
         </form>
       </div>
     </section>

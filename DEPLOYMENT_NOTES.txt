@@ -1,0 +1,30 @@
+AIRS Website Deployment Notes
+
+1. Install and test locally:
+   npm install
+   npm run dev
+
+2. Build production files:
+   npm run build
+
+3. Preview production build locally:
+   npm run preview
+
+4. GoDaddy deployment:
+   - Open GoDaddy/cPanel File Manager.
+   - Back up current public_html first.
+   - Upload the contents of the dist folder into public_html.
+   - index.html must be directly inside public_html.
+   - assets/ must be directly inside public_html.
+
+5. Formspree:
+   - The Get Help form is currently connected to:
+     https://formspree.io/f/xjglyqqe
+   - This is the test endpoint for bradleydprinsloo40@gmail.com.
+   - Replace it with the AIRS-approved endpoint before final launch if needed.
+
+6. Final launch checks:
+   - Confirm phone/address/email.
+   - Confirm form submissions arrive.
+   - Confirm images load.
+   - Confirm mobile menu and language selector work.
