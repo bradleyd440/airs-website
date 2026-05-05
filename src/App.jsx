@@ -1604,14 +1604,15 @@ function DirectionalArrow({ isRtl, size = 18, className = "" }) {
   return <ArrowRight size={size} className={`${isRtl ? "rotate-180" : ""} ${className}`} />;
 }
 
-function BrandLogo({ compact = false }) {
+function BrandLogo({ compact = false, light = false }) {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center gap-3">
       <img
         src={airsLogo}
         alt="Arizona Immigrant & Refugee Services logo"
-        className={`${compact ? "h-12 sm:h-14 max-w-[165px] sm:max-w-[220px]" : "h-16 max-w-[260px]"} w-auto object-contain`}
+        className={`${compact ? "h-12" : "h-16"} w-auto max-w-[150px] object-contain`}
       />
+      <span className="sr-only">Arizona Immigrant & Refugee Services</span>
     </div>
   );
 }
