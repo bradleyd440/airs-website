@@ -146,7 +146,7 @@ const translations = {
     footerQuickLinks: "Quick Links",
     footerServicesTitle: "Services",
     footerGetInvolved: "Get Involved",
-    footerLegalText: "AIRS is a 501(c)(3) nonprofit organization. Verify final copy, privacy policy, donation links, and nonprofit details with AIRS before launch.",
+    footerLegalText: "AIRS is a 501(c)(3) nonprofit organization serving refugee and immigrant communities across Arizona.",
     footerCopyright: "© 2026 AIRS. All rights reserved.",
     addPhone: "(602) 944-1821",
     addEmail: "info@airsaz.org",
@@ -187,7 +187,7 @@ const localizedContent = {
     ],
     "servicesLabel": "Servicios",
     "servicesTitle": "Apoyo práctico para reasentamiento, inmigración, empleo, educación y vida diaria.",
-    "servicesText": "AIRS conecta a los clientes con servicios directos, apoyo sin cita, clases mensuales, referencias comunitarias y ayuda para navegar la vida en Arizona.",
+    "servicesText": "AIRS conecta a los clientes con servicios directos, apoyo sin cita, clases mensuales, referencias comunitarias y ayuda para desenvolverse en Arizona.",
     "services": [
       {
         "title": "Apoyo de reasentamiento",
@@ -203,7 +203,7 @@ const localizedContent = {
       },
       {
         "title": "Clases y educación",
-        "text": "Clases mensuales sobre finanzas, capacitación policial, higiene y salud, y orientación de transporte público."
+        "text": "Clases mensuales sobre finanzas, capacitación policial, higiene y salud, y orientación sobre transporte público."
       },
       {
         "title": "Ayuda de transporte",
@@ -346,7 +346,7 @@ const localizedContent = {
     "footerQuickLinks": "Enlaces rápidos",
     "footerServicesTitle": "Servicios",
     "footerGetInvolved": "Participar",
-    "footerLegalText": "AIRS es una organización sin fines de lucro 501(c)(3). Verifique el texto final, política de privacidad, enlaces de donación y detalles sin fines de lucro con AIRS antes del lanzamiento.",
+    "footerLegalText": "AIRS es una organización sin fines de lucro 501(c)(3) que sirve a comunidades refugiadas e inmigrantes en Arizona.",
     "footerCopyright": "© 2026 AIRS. Todos los derechos reservados.",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
@@ -377,7 +377,7 @@ const localizedContent = {
     "statLanguages": "Services + orientations",
     "aboutLabel": "Qui nous sommes",
     "aboutTitle": "AIRS sert les communautés de Phoenix et du comté de Maricopa depuis des décennies.",
-    "aboutText1": "Arizona Immigrant and Refugee Services est une organisation à but non lucratif 501(c)(3), fondée en 1989 pour fournir des services sociaux, économiques et éducatifs aux résidents du centre-ville de Phoenix. En 2001, AIRS a commencé à réinstaller des réfugiés, dont les jeunes de Kakuma, aussi appelés les Lost Boys, parmi les premières arrivées de l’agence.",
+    "aboutText1": "Arizona Immigrant and Refugee Services est une organisation à but non lucratif 501(c)(3), fondée en 1989 pour fournir des services sociaux, économiques et éducatifs aux résidents du centre-ville de Phoenix. En 2001, AIRS a commencé à réinstaller des réfugiés, dont les jeunes de Kakuma, aussi appelés les Lost Boys.",
     "aboutText2": "Depuis 2001, AIRS a réinstallé 1 910 réfugiés et immigrants dans le comté de Maricopa. Les programmes d’AIRS offrent logement, nourriture, vêtements, traduction au besoin, cours d’anglais, formation professionnelle, aide à l’emploi, services d’immigration, orientations et autres soutiens.",
     "aboutBadges": [
       "Organisation 501(c)(3)",
@@ -421,7 +421,7 @@ const localizedContent = {
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
     "fax": "Fax : (602) 944-1860",
     "officeHours": "Lundi–vendredi, 9:00 AM–4:30 PM",
-    "holidayNote": "Bureau fermé les jours fériés fédéraux.",
+    "holidayNote": "Le bureau est fermé les jours fériés fédéraux.",
     "fullName": "Nom complet",
     "fullNamePlaceholder": "Votre nom",
     "contactMethod": "Téléphone ou e-mail",
@@ -545,8 +545,804 @@ const localizedContent = {
     "footerQuickLinks": "Liens rapides",
     "footerServicesTitle": "Services",
     "footerGetInvolved": "Participer",
-    "footerLegalText": "AIRS est une organisation à but non lucratif 501(c)(3). Vérifiez le texte final, la politique de confidentialité, les liens de don et les détails de l’organisation avec AIRS avant le lancement.",
+    "footerLegalText": "AIRS est une organisation à but non lucratif 501(c)(3) au service des communautés réfugiées et immigrantes en Arizona.",
     "footerCopyright": "© 2026 AIRS. Tous droits réservés.",
+    "phonePlaceholder": "(602) 944-1821",
+    "emailPlaceholder": "info@airsaz.org",
+    "addPhone": "(602) 944-1821",
+    "addEmail": "info@airsaz.org"
+  },
+  "Arabic": {
+    "siteFullName": "خدمات المهاجرين واللاجئين في أريزونا",
+    "nav": [
+      "الرئيسية",
+      "من نحن",
+      "الخدمات",
+      "احصل على المساعدة",
+      "تبرع",
+      "تطوع",
+      "الفعاليات",
+      "اتصل بنا"
+    ],
+    "donateButton": "تبرع",
+    "languageLabel": "اختر اللغة",
+    "heroBadge": "خدمات اللاجئين والمهاجرين في مقاطعة ماريكوبا",
+    "heroTitle": "دعم اللاجئين والمهاجرين من لحظة الوصول حتى الاعتماد على الذات.",
+    "heroText": "تقدم AIRS خدمات اجتماعية وتعليمية وخدمات إعادة توطين للاجئين والمهاجرين القادمين إلى أريزونا، لمساعدة العائلات على الانتقال بنجاح إلى حياة المجتمع.",
+    "getHelpButton": "احصل على المساعدة",
+    "volunteerButton": "تطوع معنا",
+    "statYears": "تأسست عام 1989",
+    "statResettled": "تمت إعادة توطين 1,910 شخصًا",
+    "statLanguages": "خدمات وإحالات",
+    "aboutLabel": "من نحن",
+    "aboutTitle": "تخدم AIRS مجتمعات فينيكس ومقاطعة ماريكوبا منذ عقود.",
+    "aboutText1": "تُعد Arizona Immigrant and Refugee Services منظمة غير ربحية مسجلة 501(c)(3)، تأسست عام 1989 لتقديم خدمات اجتماعية واقتصادية وتعليمية لسكان فينيكس. وفي عام 2001، بدأت AIRS في إعادة توطين اللاجئين، وكان من بين أول الوافدين شباب كاكوما المعروفون أيضًا باسم Lost Boys.",
+    "aboutText2": "منذ عام 2001، أعادت AIRS توطين 1,910 لاجئًا ومهاجرًا في مقاطعة ماريكوبا. تقدم برامج AIRS السكن، والطعام، والملابس، والترجمة عند الحاجة، وتعليم اللغة الإنجليزية، والتدريب المهني، والمساعدة في التوظيف، وخدمات الهجرة، والإحالات، وأنواعًا أخرى من الدعم.",
+    "aboutBadges": [
+      "منظمة غير ربحية 501(c)(3)",
+      "تأسست عام 1989",
+      "إعادة التوطين منذ عام 2001"
+    ],
+    "servicesLabel": "الخدمات",
+    "servicesTitle": "دعم عملي لإعادة التوطين، والهجرة، والعمل، والتعليم، والحياة اليومية.",
+    "servicesText": "تربط AIRS العملاء بالخدمات المباشرة، والدعم بدون موعد، والدروس الشهرية، والإحالات المجتمعية، والمساعدة في التكيف مع الحياة في أريزونا.",
+    "services": [
+      {
+        "title": "دعم إعادة التوطين",
+        "text": "دعم للعائلات اللاجئة والمهاجرة الوافدة حديثًا، بما في ذلك السكن، والطعام، والملابس، والإحالات، والمساعدة في بناء الاستقرار."
+      },
+      {
+        "title": "خدمات التوظيف",
+        "text": "تدريب مهني، ومساعدة في البحث عن عمل، والاستعداد لسوق العمل، وربط العملاء بالفرص المحلية."
+      },
+      {
+        "title": "خدمات الهجرة",
+        "text": "دعم في قضايا الهجرة بدون موعد، بما في ذلك طلبات الأقارب، والجنسية، والإقامة الدائمة، واستبدال الوثائق، والحماية الخاصة، ولمّ شمل الأسرة."
+      },
+      {
+        "title": "الدروس والتعليم",
+        "text": "دروس شهرية تشمل المواضيع المالية، والتدريب مع الشرطة، والنظافة والصحة، والتوجيه حول استخدام وسائل النقل العام."
+      },
+      {
+        "title": "المساعدة في النقل",
+        "text": "مساعدة العملاء في الوصول إلى المواعيد الطبية، والخدمات، والتبرعات، ووسائل النقل العام، والموارد المجتمعية."
+      },
+      {
+        "title": "دعم عائلات SIV",
+        "text": "خدمات بدون موعد لحاملي تأشيرة الهجرة الخاصة، بما في ذلك Reception & Placement وMatching Grant وPreferred Communities وخدمات التوظيف ومزايا State RRP."
+      }
+    ],
+    "requestHelp": "اطلب المساعدة",
+    "getHelpLabel": "احصل على المساعدة",
+    "getHelpTitle": "تواصل مع AIRS أو قم بزيارتنا خلال ساعات الخدمة.",
+    "getHelpText": "استخدم هذا النموذج للتواصل مع AIRS بخصوص الخدمات أو الدعم أو المساعدة العامة. سيتواصل معك أحد أعضاء الفريق باستخدام معلومات الاتصال التي تقدمها.",
+    "officeInfo": "معلومات المكتب",
+    "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
+    "fax": "فاكس: (602) 944-1860",
+    "officeHours": "الاثنين إلى الجمعة، 9:00 صباحًا – 4:30 مساءً",
+    "holidayNote": "المكتب مغلق في العطلات الفيدرالية.",
+    "fullName": "الاسم الكامل",
+    "fullNamePlaceholder": "اسمك",
+    "contactMethod": "الهاتف أو البريد الإلكتروني",
+    "contactPlaceholder": "أفضل طريقة للتواصل",
+    "preferredLanguage": "اللغة المفضلة",
+    "serviceNeeded": "الخدمة المطلوبة",
+    "serviceOptions": [
+      "دعم الهجرة",
+      "دعم السكن أو إعادة التوطين",
+      "دعم التوظيف",
+      "دروس أو تعليم",
+      "سؤال عن التبرعات أو التطوع",
+      "أخرى"
+    ],
+    "message": "الرسالة",
+    "messagePlaceholder": "أخبرنا بما تحتاج إلى مساعدة فيه",
+    "consent": "أوافق على أن تتواصل AIRS معي بخصوص طلبي.",
+    "submitRequest": "إرسال الطلب",
+    "officialInfoLabel": "معلومات AIRS الرسمية",
+    "officialInfoTitle": "معلومات أساسية من موقع AIRS الحالي.",
+    "infoCards": [
+      {
+        "title": "المهمة",
+        "text": "تقدم AIRS خدمات اجتماعية وتعليمية لتلبية احتياجات اللاجئين والمهاجرين القادمين إلى أريزونا، وذلك لضمان انتقال ناجح من الوصول إلى الاعتماد على الذات."
+      },
+      {
+        "title": "الارتباط مع ECDC",
+        "text": "AIRS هي فرع تابع لـ ECDC وتنفذ أنشطتها بدعم من شركاء اتحاديين وعلى مستوى الولاية والمجتمع والأفراد."
+      },
+      {
+        "title": "ساعات المكتب",
+        "text": "من الاثنين إلى الجمعة، 9:00 صباحًا – 4:30 مساءً. المكتب مغلق في العطلات الفيدرالية."
+      }
+    ],
+    "programDetailsLabel": "تفاصيل البرامج",
+    "programDetailsTitle": "خدمات بدون موعد، ودروس شهرية، ودعم SIV.",
+    "immigrationTitle": "أخصائي الهجرة",
+    "immigrationIntro": "ساعات الحضور بدون موعد هي الأربعاء والجمعة من 11:00 صباحًا إلى 2:00 مساءً. يرجى الاتصال لتحديد موعد خارج هذه الساعات.",
+    "immigrationServices": [
+      "طلبات الأقارب",
+      "الجنسية",
+      "الإقامة الدائمة",
+      "استبدال الوثائق المفقودة أو المسروقة",
+      "الحماية الخاصة / تأجيل الترحيل القسري",
+      "لمّ شمل الأسرة"
+    ],
+    "classesTitle": "جدول الدروس الشهرية",
+    "monthlyClasses": [
+      "الثلاثاء الأول @ 11:30 صباحًا — درس مالي مع Wells Fargo",
+      "الثلاثاء الثاني @ 11:30 صباحًا — تدريب مع شرطة فينيكس",
+      "الثلاثاء الثالث @ 11:30 صباحًا — درس النظافة والصحة",
+      "الثلاثاء الأخير @ 11:30 صباحًا — تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro"
+    ],
+    "sivTitle": "خدمات SIV بدون موعد",
+    "sivServices": [
+      "Reception & Placement",
+      "Matching Grant",
+      "Preferred Communities",
+      "خدمات التوظيف",
+      "مزايا State RRP"
+    ],
+    "donateTitle": "ادعم خدمات إعادة التوطين في AIRS.",
+    "donateText": "يمكن تسليم الأدوات المنزلية الصغيرة، والمواد الناعمة، وبطاقات الهدايا إلى AIRS خلال ساعات المكتب. يرجى الاتصال لتحديد موعد لتسليم الأثاث والأغراض الكبيرة.",
+    "donateNow": "تبرع الآن",
+    "donationCategories": "العناصر التي تقبلها AIRS",
+    "donationItems": [
+      "بطاقات هدايا للملابس المهنية والبقالة ومتاجر التوفير",
+      "ملابس نظيفة",
+      "مزيل عرق، صابون، شامبو، معجون أسنان، ورق حمام، حفاضات ومناديل",
+      "بطاقات حافلات، دراجات آمنة، أقفال وأضواء للدراجات، خوذات، مقاعد أطفال، عربات أطفال وكراسي متحركة",
+      "صابون أطباق، مسحوق غسيل، منظف متعدد الاستخدامات، ومناشف ورقية",
+      "حقائب ظهر، دفاتر، أقلام، ملفات، ألوان شمعية، مقصات، غراء وممحاة",
+      "أطقم شراشف سرير فردي، بطانيات فردية، ووسائد قياسية",
+      "أجهزة كمبيوتر محمولة، أجهزة مكتبية، هواتف ذكية، وأجهزة لوحية"
+    ],
+    "donationNote": "يمكن إرسال بطاقات الهدايا بالبريد إلى 10240 N 31st Ave #112, Phoenix, AZ 85051. يرجى تضمين اسمك وعنوانك وقيمة الهدية لأغراض الإيصال. للحصول على إيصالات التبرع، راسل info@airsaz.org.",
+    "volunteerLabel": "التطوع",
+    "volunteerTitle": "انضم إلى عائلة متطوعي AIRS.",
+    "volunteerText": "يساعد متطوعو AIRS في النقل، والدعم اللغوي، وتعليم اللغة الإنجليزية، والفعاليات، والدعم التقني، والتوجيه الثقافي، واستلام التبرعات، والدفاع المجتمعي، والإرشاد، والتواصل مع المجتمع.",
+    "applyVolunteer": "قدّم للتطوع",
+    "volunteerProcessTitle": "عملية التطوع",
+    "volunteerProcess": [
+      "تأكد من أنك مستعد لبدء العمل التطوعي مع AIRS.",
+      "قم بتسليم جميع أوراق التطوع المطلوبة.",
+      "انتظر بريدًا إلكترونيًا من أحد أعضاء فريق AIRS لتحديد موعد التوجيه.",
+      "تتم معظم فرص التطوع من الاثنين إلى الجمعة، 9:00 صباحًا – 5:00 مساءً، في مكتب شمال فينيكس أو بالقرب منه."
+    ],
+    "volunteerRoles": [
+      "النقل من وإلى المواعيد الطبية",
+      "الترجمة الشفوية والتحريرية",
+      "تعليم الإنجليزية كلغة ثانية",
+      "جمع التبرعات والفعاليات",
+      "الدعم التقني المكتبي",
+      "دعم التوجيه الثقافي",
+      "استلام وتسليم التبرعات",
+      "الدفاع المجتمعي",
+      "إرشاد عائلة لاجئة",
+      "التواصل المجتمعي"
+    ],
+    "eventsLabel": "الفعاليات والدروس",
+    "eventsTitle": "فرص شهرية للتعليم والتوجيه.",
+    "viewEvents": "تواصل مع AIRS لمعرفة التواريخ",
+    "events": [
+      {
+        "title": "درس مالي",
+        "date": "الثلاثاء الأول @ 11:30 صباحًا",
+        "text": "جلسة تعليم مالي مع Wells Fargo."
+      },
+      {
+        "title": "تدريب الشرطة",
+        "date": "الثلاثاء الثاني @ 11:30 صباحًا",
+        "text": "تدريب حول السلامة المجتمعية مع شرطة فينيكس."
+      },
+      {
+        "title": "تدريب المواصلات",
+        "date": "الثلاثاء الأخير @ 11:30 صباحًا",
+        "text": "تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro."
+      }
+    ],
+    "footerText": "تساعد AIRS عائلات اللاجئين والمهاجرين في الوصول إلى الدعم والموارد والروابط المجتمعية في أريزونا.",
+    "footerQuickLinks": "روابط سريعة",
+    "footerServicesTitle": "الخدمات",
+    "footerGetInvolved": "شارك معنا",
+    "footerLegalText": "AIRS منظمة غير ربحية مسجلة 501(c)(3) تخدم مجتمعات اللاجئين والمهاجرين في أريزونا.",
+    "footerCopyright": "© 2026 AIRS. جميع الحقوق محفوظة.",
+    "phonePlaceholder": "(602) 944-1821",
+    "emailPlaceholder": "info@airsaz.org",
+    "addPhone": "(602) 944-1821",
+    "addEmail": "info@airsaz.org"
+  },
+  "Dari": {
+    "siteFullName": "خدمات مهاجرین و پناهندگان آریزونا",
+    "nav": [
+      "خانه",
+      "درباره",
+      "خدمات",
+      "کمک بگیرید",
+      "کمک مالی",
+      "داوطلبی",
+      "رویدادها",
+      "تماس"
+    ],
+    "donateButton": "کمک مالی",
+    "languageLabel": "انتخاب زبان",
+    "heroBadge": "خدمات پناهندگان و مهاجرین در شهرستان ماریکوپا",
+    "heroTitle": "حمایت از پناهندگان و مهاجرین از زمان ورود تا خودکفایی.",
+    "heroText": "AIRS خدمات اجتماعی، آموزشی و اسکان مجدد را برای پناهندگان و مهاجرینی که به آریزونا می‌آیند فراهم می‌کند و به خانواده‌ها کمک می‌کند با موفقیت وارد زندگی اجتماعی شوند.",
+    "getHelpButton": "کمک بگیرید",
+    "volunteerButton": "با ما داوطلب شوید",
+    "statYears": "تأسست عام 1989",
+    "statResettled": "تمت إعادة توطين 1,910 شخصًا",
+    "statLanguages": "خدمات وإحالات",
+    "aboutLabel": "ما که هستیم",
+    "aboutTitle": "AIRS سال‌هاست به جوامع فینیکس و شهرستان ماریکوپا خدمت می‌کند.",
+    "aboutText1": "Arizona Immigrant and Refugee Services یک نهاد غیرانتفاعی 501(c)(3) است که در سال 1989 برای ارائه خدمات اجتماعی، اقتصادی و آموزشی به باشندگان فینیکس تأسیس شد. در سال 2001، AIRS اسکان مجدد پناهندگان را آغاز کرد، از جمله جوانان کاکوما که به نام Lost Boys نیز شناخته می‌شوند.",
+    "aboutText2": "از سال 2001، AIRS تعداد 1,910 پناهنده و مهاجر را در شهرستان ماریکوپا اسکان داده است. برنامه‌های AIRS مسکن، غذا، لباس، ترجمه در صورت نیاز، آموزش انگلیسی، آموزش کاری، کمک در کاریابی، خدمات مهاجرتی، معرفی‌ها و حمایت‌های دیگر فراهم می‌کند.",
+    "aboutBadges": [
+      "منظمة غير ربحية 501(c)(3)",
+      "تأسست عام 1989",
+      "إعادة التوطين منذ عام 2001"
+    ],
+    "servicesLabel": "خدمات",
+    "servicesTitle": "حمایت عملی برای اسکان مجدد، مهاجرت، کار، آموزش و زندگی روزمره.",
+    "servicesText": "AIRS مراجعین را به خدمات مستقیم، حمایت بدون وقت قبلی، صنف‌های ماهانه، معرفی‌های اجتماعی و کمک برای زندگی در آریزونا وصل می‌کند.",
+    "services": [
+      {
+        "title": "دعم إعادة التوطين",
+        "text": "دعم للعائلات اللاجئة والمهاجرة الوافدة حديثًا، بما في ذلك السكن، والطعام، والملابس، والإحالات، والمساعدة في بناء الاستقرار."
+      },
+      {
+        "title": "خدمات التوظيف",
+        "text": "تدريب مهني، ومساعدة في البحث عن عمل، والاستعداد لسوق العمل، وربط العملاء بالفرص المحلية."
+      },
+      {
+        "title": "خدمات الهجرة",
+        "text": "دعم في قضايا الهجرة بدون موعد، بما في ذلك طلبات الأقارب، والجنسية، والإقامة الدائمة، واستبدال الوثائق، والحماية الخاصة، ولمّ شمل الأسرة."
+      },
+      {
+        "title": "الدروس والتعليم",
+        "text": "دروس شهرية تشمل المواضيع المالية، والتدريب مع الشرطة، والنظافة والصحة، والتوجيه حول استخدام وسائل النقل العام."
+      },
+      {
+        "title": "المساعدة في النقل",
+        "text": "مساعدة العملاء في الوصول إلى المواعيد الطبية، والخدمات، والتبرعات، ووسائل النقل العام، والموارد المجتمعية."
+      },
+      {
+        "title": "دعم عائلات SIV",
+        "text": "خدمات بدون موعد لحاملي تأشيرة الهجرة الخاصة، بما في ذلك Reception & Placement وMatching Grant وPreferred Communities وخدمات التوظيف ومزايا State RRP."
+      }
+    ],
+    "requestHelp": "درخواست کمک",
+    "getHelpLabel": "کمک بگیرید",
+    "getHelpTitle": "با AIRS تماس بگیرید یا در ساعات خدمات مراجعه کنید.",
+    "getHelpText": "از این فرم برای تماس با AIRS در مورد خدمات، حمایت یا کمک عمومی استفاده کنید. یکی از اعضای تیم با معلومات تماس ارائه‌شده با شما پیگیری خواهد کرد.",
+    "officeInfo": "معلومات دفتر",
+    "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
+    "fax": "فکس: (602) 944-1860",
+    "officeHours": "دوشنبه تا جمعه، 9:00 صبح–4:30 بعدازظهر",
+    "holidayNote": "دفتر در تعطیلات فدرال بسته است.",
+    "fullName": "نام کامل",
+    "fullNamePlaceholder": "نام شما",
+    "contactMethod": "تلفن یا ایمیل",
+    "contactPlaceholder": "بهترین راه تماس",
+    "preferredLanguage": "زبان ترجیحی",
+    "serviceNeeded": "خدمت مورد نیاز",
+    "serviceOptions": [
+      "دعم الهجرة",
+      "دعم السكن أو إعادة التوطين",
+      "دعم التوظيف",
+      "دروس أو تعليم",
+      "سؤال عن التبرعات أو التطوع",
+      "أخرى"
+    ],
+    "message": "پیام",
+    "messagePlaceholder": "برای ما بگویید در چه مورد کمک نیاز دارید",
+    "consent": "من موافقم که AIRS درباره درخواست من با من تماس بگیرد.",
+    "submitRequest": "ارسال درخواست",
+    "officialInfoLabel": "معلومات AIRS الرسمية",
+    "officialInfoTitle": "معلومات أساسية من موقع AIRS الحالي.",
+    "infoCards": [
+      {
+        "title": "المهمة",
+        "text": "تقدم AIRS خدمات اجتماعية وتعليمية لتلبية احتياجات اللاجئين والمهاجرين القادمين إلى أريزونا، وذلك لضمان انتقال ناجح من الوصول إلى الاعتماد على الذات."
+      },
+      {
+        "title": "الارتباط مع ECDC",
+        "text": "AIRS هي فرع تابع لـ ECDC وتنفذ أنشطتها بدعم من شركاء اتحاديين وعلى مستوى الولاية والمجتمع والأفراد."
+      },
+      {
+        "title": "ساعات المكتب",
+        "text": "من الاثنين إلى الجمعة، 9:00 صباحًا – 4:30 مساءً. المكتب مغلق في العطلات الفيدرالية."
+      }
+    ],
+    "programDetailsLabel": "تفاصيل البرامج",
+    "programDetailsTitle": "خدمات بدون موعد، ودروس شهرية، ودعم SIV.",
+    "immigrationTitle": "أخصائي الهجرة",
+    "immigrationIntro": "ساعات الحضور بدون موعد هي الأربعاء والجمعة من 11:00 صباحًا إلى 2:00 مساءً. يرجى الاتصال لتحديد موعد خارج هذه الساعات.",
+    "immigrationServices": [
+      "طلبات الأقارب",
+      "الجنسية",
+      "الإقامة الدائمة",
+      "استبدال الوثائق المفقودة أو المسروقة",
+      "الحماية الخاصة / تأجيل الترحيل القسري",
+      "لمّ شمل الأسرة"
+    ],
+    "classesTitle": "جدول الدروس الشهرية",
+    "monthlyClasses": [
+      "الثلاثاء الأول @ 11:30 صباحًا — درس مالي مع Wells Fargo",
+      "الثلاثاء الثاني @ 11:30 صباحًا — تدريب مع شرطة فينيكس",
+      "الثلاثاء الثالث @ 11:30 صباحًا — درس النظافة والصحة",
+      "الثلاثاء الأخير @ 11:30 صباحًا — تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro"
+    ],
+    "sivTitle": "خدمات SIV بدون موعد",
+    "sivServices": [
+      "Reception & Placement",
+      "Matching Grant",
+      "Preferred Communities",
+      "خدمات التوظيف",
+      "مزايا State RRP"
+    ],
+    "donateTitle": "ادعم خدمات إعادة التوطين في AIRS.",
+    "donateText": "يمكن تسليم الأدوات المنزلية الصغيرة، والمواد الناعمة، وبطاقات الهدايا إلى AIRS خلال ساعات المكتب. يرجى الاتصال لتحديد موعد لتسليم الأثاث والأغراض الكبيرة.",
+    "donateNow": "تبرع الآن",
+    "donationCategories": "العناصر التي تقبلها AIRS",
+    "donationItems": [
+      "بطاقات هدايا للملابس المهنية والبقالة ومتاجر التوفير",
+      "ملابس نظيفة",
+      "مزيل عرق، صابون، شامبو، معجون أسنان، ورق حمام، حفاضات ومناديل",
+      "بطاقات حافلات، دراجات آمنة، أقفال وأضواء للدراجات، خوذات، مقاعد أطفال، عربات أطفال وكراسي متحركة",
+      "صابون أطباق، مسحوق غسيل، منظف متعدد الاستخدامات، ومناشف ورقية",
+      "حقائب ظهر، دفاتر، أقلام، ملفات، ألوان شمعية، مقصات، غراء وممحاة",
+      "أطقم شراشف سرير فردي، بطانيات فردية، ووسائد قياسية",
+      "أجهزة كمبيوتر محمولة، أجهزة مكتبية، هواتف ذكية، وأجهزة لوحية"
+    ],
+    "donationNote": "يمكن إرسال بطاقات الهدايا بالبريد إلى 10240 N 31st Ave #112, Phoenix, AZ 85051. يرجى تضمين اسمك وعنوانك وقيمة الهدية لأغراض الإيصال. للحصول على إيصالات التبرع، راسل info@airsaz.org.",
+    "volunteerLabel": "التطوع",
+    "volunteerTitle": "انضم إلى عائلة متطوعي AIRS.",
+    "volunteerText": "يساعد متطوعو AIRS في النقل، والدعم اللغوي، وتعليم اللغة الإنجليزية، والفعاليات، والدعم التقني، والتوجيه الثقافي، واستلام التبرعات، والدفاع المجتمعي، والإرشاد، والتواصل مع المجتمع.",
+    "applyVolunteer": "قدّم للتطوع",
+    "volunteerProcessTitle": "عملية التطوع",
+    "volunteerProcess": [
+      "تأكد من أنك مستعد لبدء العمل التطوعي مع AIRS.",
+      "قم بتسليم جميع أوراق التطوع المطلوبة.",
+      "انتظر بريدًا إلكترونيًا من أحد أعضاء فريق AIRS لتحديد موعد التوجيه.",
+      "تتم معظم فرص التطوع من الاثنين إلى الجمعة، 9:00 صباحًا – 5:00 مساءً، في مكتب شمال فينيكس أو بالقرب منه."
+    ],
+    "volunteerRoles": [
+      "النقل من وإلى المواعيد الطبية",
+      "الترجمة الشفوية والتحريرية",
+      "تعليم الإنجليزية كلغة ثانية",
+      "جمع التبرعات والفعاليات",
+      "الدعم التقني المكتبي",
+      "دعم التوجيه الثقافي",
+      "استلام وتسليم التبرعات",
+      "الدفاع المجتمعي",
+      "إرشاد عائلة لاجئة",
+      "التواصل المجتمعي"
+    ],
+    "eventsLabel": "الفعاليات والدروس",
+    "eventsTitle": "فرص شهرية للتعليم والتوجيه.",
+    "viewEvents": "تواصل مع AIRS لمعرفة التواريخ",
+    "events": [
+      {
+        "title": "درس مالي",
+        "date": "الثلاثاء الأول @ 11:30 صباحًا",
+        "text": "جلسة تعليم مالي مع Wells Fargo."
+      },
+      {
+        "title": "تدريب الشرطة",
+        "date": "الثلاثاء الثاني @ 11:30 صباحًا",
+        "text": "تدريب حول السلامة المجتمعية مع شرطة فينيكس."
+      },
+      {
+        "title": "تدريب المواصلات",
+        "date": "الثلاثاء الأخير @ 11:30 صباحًا",
+        "text": "تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro."
+      }
+    ],
+    "footerText": "تساعد AIRS عائلات اللاجئين والمهاجرين في الوصول إلى الدعم والموارد والروابط المجتمعية في أريزونا.",
+    "footerQuickLinks": "لینک‌های سریع",
+    "footerServicesTitle": "خدمات",
+    "footerGetInvolved": "همراه شوید",
+    "footerLegalText": "AIRS یک نهاد غیرانتفاعی 501(c)(3) است که به جوامع پناهنده و مهاجر در آریزونا خدمت می‌کند.",
+    "footerCopyright": "© 2026 AIRS. همه حقوق محفوظ است.",
+    "phonePlaceholder": "(602) 944-1821",
+    "emailPlaceholder": "info@airsaz.org",
+    "addPhone": "(602) 944-1821",
+    "addEmail": "info@airsaz.org"
+  },
+  "Pashto": {
+    "siteFullName": "د اریزونا د کډوالو او مهاجرینو خدمات",
+    "nav": [
+      "کور",
+      "زموږ په اړه",
+      "خدمات",
+      "مرسته ترلاسه کړئ",
+      "مرسته وکړئ",
+      "رضاکاري",
+      "پېښې",
+      "اړیکه"
+    ],
+    "donateButton": "مرسته وکړئ",
+    "languageLabel": "ژبه وټاکئ",
+    "heroBadge": "په ماریکوپا کاونټي کې د کډوالو او مهاجرینو خدمات",
+    "heroTitle": "له راتګ څخه تر ځان بساینې پورې د کډوالو او مهاجرینو ملاتړ.",
+    "heroText": "AIRS هغو کډوالو او مهاجرینو ته ټولنیز، تعلیمي او د بیا مېشتېدو خدمات برابروي چې اریزونا ته راځي، څو کورنۍ په بریالیتوب سره د ټولنې ژوند ته داخلې شي.",
+    "getHelpButton": "مرسته ترلاسه کړئ",
+    "volunteerButton": "زموږ سره رضاکار شئ",
+    "statYears": "تأسست عام 1989",
+    "statResettled": "تمت إعادة توطين 1,910 شخصًا",
+    "statLanguages": "خدمات وإحالات",
+    "aboutLabel": "موږ څوک یو",
+    "aboutTitle": "AIRS له کلونو راهیسې د فینکس او ماریکوپا کاونټي ټولنو ته خدمت کوي.",
+    "aboutText1": "Arizona Immigrant and Refugee Services د 501(c)(3) غیرانتفاعي اداره ده چې په 1989 کې د فینکس خلکو ته د ټولنیزو، اقتصادي او تعلیمي خدماتو لپاره جوړه شوه. په 2001 کې AIRS د کډوالو بیا مېشتول پیل کړل، چې پکې د Kakuma ځوانان هم شامل وو.",
+    "aboutText2": "له 2001 راهیسې AIRS په ماریکوپا کاونټي کې 1,910 کډوال او مهاجر بیا مېشت کړي دي. د AIRS پروګرامونه کور، خواړه، کالي، د اړتیا پر مهال ژباړه، انګلیسي زده کړه، د کار روزنه، د کار مرسته، د مهاجرت خدمات، راجع کول او نور ملاتړ برابروي.",
+    "aboutBadges": [
+      "منظمة غير ربحية 501(c)(3)",
+      "تأسست عام 1989",
+      "إعادة التوطين منذ عام 2001"
+    ],
+    "servicesLabel": "خدمات",
+    "servicesTitle": "د بیا مېشتېدو، مهاجرت، کار، تعلیم او ورځني ژوند لپاره عملي ملاتړ.",
+    "servicesText": "AIRS مراجعین له مستقیمو خدماتو، بې‌نوبته ملاتړ، میاشتنیو ټولګیو، ټولنیزو راجع کولو او په اریزونا کې د ژوند د تنظیم له مرستې سره نښلوي.",
+    "services": [
+      {
+        "title": "دعم إعادة التوطين",
+        "text": "دعم للعائلات اللاجئة والمهاجرة الوافدة حديثًا، بما في ذلك السكن، والطعام، والملابس، والإحالات، والمساعدة في بناء الاستقرار."
+      },
+      {
+        "title": "خدمات التوظيف",
+        "text": "تدريب مهني، ومساعدة في البحث عن عمل، والاستعداد لسوق العمل، وربط العملاء بالفرص المحلية."
+      },
+      {
+        "title": "خدمات الهجرة",
+        "text": "دعم في قضايا الهجرة بدون موعد، بما في ذلك طلبات الأقارب، والجنسية، والإقامة الدائمة، واستبدال الوثائق، والحماية الخاصة، ولمّ شمل الأسرة."
+      },
+      {
+        "title": "الدروس والتعليم",
+        "text": "دروس شهرية تشمل المواضيع المالية، والتدريب مع الشرطة، والنظافة والصحة، والتوجيه حول استخدام وسائل النقل العام."
+      },
+      {
+        "title": "المساعدة في النقل",
+        "text": "مساعدة العملاء في الوصول إلى المواعيد الطبية، والخدمات، والتبرعات، ووسائل النقل العام، والموارد المجتمعية."
+      },
+      {
+        "title": "دعم عائلات SIV",
+        "text": "خدمات بدون موعد لحاملي تأشيرة الهجرة الخاصة، بما في ذلك Reception & Placement وMatching Grant وPreferred Communities وخدمات التوظيف ومزايا State RRP."
+      }
+    ],
+    "requestHelp": "د مرستې غوښتنه",
+    "getHelpLabel": "مرسته ترلاسه کړئ",
+    "getHelpTitle": "له AIRS سره اړیکه ونیسئ یا د خدماتو په ساعتونو کې ورشئ.",
+    "getHelpText": "دا فورمه د AIRS سره د خدماتو، ملاتړ یا عمومي مرستې په اړه د اړیکې لپاره وکاروئ. د ټیم یو غړی به ستاسو د ورکړل شوو اړیکو له لارې تعقیب وکړي.",
+    "officeInfo": "د دفتر معلومات",
+    "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
+    "fax": "فکس: (602) 944-1860",
+    "officeHours": "دوشنبه–جمعه، 9:00 سهار–4:30 ماښام",
+    "holidayNote": "دفتر په فدرالي رخصتیو کې تړلی وي.",
+    "fullName": "بشپړ نوم",
+    "fullNamePlaceholder": "ستاسو نوم",
+    "contactMethod": "تلیفون یا برېښنالیک",
+    "contactPlaceholder": "غوره اړیکه",
+    "preferredLanguage": "غوره ژبه",
+    "serviceNeeded": "اړین خدمت",
+    "serviceOptions": [
+      "دعم الهجرة",
+      "دعم السكن أو إعادة التوطين",
+      "دعم التوظيف",
+      "دروس أو تعليم",
+      "سؤال عن التبرعات أو التطوع",
+      "أخرى"
+    ],
+    "message": "پیغام",
+    "messagePlaceholder": "موږ ته ووایاست چې څه ډول مرسته ته اړتیا لرئ",
+    "consent": "زه موافق یم چې AIRS زما د غوښتنې په اړه راسره اړیکه ونیسي.",
+    "submitRequest": "غوښتنه واستوئ",
+    "officialInfoLabel": "معلومات AIRS الرسمية",
+    "officialInfoTitle": "معلومات أساسية من موقع AIRS الحالي.",
+    "infoCards": [
+      {
+        "title": "المهمة",
+        "text": "تقدم AIRS خدمات اجتماعية وتعليمية لتلبية احتياجات اللاجئين والمهاجرين القادمين إلى أريزونا، وذلك لضمان انتقال ناجح من الوصول إلى الاعتماد على الذات."
+      },
+      {
+        "title": "الارتباط مع ECDC",
+        "text": "AIRS هي فرع تابع لـ ECDC وتنفذ أنشطتها بدعم من شركاء اتحاديين وعلى مستوى الولاية والمجتمع والأفراد."
+      },
+      {
+        "title": "ساعات المكتب",
+        "text": "من الاثنين إلى الجمعة، 9:00 صباحًا – 4:30 مساءً. المكتب مغلق في العطلات الفيدرالية."
+      }
+    ],
+    "programDetailsLabel": "تفاصيل البرامج",
+    "programDetailsTitle": "خدمات بدون موعد، ودروس شهرية، ودعم SIV.",
+    "immigrationTitle": "أخصائي الهجرة",
+    "immigrationIntro": "ساعات الحضور بدون موعد هي الأربعاء والجمعة من 11:00 صباحًا إلى 2:00 مساءً. يرجى الاتصال لتحديد موعد خارج هذه الساعات.",
+    "immigrationServices": [
+      "طلبات الأقارب",
+      "الجنسية",
+      "الإقامة الدائمة",
+      "استبدال الوثائق المفقودة أو المسروقة",
+      "الحماية الخاصة / تأجيل الترحيل القسري",
+      "لمّ شمل الأسرة"
+    ],
+    "classesTitle": "جدول الدروس الشهرية",
+    "monthlyClasses": [
+      "الثلاثاء الأول @ 11:30 صباحًا — درس مالي مع Wells Fargo",
+      "الثلاثاء الثاني @ 11:30 صباحًا — تدريب مع شرطة فينيكس",
+      "الثلاثاء الثالث @ 11:30 صباحًا — درس النظافة والصحة",
+      "الثلاثاء الأخير @ 11:30 صباحًا — تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro"
+    ],
+    "sivTitle": "خدمات SIV بدون موعد",
+    "sivServices": [
+      "Reception & Placement",
+      "Matching Grant",
+      "Preferred Communities",
+      "خدمات التوظيف",
+      "مزايا State RRP"
+    ],
+    "donateTitle": "ادعم خدمات إعادة التوطين في AIRS.",
+    "donateText": "يمكن تسليم الأدوات المنزلية الصغيرة، والمواد الناعمة، وبطاقات الهدايا إلى AIRS خلال ساعات المكتب. يرجى الاتصال لتحديد موعد لتسليم الأثاث والأغراض الكبيرة.",
+    "donateNow": "تبرع الآن",
+    "donationCategories": "العناصر التي تقبلها AIRS",
+    "donationItems": [
+      "بطاقات هدايا للملابس المهنية والبقالة ومتاجر التوفير",
+      "ملابس نظيفة",
+      "مزيل عرق، صابون، شامبو، معجون أسنان، ورق حمام، حفاضات ومناديل",
+      "بطاقات حافلات، دراجات آمنة، أقفال وأضواء للدراجات، خوذات، مقاعد أطفال، عربات أطفال وكراسي متحركة",
+      "صابون أطباق، مسحوق غسيل، منظف متعدد الاستخدامات، ومناشف ورقية",
+      "حقائب ظهر، دفاتر، أقلام، ملفات، ألوان شمعية، مقصات، غراء وممحاة",
+      "أطقم شراشف سرير فردي، بطانيات فردية، ووسائد قياسية",
+      "أجهزة كمبيوتر محمولة، أجهزة مكتبية، هواتف ذكية، وأجهزة لوحية"
+    ],
+    "donationNote": "يمكن إرسال بطاقات الهدايا بالبريد إلى 10240 N 31st Ave #112, Phoenix, AZ 85051. يرجى تضمين اسمك وعنوانك وقيمة الهدية لأغراض الإيصال. للحصول على إيصالات التبرع، راسل info@airsaz.org.",
+    "volunteerLabel": "التطوع",
+    "volunteerTitle": "انضم إلى عائلة متطوعي AIRS.",
+    "volunteerText": "يساعد متطوعو AIRS في النقل، والدعم اللغوي، وتعليم اللغة الإنجليزية، والفعاليات، والدعم التقني، والتوجيه الثقافي، واستلام التبرعات، والدفاع المجتمعي، والإرشاد، والتواصل مع المجتمع.",
+    "applyVolunteer": "قدّم للتطوع",
+    "volunteerProcessTitle": "عملية التطوع",
+    "volunteerProcess": [
+      "تأكد من أنك مستعد لبدء العمل التطوعي مع AIRS.",
+      "قم بتسليم جميع أوراق التطوع المطلوبة.",
+      "انتظر بريدًا إلكترونيًا من أحد أعضاء فريق AIRS لتحديد موعد التوجيه.",
+      "تتم معظم فرص التطوع من الاثنين إلى الجمعة، 9:00 صباحًا – 5:00 مساءً، في مكتب شمال فينيكس أو بالقرب منه."
+    ],
+    "volunteerRoles": [
+      "النقل من وإلى المواعيد الطبية",
+      "الترجمة الشفوية والتحريرية",
+      "تعليم الإنجليزية كلغة ثانية",
+      "جمع التبرعات والفعاليات",
+      "الدعم التقني المكتبي",
+      "دعم التوجيه الثقافي",
+      "استلام وتسليم التبرعات",
+      "الدفاع المجتمعي",
+      "إرشاد عائلة لاجئة",
+      "التواصل المجتمعي"
+    ],
+    "eventsLabel": "الفعاليات والدروس",
+    "eventsTitle": "فرص شهرية للتعليم والتوجيه.",
+    "viewEvents": "تواصل مع AIRS لمعرفة التواريخ",
+    "events": [
+      {
+        "title": "درس مالي",
+        "date": "الثلاثاء الأول @ 11:30 صباحًا",
+        "text": "جلسة تعليم مالي مع Wells Fargo."
+      },
+      {
+        "title": "تدريب الشرطة",
+        "date": "الثلاثاء الثاني @ 11:30 صباحًا",
+        "text": "تدريب حول السلامة المجتمعية مع شرطة فينيكس."
+      },
+      {
+        "title": "تدريب المواصلات",
+        "date": "الثلاثاء الأخير @ 11:30 صباحًا",
+        "text": "تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro."
+      }
+    ],
+    "footerText": "تساعد AIRS عائلات اللاجئين والمهاجرين في الوصول إلى الدعم والموارد والروابط المجتمعية في أريزونا.",
+    "footerQuickLinks": "چټک لینکونه",
+    "footerServicesTitle": "خدمات",
+    "footerGetInvolved": "ګډون وکړئ",
+    "footerLegalText": "AIRS د 501(c)(3) غیرانتفاعي اداره ده چې په اریزونا کې د کډوالو او مهاجرینو ټولنو ته خدمت کوي.",
+    "footerCopyright": "© 2026 AIRS. ټول حقوق خوندي دي.",
+    "phonePlaceholder": "(602) 944-1821",
+    "emailPlaceholder": "info@airsaz.org",
+    "addPhone": "(602) 944-1821",
+    "addEmail": "info@airsaz.org"
+  },
+  "Ukrainian": {
+    "siteFullName": "Служби іммігрантів і біженців Аризони",
+    "nav": [
+      "Головна",
+      "Про нас",
+      "Послуги",
+      "Отримати допомогу",
+      "Пожертви",
+      "Волонтерство",
+      "Події",
+      "Контакти"
+    ],
+    "donateButton": "Пожертвувати",
+    "languageLabel": "Виберіть мову",
+    "heroBadge": "Послуги для біженців та іммігрантів в окрузі Марікопа",
+    "heroTitle": "Підтримка біженців та іммігрантів від прибуття до самостійності.",
+    "heroText": "AIRS надає соціальні, освітні та ресетлмент-послуги біженцям та іммігрантам, які прибувають до Аризони, допомагаючи сім’ям успішно інтегруватися в громаду.",
+    "getHelpButton": "Отримати допомогу",
+    "volunteerButton": "Стати волонтером",
+    "statYears": "Засновано у 1989",
+    "statResettled": "1 910 переселених",
+    "statLanguages": "Послуги + направлення",
+    "aboutLabel": "Хто ми",
+    "aboutTitle": "AIRS десятиліттями служить громадам Фінікса та округу Марікопа.",
+    "aboutText1": "Arizona Immigrant and Refugee Services — некомерційна організація 501(c)(3), заснована у 1989 році для надання соціальних, економічних та освітніх послуг мешканцям Фінікса. У 2001 році AIRS почала переселяти біженців, зокрема молодь Kakuma, відому як Lost Boys.",
+    "aboutText2": "З 2001 року AIRS переселила 1 910 біженців та іммігрантів в окрузі Марікопа. Програми AIRS надають житло, їжу, одяг, переклад за потреби, курси англійської, професійну підготовку, допомогу з працевлаштуванням, імміграційні послуги, направлення та іншу підтримку.",
+    "aboutBadges": [
+      "Некомерційна організація 501(c)(3)",
+      "Засновано у 1989",
+      "Ресетлмент з 2001"
+    ],
+    "servicesLabel": "Послуги",
+    "servicesTitle": "Практична підтримка з ресетлменту, імміграції, працевлаштування, освіти та повсякденного життя.",
+    "servicesText": "AIRS поєднує клієнтів із прямими послугами, допомогою без запису, щомісячними заняттями, громадськими направленнями та підтримкою в адаптації до життя в Аризоні.",
+    "services": [
+      {
+        "title": "Soutien à la réinstallation",
+        "text": "Soutien aux familles réfugiées et immigrantes récemment arrivées, y compris logement, nourriture, vêtements, orientations et aide à reconstruire la stabilité."
+      },
+      {
+        "title": "Services d’emploi",
+        "text": "Formation professionnelle, aide à l’emploi, préparation au travail et soutien pour relier les clients aux opportunités locales."
+      },
+      {
+        "title": "Services d’immigration",
+        "text": "Soutien d’immigration sans rendez-vous pour les pétitions familiales, la citoyenneté, la résidence permanente, les documents de remplacement, le statut protégé et la réunification familiale."
+      },
+      {
+        "title": "Cours et éducation",
+        "text": "Cours mensuels sur les finances, la formation avec la police, l’hygiène et la santé, et l’orientation au transport public."
+      },
+      {
+        "title": "Aide au transport",
+        "text": "Soutien pour relier les clients aux rendez-vous médicaux, services, dons, transport public et ressources communautaires."
+      },
+      {
+        "title": "Soutien aux familles SIV",
+        "text": "Services sans rendez-vous pour les titulaires de visa spécial d’immigrant, y compris Reception & Placement, Matching Grant, Preferred Communities, Employment Services et prestations RRP de l’État."
+      }
+    ],
+    "requestHelp": "Запросити допомогу",
+    "getHelpLabel": "Отримати допомогу",
+    "getHelpTitle": "Зв’яжіться з AIRS або відвідайте нас у години роботи.",
+    "getHelpText": "Скористайтеся цією формою, щоб звернутися до AIRS щодо послуг, підтримки або загальної допомоги. Член команди зв’яжеться з вами за наданими контактами.",
+    "officeInfo": "Інформація про офіс",
+    "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
+    "fax": "Факс: (602) 944-1860",
+    "officeHours": "Понеділок–п’ятниця, 9:00 AM–4:30 PM",
+    "holidayNote": "Офіс зачинений у федеральні свята.",
+    "fullName": "Повне ім’я",
+    "fullNamePlaceholder": "Ваше ім’я",
+    "contactMethod": "Телефон або email",
+    "contactPlaceholder": "Найкращий контакт",
+    "preferredLanguage": "Бажана мова",
+    "serviceNeeded": "Потрібна послуга",
+    "serviceOptions": [
+      "Soutien en immigration",
+      "Soutien au logement ou à la réinstallation",
+      "Soutien à l’emploi",
+      "Cours ou éducation",
+      "Question sur les dons ou le bénévolat",
+      "Autre"
+    ],
+    "message": "Повідомлення",
+    "messagePlaceholder": "Розкажіть, з чим вам потрібна допомога",
+    "consent": "Я погоджуюся, що AIRS може зв’язатися зі мною щодо мого запиту.",
+    "submitRequest": "Надіслати запит",
+    "officialInfoLabel": "Informations officielles d’AIRS",
+    "officialInfoTitle": "Faits principaux repris du site actuel d’AIRS.",
+    "infoCards": [
+      {
+        "title": "Mission",
+        "text": "AIRS fournit des services sociaux et éducatifs pour répondre aux besoins des réfugiés et immigrants arrivant en Arizona, en assurant une transition réussie de l’arrivée à l’autonomie."
+      },
+      {
+        "title": "Lien avec ECDC",
+        "text": "AIRS est une filiale d’ECDC et mène ses activités avec le soutien de partenaires fédéraux, étatiques, communautaires et individuels."
+      },
+      {
+        "title": "Heures de bureau",
+        "text": "Lundi à vendredi, 9:00 AM–4:30 PM. Le bureau est fermé les jours fériés fédéraux."
+      }
+    ],
+    "programDetailsLabel": "Détails des programmes",
+    "programDetailsTitle": "Services sans rendez-vous, cours mensuels et soutien SIV.",
+    "immigrationTitle": "Spécialiste en immigration",
+    "immigrationIntro": "Les heures sans rendez-vous sont mercredi et vendredi de 11:00 AM à 2:00 PM. Veuillez appeler pour prendre rendez-vous en dehors de ces heures.",
+    "immigrationServices": [
+      "Pétitions familiales",
+      "Citoyenneté",
+      "Résidence permanente",
+      "Remplacement de documents perdus ou volés",
+      "Statut protégé spécial / départ forcé différé",
+      "Réunification familiale"
+    ],
+    "classesTitle": "Calendrier mensuel des cours",
+    "monthlyClasses": [
+      "Premier mardi @ 11:30 AM — Cours financier avec Wells Fargo",
+      "Deuxième mardi @ 11:30 AM — Formation avec Phoenix PD",
+      "Troisième mardi @ 11:30 AM — Cours d’hygiène et santé",
+      "Dernier mardi @ 11:30 AM — Formation bus et métro léger avec Phoenix Valley Metro"
+    ],
+    "sivTitle": "Services SIV sans rendez-vous",
+    "sivServices": [
+      "Accueil et placement",
+      "Matching Grant",
+      "Preferred Communities",
+      "Services d’emploi",
+      "Prestations RRP de l’État"
+    ],
+    "donateTitle": "Soutenez les services de réinstallation d’AIRS.",
+    "donateText": "Les petits articles ménagers, textiles et cartes-cadeaux peuvent être déposés chez AIRS pendant les heures de bureau. Veuillez appeler pour fixer un rendez-vous pour les meubles et gros articles.",
+    "donateNow": "Faire un don maintenant",
+    "donationCategories": "Articles acceptés par AIRS",
+    "donationItems": [
+      "Cartes-cadeaux pour vêtements professionnels, épicerie et friperies",
+      "Vêtements propres",
+      "Déodorant, savon, shampooing, dentifrice, papier toilette, couches et lingettes",
+      "Pass de bus, vélos sûrs, antivols et lumières, casques, sièges auto, poussettes et fauteuils roulants",
+      "Liquide vaisselle, lessive, nettoyant multi-usage et essuie-tout",
+      "Sacs à dos, cahiers, crayons, dossiers, crayons de couleur, ciseaux, colle et gommes",
+      "Draps twin, couvertures twin et oreillers standards",
+      "Ordinateurs portables, ordinateurs de bureau, téléphones intelligents et tablettes"
+    ],
+    "donationNote": "Les cartes-cadeaux peuvent être envoyées à 10240 N 31st Ave #112, Phoenix, AZ 85051. Incluez votre nom, adresse et montant du don pour le reçu. Pour les reçus de don, écrivez à info@airsaz.org.",
+    "volunteerLabel": "Bénévolat",
+    "volunteerTitle": "Rejoignez la famille des bénévoles d’AIRS.",
+    "volunteerText": "Les bénévoles d’AIRS aident au transport, au soutien linguistique, à l’enseignement ESL, aux événements, au soutien technique, à l’orientation culturelle, à la collecte de dons, à la défense, au mentorat et à la sensibilisation communautaire.",
+    "applyVolunteer": "Postuler comme bénévole",
+    "volunteerProcessTitle": "Processus bénévole",
+    "volunteerProcess": [
+      "Assurez-vous d’être prêt à commencer le bénévolat avec AIRS.",
+      "Remettez tous les documents de bénévolat.",
+      "Attendez un e-mail d’un membre de l’équipe AIRS pour planifier l’orientation.",
+      "La plupart des activités bénévoles ont lieu du lundi au vendredi, 9:00 AM–5:00 PM, au bureau du nord de Phoenix ou à proximité."
+    ],
+    "volunteerRoles": [
+      "Transport vers et depuis les rendez-vous médicaux",
+      "Traduction et interprétation",
+      "Enseignement de l’anglais comme langue seconde",
+      "Collectes de fonds et événements",
+      "Soutien technique au bureau",
+      "Soutien à l’orientation culturelle",
+      "Collecte et livraison de dons",
+      "Plaidoyer communautaire",
+      "Mentorat d’une famille réfugiée",
+      "Sensibilisation communautaire"
+    ],
+    "eventsLabel": "Événements et cours",
+    "eventsTitle": "Possibilités mensuelles d’éducation et d’orientation.",
+    "viewEvents": "Contactez AIRS pour les dates",
+    "events": [
+      {
+        "title": "Cours financier",
+        "date": "Premier mardi @ 11:30 AM",
+        "text": "Séance d’éducation financière avec Wells Fargo."
+      },
+      {
+        "title": "Formation police",
+        "date": "Deuxième mardi @ 11:30 AM",
+        "text": "Formation sur la sécurité communautaire avec Phoenix PD."
+      },
+      {
+        "title": "Formation transport",
+        "date": "Dernier mardi @ 11:30 AM",
+        "text": "Formation bus et métro léger avec Phoenix Valley Metro."
+      }
+    ],
+    "footerText": "AIRS aide les familles réfugiées et immigrantes à accéder au soutien, aux ressources et aux liens communautaires en Arizona.",
+    "footerQuickLinks": "Швидкі посилання",
+    "footerServicesTitle": "Послуги",
+    "footerGetInvolved": "Долучитися",
+    "footerLegalText": "AIRS є некомерційною організацією 501(c)(3), що служить громадам біженців та іммігрантів в Аризоні.",
+    "footerCopyright": "© 2026 AIRS. Усі права захищені.",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
     "addPhone": "(602) 944-1821",
@@ -576,49 +1372,49 @@ const localizedContent = {
     "statLanguages": "Huduma + rufaa",
     "aboutLabel": "Sisi ni nani",
     "aboutTitle": "AIRS imehudumia jamii za Phoenix na Kaunti ya Maricopa kwa miongo kadhaa.",
-    "aboutText1": "Arizona Immigrant and Refugee Services est une organisation à but non lucratif 501(c)(3), fondée en 1989 pour fournir des services sociaux, économiques et éducatifs aux résidents du centre-ville de Phoenix. En 2001, AIRS a commencé à réinstaller des réfugiés, dont les jeunes de Kakuma, aussi appelés les Lost Boys, parmi les premières arrivées de l’agence.",
-    "aboutText2": "Depuis 2001, AIRS a réinstallé 1 910 réfugiés et immigrants dans le comté de Maricopa. Les programmes d’AIRS offrent logement, nourriture, vêtements, traduction au besoin, cours d’anglais, formation professionnelle, aide à l’emploi, services d’immigration, orientations et autres soutiens.",
+    "aboutText1": "Arizona Immigrant and Refugee Services ni shirika lisilo la faida la 501(c)(3) lililoanzishwa mwaka 1989 ili kutoa huduma za kijamii, kiuchumi na kielimu kwa wakazi wa Phoenix. Mwaka 2001, AIRS ilianza kusaidia kuwapokea na kuwapa makazi mapya wakimbizi, wakiwemo vijana wa Kakuma wanaojulikana pia kama Lost Boys.",
+    "aboutText2": "Tangu 2001, AIRS imewapa makazi mapya wakimbizi na wahamiaji 1,910 katika Kaunti ya Maricopa. Programu zake hutoa makazi, chakula, mavazi, tafsiri inapohitajika, masomo ya Kiingereza, mafunzo ya kazi, msaada wa ajira, huduma za uhamiaji, rufaa na msaada mwingine.",
     "aboutBadges": [
       "Shirika 501(c)(3)",
       "Ilianzishwa 1989",
       "Makazi mapya tangu 2001"
     ],
     "servicesLabel": "Huduma",
-    "servicesTitle": "Practical support for resettlement, immigration, employment, education, and daily life.",
-    "servicesText": "AIRS connects clients with direct services, walk-in support, monthly classes, community referrals, and help navigating life in Arizona.",
+    "servicesTitle": "Msaada wa vitendo kwa makazi mapya, uhamiaji, ajira, elimu na maisha ya kila siku.",
+    "servicesText": "AIRS huwaunganisha wateja na huduma za moja kwa moja, msaada wa bila miadi, madarasa ya kila mwezi, rufaa za jamii na msaada wa kuzoea maisha Arizona.",
     "services": [
       {
-        "title": "Resettlement Support",
-        "text": "Support for recently arrived refugee and immigrant families, including housing, food, clothing, referrals, and help rebuilding stability."
+        "title": "Msaada wa Makazi Mapya",
+        "text": "Msaada kwa familia mpya za wakimbizi na wahamiaji, ikiwa ni pamoja na makazi, chakula, mavazi, rufaa na kujenga uthabiti."
       },
       {
-        "title": "Employment Services",
-        "text": "Job training, employment assistance, workplace preparation, and support connecting clients with local opportunities."
+        "title": "Huduma za Ajira",
+        "text": "Mafunzo ya kazi, msaada wa ajira, maandalizi ya mahali pa kazi na kuunganisha wateja na fursa za eneo."
       },
       {
-        "title": "Immigration Services",
-        "text": "Walk-in immigration support for relative petitions, citizenship, permanent residency, replacement documents, protected status, and family reunification."
+        "title": "Huduma za Uhamiaji",
+        "text": "Msaada wa uhamiaji bila miadi kwa maombi ya ndugu, uraia, ukaazi wa kudumu, hati mbadala, hadhi ya ulinzi na kuunganisha familia."
       },
       {
-        "title": "Classes & Education",
-        "text": "Monthly classes covering financial topics, police training, hygiene and health, and public transportation orientation."
+        "title": "Madarasa na Elimu",
+        "text": "Madarasa ya kila mwezi kuhusu fedha, mafunzo ya polisi, usafi na afya, na maelekezo ya usafiri wa umma."
       },
       {
-        "title": "Transportation Help",
-        "text": "Support connecting clients to medical appointments, services, donations, public transportation, and community resources."
+        "title": "Msaada wa Usafiri",
+        "text": "Kuwasaidia wateja kufika kwenye miadi ya matibabu, huduma, michango, usafiri wa umma na rasilimali za jamii."
       },
       {
-        "title": "SIV Family Support",
-        "text": "Walk-in services for Special Immigrant Visa holders including Reception & Placement, Matching Grant, Preferred Communities, Employment Services, and State RRP Benefits."
+        "title": "Msaada kwa Familia za SIV",
+        "text": "Huduma za bila miadi kwa wenye visa maalum vya wahamiaji, ikiwa ni pamoja na Reception & Placement, Matching Grant, Preferred Communities, Employment Services na State RRP Benefits."
       }
     ],
     "requestHelp": "Omba msaada",
     "getHelpLabel": "Pata Msaada",
-    "getHelpTitle": "Contact AIRS or visit during service hours.",
-    "getHelpText": "Use this form to contact AIRS about services, support, or general assistance. A team member will follow up using the contact information provided.",
+    "getHelpTitle": "Wasiliana na AIRS au tembelea wakati wa huduma.",
+    "getHelpText": "Tumia fomu hii kuwasiliana na AIRS kuhusu huduma, msaada au maswali ya jumla. Mshiriki wa timu atakufuata kwa kutumia maelezo uliyotoa.",
     "officeInfo": "Taarifa za ofisi",
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
-    "fax": "Fax : (602) 944-1860",
+    "fax": "Faksi: (602) 944-1860",
     "officeHours": "Jumatatu–Ijumaa, 9:00 AM–4:30 PM",
     "holidayNote": "Ofisi hufungwa siku za sikukuu za serikali kuu.",
     "fullName": "Jina kamili",
@@ -628,123 +1424,123 @@ const localizedContent = {
     "preferredLanguage": "Lugha unayopendelea",
     "serviceNeeded": "Huduma inayohitajika",
     "serviceOptions": [
-      "Msaada wa uhamiaji",
-      "Msaada wa makazi au makazi mapya",
-      "Msaada wa ajira",
-      "Madarasa au elimu",
-      "Swali la mchango au kujitolea",
-      "Nyingine"
+      "Apoyo migratorio",
+      "Apoyo de vivienda o reasentamiento",
+      "Apoyo de empleo",
+      "Clases o educación",
+      "Pregunta sobre donaciones o voluntariado",
+      "Otro"
     ],
     "message": "Ujumbe",
     "messagePlaceholder": "Tuambie unahitaji msaada gani",
     "consent": "Nakubali kwamba AIRS inaweza kuwasiliana nami kuhusu ombi langu.",
     "submitRequest": "Tuma Ombi",
-    "officialInfoLabel": "Official AIRS information",
-    "officialInfoTitle": "Core facts carried over from the current AIRS website.",
+    "officialInfoLabel": "Taarifa rasmi za AIRS",
+    "officialInfoTitle": "Taarifa kuu zilizohamishwa kutoka tovuti ya sasa ya AIRS.",
     "infoCards": [
       {
-        "title": "Mission",
-        "text": "AIRS provides social and educational services to meet the needs of refugees and immigrants coming to Arizona by ensuring a successful transition from arrival to self-sufficiency."
+        "title": "Misión",
+        "text": "AIRS proporciona servicios sociales y educativos para satisfacer las necesidades de refugiados e inmigrantes que llegan a Arizona, asegurando una transición exitosa desde la llegada hasta la autosuficiencia."
       },
       {
-        "title": "ECDC Connection",
-        "text": "AIRS is a subsidiary of ECDC and conducts activities with support from federal, state, community, and individual partners."
+        "title": "Conexión con ECDC",
+        "text": "AIRS es una subsidiaria de ECDC y realiza actividades con apoyo de socios federales, estatales, comunitarios e individuales."
       },
       {
-        "title": "Office Hours",
-        "text": "Monday through Friday, 9:00 AM–4:30 PM. The office is closed on federal holidays."
+        "title": "Horario de oficina",
+        "text": "Lunes a viernes, 9:00 AM–4:30 PM. La oficina cierra en días feriados federales."
       }
     ],
-    "programDetailsLabel": "Program Details",
-    "programDetailsTitle": "Walk-in services, monthly classes, and SIV support.",
-    "immigrationTitle": "Immigration Specialist",
-    "immigrationIntro": "Walk-in hours are Wednesday and Friday from 11:00 AM–2:00 PM. Please call to make an appointment outside walk-in hours.",
+    "programDetailsLabel": "Maelezo ya programu",
+    "programDetailsTitle": "Huduma za bila miadi, madarasa ya kila mwezi na msaada wa SIV.",
+    "immigrationTitle": "Mtaalamu wa Uhamiaji",
+    "immigrationIntro": "El horario sin cita es miércoles y viernes de 11:00 AM a 2:00 PM. Llame para programar una cita fuera de ese horario.",
     "immigrationServices": [
-      "Relative Petitions",
-      "Citizenship",
-      "Permanent Residency",
-      "Replacement of lost or stolen documents",
-      "Special Protected Status / Deferred Enforced Departure",
-      "Family Reunification"
+      "Peticiones de familiares",
+      "Ciudadanía",
+      "Residencia permanente",
+      "Reemplazo de documentos perdidos o robados",
+      "Estatus protegido especial / salida forzada diferida",
+      "Reunificación familiar"
     ],
-    "classesTitle": "Monthly Class Schedule",
+    "classesTitle": "Ratiba ya madarasa ya kila mwezi",
     "monthlyClasses": [
-      "First Tuesday @ 11:30 AM — Financial Class with Wells Fargo",
-      "Second Tuesday @ 11:30 AM — Police Training with Phoenix PD",
-      "Third Tuesday @ 11:30 AM — Hygiene & Health Class",
-      "Last Tuesday @ 11:30 AM — Bus and Light-rail Training with Phoenix Valley Metro"
+      "Primer martes @ 11:30 AM — Clase financiera con Wells Fargo",
+      "Segundo martes @ 11:30 AM — Capacitación policial con Phoenix PD",
+      "Tercer martes @ 11:30 AM — Clase de higiene y salud",
+      "Último martes @ 11:30 AM — Capacitación de autobús y tren ligero con Phoenix Valley Metro"
     ],
-    "sivTitle": "Walk-In SIV Services",
+    "sivTitle": "Huduma za SIV bila miadi",
     "sivServices": [
-      "Reception & Placement",
+      "Recepción y colocación",
       "Matching Grant",
       "Preferred Communities",
-      "Employment Services",
-      "State RRP Benefits"
+      "Servicios de empleo",
+      "Beneficios estatales RRP"
     ],
-    "donateTitle": "Support AIRS resettlement services.",
-    "donateText": "Small household items, soft goods, and gift cards can be dropped off at AIRS during office hours. Please call to make an appointment for furniture and large item drop-off.",
+    "donateTitle": "Saidia huduma za makazi mapya za AIRS.",
+    "donateText": "Vifaa vidogo vya nyumbani, vitu laini na kadi za zawadi vinaweza kuletwa AIRS wakati wa saa za kazi. Tafadhali piga simu kupanga miadi kwa samani na vitu vikubwa.",
     "donateNow": "Changia Sasa",
-    "donationCategories": "Items AIRS accepts",
+    "donationCategories": "Vitu AIRS hupokea",
     "donationItems": [
-      "Gift cards for professional clothing, groceries, and thrift stores",
-      "Clean clothing",
-      "Deodorant, soap, shampoo, toothpaste, toilet paper, diapers, and wipes",
-      "Bus passes, safe bikes, bike locks and lights, helmets, car seats, strollers, and wheelchairs",
-      "Dish soap, laundry soap, all-purpose cleaner, and paper towels",
-      "Backpacks, notebooks, pencils, folders, crayons, scissors, glue, and erasers",
-      "Twin sheet sets, twin blankets, and standard bed pillows",
-      "Laptops, desktops, smartphones, and tablets"
+      "Tarjetas de regalo para ropa profesional, comestibles y tiendas de segunda mano",
+      "Ropa limpia",
+      "Desodorante, jabón, champú, pasta dental, papel higiénico, pañales y toallitas",
+      "Pases de autobús, bicicletas seguras, candados y luces, cascos, asientos de auto, carriolas y sillas de ruedas",
+      "Jabón para platos, detergente, limpiador multiuso y toallas de papel",
+      "Mochilas, cuadernos, lápices, carpetas, crayones, tijeras, pegamento y borradores",
+      "Juegos de sábanas individuales, cobijas individuales y almohadas estándar",
+      "Laptops, computadoras de escritorio, teléfonos inteligentes y tabletas"
     ],
-    "donationNote": "Gift cards may be mailed to 10240 N 31st Ave #112, Phoenix, AZ 85051. Include your name, address, and gift amount for receipt purposes. For donation receipts, email info@airsaz.org.",
+    "donationNote": "Las tarjetas de regalo pueden enviarse por correo a 10240 N 31st Ave #112, Phoenix, AZ 85051. Incluya su nombre, dirección y monto del regalo para fines de recibo. Para recibos de donación, escriba a info@airsaz.org.",
     "volunteerLabel": "Jitolee",
-    "volunteerTitle": "Join the AIRS volunteer family.",
-    "volunteerText": "AIRS volunteers help clients with transportation, language support, ESL teaching, events, technical support, cultural orientation, donation pickup, advocacy, mentoring, and community outreach.",
+    "volunteerTitle": "Jiunge na familia ya wajitolea wa AIRS.",
+    "volunteerText": "Los voluntarios de AIRS ayudan con transporte, apoyo lingüístico, enseñanza de ESL, eventos, soporte técnico, orientación cultural, recolección de donaciones, defensa, mentoría y alcance comunitario.",
     "applyVolunteer": "Omba kujitolea",
-    "volunteerProcessTitle": "Volunteer process",
+    "volunteerProcessTitle": "Mchakato wa kujitolea",
     "volunteerProcess": [
-      "Make sure you are ready to begin volunteer work with AIRS.",
-      "Turn in all volunteer paperwork.",
-      "Wait for an email from an AIRS team member to schedule orientation.",
-      "Most volunteer jobs occur Monday–Friday, 9:00 AM–5:00 PM, at or near the North Phoenix office."
+      "Asegúrese de estar listo para comenzar el voluntariado con AIRS.",
+      "Entregue toda la documentación de voluntariado.",
+      "Espere un correo de un miembro del equipo de AIRS para programar la orientación.",
+      "La mayoría de los trabajos de voluntariado ocurren de lunes a viernes, 9:00 AM–5:00 PM, en o cerca de la oficina del norte de Phoenix."
     ],
     "volunteerRoles": [
-      "Transportation to and from medical appointments",
-      "Translation and interpretation",
-      "Teaching English as a second language",
-      "Fundraisers and events",
-      "Office technical support",
-      "Cultural orientation support",
-      "Donation pickup and delivery",
-      "Community advocacy",
-      "Mentoring a refugee family",
-      "Community outreach"
+      "Transporte hacia y desde citas médicas",
+      "Traducción e interpretación",
+      "Enseñanza de inglés como segundo idioma",
+      "Recaudaciones y eventos",
+      "Soporte técnico de oficina",
+      "Apoyo de orientación cultural",
+      "Recogida y entrega de donaciones",
+      "Defensa comunitaria",
+      "Mentoría a una familia refugiada",
+      "Alcance comunitario"
     ],
     "eventsLabel": "Matukio na madarasa",
-    "eventsTitle": "Monthly education and orientation opportunities.",
+    "eventsTitle": "Fursa za elimu na maelekezo za kila mwezi.",
     "viewEvents": "Wasiliana na AIRS kwa tarehe",
     "events": [
       {
-        "title": "Financial Class",
-        "date": "Premier mardi @ 11:30 AM",
-        "text": "Financial education session with Wells Fargo."
+        "title": "Clase financiera",
+        "date": "Primer martes @ 11:30 AM",
+        "text": "Sesión de educación financiera con Wells Fargo."
       },
       {
-        "title": "Police Training",
-        "date": "Deuxième mardi @ 11:30 AM",
-        "text": "Community safety and police training with Phoenix PD."
+        "title": "Capacitación policial",
+        "date": "Segundo martes @ 11:30 AM",
+        "text": "Seguridad comunitaria y capacitación policial con Phoenix PD."
       },
       {
-        "title": "Transit Training",
-        "date": "Dernier mardi @ 11:30 AM",
-        "text": "Bus and Light-rail Training with Phoenix Valley Metro."
+        "title": "Capacitación de transporte",
+        "date": "Último martes @ 11:30 AM",
+        "text": "Capacitación de autobús y tren ligero con Phoenix Valley Metro."
       }
     ],
-    "footerText": "AIRS helps refugee and immigrant families access support, resources, and community connections across Arizona.",
+    "footerText": "AIRS husaidia familia za wakimbizi na wahamiaji kupata msaada, rasilimali na uhusiano wa jamii Arizona.",
     "footerQuickLinks": "Viungo vya haraka",
     "footerServicesTitle": "Huduma",
     "footerGetInvolved": "Shiriki",
-    "footerLegalText": "AIRS is a 501(c)(3) nonprofit organization serving refugee and immigrant communities across Arizona.",
+    "footerLegalText": "AIRS ni shirika lisilo la faida la 501(c)(3) linalohudumia jamii za wakimbizi na wahamiaji Arizona.",
     "footerCopyright": "© 2026 AIRS. Haki zote zimehifadhiwa.",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
@@ -766,7 +1562,7 @@ const localizedContent = {
     "donateButton": "Tanga inkunga",
     "languageLabel": "Hitamo ururimi",
     "heroBadge": "Serivisi z’impunzi n’abimukira muri Maricopa County",
-    "heroTitle": "Gushyigikira impunzi n’abimukira kuva bageze kugeza babashije kwigira.",
+    "heroTitle": "Gufasha impunzi n’abimukira kuva bageze kugeza babashije kwigira.",
     "heroText": "AIRS itanga serivisi z’imibereho, uburezi no gutuza impunzi n’abimukira baza muri Arizona, igafasha imiryango kwimenyereza ubuzima bwo mu muryango.",
     "getHelpButton": "Saba ubufasha",
     "volunteerButton": "Ba umukorerabushake",
@@ -775,49 +1571,49 @@ const localizedContent = {
     "statLanguages": "Serivisi + koherezwa",
     "aboutLabel": "Abo turi bo",
     "aboutTitle": "AIRS imaze imyaka myinshi ikorera abaturage ba Phoenix na Maricopa County.",
-    "aboutText1": "Arizona Immigrant and Refugee Services est une organisation à but non lucratif 501(c)(3), fondée en 1989 pour fournir des services sociaux, économiques et éducatifs aux résidents du centre-ville de Phoenix. En 2001, AIRS a commencé à réinstaller des réfugiés, dont les jeunes de Kakuma, aussi appelés les Lost Boys, parmi les premières arrivées de l’agence.",
-    "aboutText2": "Depuis 2001, AIRS a réinstallé 1 910 réfugiés et immigrants dans le comté de Maricopa. Les programmes d’AIRS offrent logement, nourriture, vêtements, traduction au besoin, cours d’anglais, formation professionnelle, aide à l’emploi, services d’immigration, orientations et autres soutiens.",
+    "aboutText1": "Arizona Immigrant and Refugee Services ni umuryango udaharanira inyungu wa 501(c)(3) washinzwe mu 1989 kugira ngo utange serivisi z’imibereho, ubukungu n’uburezi ku batuye Phoenix. Mu 2001, AIRS yatangiye gufasha impunzi gutuzwa, harimo n’urubyiruko rwa Kakuma ruzwi nka Lost Boys.",
+    "aboutText2": "Kuva mu 2001, AIRS imaze gutuza impunzi n’abimukira 1,910 muri Maricopa County. Porogaramu za AIRS zitanga aho kuba, ibiribwa, imyambaro, ubusemuzi igihe bukenewe, amasomo y’Icyongereza, amahugurwa y’akazi, ubufasha mu kazi, serivisi z’abimukira, koherezwa ku zindi nzego n’ubundi bufasha.",
     "aboutBadges": [
       "Umuryango 501(c)(3)",
       "Yashinzwe mu 1989",
-      "Gutura kuva 2001"
+      "Gutuza impunzi kuva 2001"
     ],
     "servicesLabel": "Serivisi",
-    "servicesTitle": "Practical support for resettlement, immigration, employment, education, and daily life.",
-    "servicesText": "AIRS connects clients with direct services, walk-in support, monthly classes, community referrals, and help navigating life in Arizona.",
+    "servicesTitle": "Ubufasha bufatika mu gutuzwa, abimukira, akazi, uburezi n’ubuzima bwa buri munsi.",
+    "servicesText": "AIRS ihuza abakiriya na serivisi zitaziguye, ubufasha nta gahunda, amasomo ya buri kwezi, koherezwa mu muryango n’ubufasha bwo kumenyera ubuzima muri Arizona.",
     "services": [
       {
-        "title": "Resettlement Support",
-        "text": "Support for recently arrived refugee and immigrant families, including housing, food, clothing, referrals, and help rebuilding stability."
+        "title": "Msaada wa Makazi Mapya",
+        "text": "Msaada kwa familia mpya za wakimbizi na wahamiaji, ikiwa ni pamoja na makazi, chakula, mavazi, rufaa na kujenga uthabiti."
       },
       {
-        "title": "Employment Services",
-        "text": "Job training, employment assistance, workplace preparation, and support connecting clients with local opportunities."
+        "title": "Huduma za Ajira",
+        "text": "Mafunzo ya kazi, msaada wa ajira, maandalizi ya mahali pa kazi na kuunganisha wateja na fursa za eneo."
       },
       {
-        "title": "Immigration Services",
-        "text": "Walk-in immigration support for relative petitions, citizenship, permanent residency, replacement documents, protected status, and family reunification."
+        "title": "Huduma za Uhamiaji",
+        "text": "Msaada wa uhamiaji bila miadi kwa maombi ya ndugu, uraia, ukaazi wa kudumu, hati mbadala, hadhi ya ulinzi na kuunganisha familia."
       },
       {
-        "title": "Classes & Education",
-        "text": "Monthly classes covering financial topics, police training, hygiene and health, and public transportation orientation."
+        "title": "Madarasa na Elimu",
+        "text": "Madarasa ya kila mwezi kuhusu fedha, mafunzo ya polisi, usafi na afya, na maelekezo ya usafiri wa umma."
       },
       {
-        "title": "Transportation Help",
-        "text": "Support connecting clients to medical appointments, services, donations, public transportation, and community resources."
+        "title": "Msaada wa Usafiri",
+        "text": "Kuwasaidia wateja kufika kwenye miadi ya matibabu, huduma, michango, usafiri wa umma na rasilimali za jamii."
       },
       {
-        "title": "SIV Family Support",
-        "text": "Walk-in services for Special Immigrant Visa holders including Reception & Placement, Matching Grant, Preferred Communities, Employment Services, and State RRP Benefits."
+        "title": "Msaada kwa Familia za SIV",
+        "text": "Huduma za bila miadi kwa wenye visa maalum vya wahamiaji, ikiwa ni pamoja na Reception & Placement, Matching Grant, Preferred Communities, Employment Services na State RRP Benefits."
       }
     ],
     "requestHelp": "Saba ubufasha",
     "getHelpLabel": "Saba ubufasha",
-    "getHelpTitle": "Contact AIRS or visit during service hours.",
-    "getHelpText": "Use this form to contact AIRS about services, support, or general assistance. A team member will follow up using the contact information provided.",
+    "getHelpTitle": "Vugana na AIRS cyangwa usure mu masaha ya serivisi.",
+    "getHelpText": "Koresha iyi fomu kuvugana na AIRS ku bijyanye na serivisi, ubufasha cyangwa ibibazo rusange. Umukozi azagusubiza akoresheje amakuru watanze.",
     "officeInfo": "Amakuru y’ibiro",
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
-    "fax": "Fax : (602) 944-1860",
+    "fax": "Fax: (602) 944-1860",
     "officeHours": "Kuwa mbere–kuwa gatanu, 9:00 AM–4:30 PM",
     "holidayNote": "Ibiro bifungwa ku minsi mikuru ya leta.",
     "fullName": "Amazina yose",
@@ -827,764 +1623,129 @@ const localizedContent = {
     "preferredLanguage": "Ururimi ukunda",
     "serviceNeeded": "Serivisi ikenewe",
     "serviceOptions": [
-      "Ubufasha ku by’abimukira",
-      "Ubufasha bw’aho gutura cyangwa gutuzwa",
-      "Ubufasha bw’akazi",
-      "Amasomo cyangwa uburezi",
-      "Ikibazo cy’inkunga cyangwa ubukorerabushake",
-      "Ibindi"
+      "Apoyo migratorio",
+      "Apoyo de vivienda o reasentamiento",
+      "Apoyo de empleo",
+      "Clases o educación",
+      "Pregunta sobre donaciones o voluntariado",
+      "Otro"
     ],
     "message": "Ubutumwa",
     "messagePlaceholder": "Tubwire icyo ukeneyeho ubufasha",
-    "consent": "Nemeye ko AIRS ishobora kumpamagara cyangwa kunyandikira ku busabe bwanjye.",
+    "consent": "Nemeye ko AIRS ishobora kunyandikira cyangwa kumpamagara ku busabe bwanjye.",
     "submitRequest": "Ohereza ubusabe",
-    "officialInfoLabel": "Official AIRS information",
-    "officialInfoTitle": "Core facts carried over from the current AIRS website.",
+    "officialInfoLabel": "Amakuru yemewe ya AIRS",
+    "officialInfoTitle": "Amakuru y’ingenzi yakuwe ku rubuga rwa AIRS rw’ubu.",
     "infoCards": [
       {
-        "title": "Mission",
-        "text": "AIRS provides social and educational services to meet the needs of refugees and immigrants coming to Arizona by ensuring a successful transition from arrival to self-sufficiency."
+        "title": "Misión",
+        "text": "AIRS proporciona servicios sociales y educativos para satisfacer las necesidades de refugiados e inmigrantes que llegan a Arizona, asegurando una transición exitosa desde la llegada hasta la autosuficiencia."
       },
       {
-        "title": "ECDC Connection",
-        "text": "AIRS is a subsidiary of ECDC and conducts activities with support from federal, state, community, and individual partners."
+        "title": "Conexión con ECDC",
+        "text": "AIRS es una subsidiaria de ECDC y realiza actividades con apoyo de socios federales, estatales, comunitarios e individuales."
       },
       {
-        "title": "Office Hours",
-        "text": "Monday through Friday, 9:00 AM–4:30 PM. The office is closed on federal holidays."
+        "title": "Horario de oficina",
+        "text": "Lunes a viernes, 9:00 AM–4:30 PM. La oficina cierra en días feriados federales."
       }
     ],
-    "programDetailsLabel": "Program Details",
-    "programDetailsTitle": "Walk-in services, monthly classes, and SIV support.",
-    "immigrationTitle": "Immigration Specialist",
-    "immigrationIntro": "Walk-in hours are Wednesday and Friday from 11:00 AM–2:00 PM. Please call to make an appointment outside walk-in hours.",
+    "programDetailsLabel": "Ibisobanuro bya porogaramu",
+    "programDetailsTitle": "Serivisi nta gahunda, amasomo ya buri kwezi n’ubufasha bwa SIV.",
+    "immigrationTitle": "Impuguke mu by’abimukira",
+    "immigrationIntro": "El horario sin cita es miércoles y viernes de 11:00 AM a 2:00 PM. Llame para programar una cita fuera de ese horario.",
     "immigrationServices": [
-      "Relative Petitions",
-      "Citizenship",
-      "Permanent Residency",
-      "Replacement of lost or stolen documents",
-      "Special Protected Status / Deferred Enforced Departure",
-      "Family Reunification"
+      "Peticiones de familiares",
+      "Ciudadanía",
+      "Residencia permanente",
+      "Reemplazo de documentos perdidos o robados",
+      "Estatus protegido especial / salida forzada diferida",
+      "Reunificación familiar"
     ],
-    "classesTitle": "Monthly Class Schedule",
+    "classesTitle": "Gahunda y’amasomo ya buri kwezi",
     "monthlyClasses": [
-      "First Tuesday @ 11:30 AM — Financial Class with Wells Fargo",
-      "Second Tuesday @ 11:30 AM — Police Training with Phoenix PD",
-      "Third Tuesday @ 11:30 AM — Hygiene & Health Class",
-      "Last Tuesday @ 11:30 AM — Bus and Light-rail Training with Phoenix Valley Metro"
+      "Primer martes @ 11:30 AM — Clase financiera con Wells Fargo",
+      "Segundo martes @ 11:30 AM — Capacitación policial con Phoenix PD",
+      "Tercer martes @ 11:30 AM — Clase de higiene y salud",
+      "Último martes @ 11:30 AM — Capacitación de autobús y tren ligero con Phoenix Valley Metro"
     ],
-    "sivTitle": "Walk-In SIV Services",
+    "sivTitle": "Serivisi za SIV nta gahunda",
     "sivServices": [
-      "Reception & Placement",
+      "Recepción y colocación",
       "Matching Grant",
       "Preferred Communities",
-      "Employment Services",
-      "State RRP Benefits"
+      "Servicios de empleo",
+      "Beneficios estatales RRP"
     ],
-    "donateTitle": "Support AIRS resettlement services.",
-    "donateText": "Small household items, soft goods, and gift cards can be dropped off at AIRS during office hours. Please call to make an appointment for furniture and large item drop-off.",
+    "donateTitle": "Shyigikira serivisi za AIRS zo gutuza impunzi.",
+    "donateText": "Ibikoresho bito byo mu rugo, imyenda n’amakarita y’impano bishobora kuzanwa kuri AIRS mu masaha y’akazi. Hamagara kugira ngo ushyireho gahunda yo gutanga ibikoresho binini.",
     "donateNow": "Tanga inkunga ubu",
-    "donationCategories": "Items AIRS accepts",
+    "donationCategories": "Ibintu AIRS yemera",
     "donationItems": [
-      "Gift cards for professional clothing, groceries, and thrift stores",
-      "Clean clothing",
-      "Deodorant, soap, shampoo, toothpaste, toilet paper, diapers, and wipes",
-      "Bus passes, safe bikes, bike locks and lights, helmets, car seats, strollers, and wheelchairs",
-      "Dish soap, laundry soap, all-purpose cleaner, and paper towels",
-      "Backpacks, notebooks, pencils, folders, crayons, scissors, glue, and erasers",
-      "Twin sheet sets, twin blankets, and standard bed pillows",
-      "Laptops, desktops, smartphones, and tablets"
+      "Tarjetas de regalo para ropa profesional, comestibles y tiendas de segunda mano",
+      "Ropa limpia",
+      "Desodorante, jabón, champú, pasta dental, papel higiénico, pañales y toallitas",
+      "Pases de autobús, bicicletas seguras, candados y luces, cascos, asientos de auto, carriolas y sillas de ruedas",
+      "Jabón para platos, detergente, limpiador multiuso y toallas de papel",
+      "Mochilas, cuadernos, lápices, carpetas, crayones, tijeras, pegamento y borradores",
+      "Juegos de sábanas individuales, cobijas individuales y almohadas estándar",
+      "Laptops, computadoras de escritorio, teléfonos inteligentes y tabletas"
     ],
-    "donationNote": "Gift cards may be mailed to 10240 N 31st Ave #112, Phoenix, AZ 85051. Include your name, address, and gift amount for receipt purposes. For donation receipts, email info@airsaz.org.",
+    "donationNote": "Las tarjetas de regalo pueden enviarse por correo a 10240 N 31st Ave #112, Phoenix, AZ 85051. Incluya su nombre, dirección y monto del regalo para fines de recibo. Para recibos de donación, escriba a info@airsaz.org.",
     "volunteerLabel": "Ubukorerabushake",
-    "volunteerTitle": "Join the AIRS volunteer family.",
-    "volunteerText": "AIRS volunteers help clients with transportation, language support, ESL teaching, events, technical support, cultural orientation, donation pickup, advocacy, mentoring, and community outreach.",
+    "volunteerTitle": "Injira mu muryango w’abakorerabushake ba AIRS.",
+    "volunteerText": "Los voluntarios de AIRS ayudan con transporte, apoyo lingüístico, enseñanza de ESL, eventos, soporte técnico, orientación cultural, recolección de donaciones, defensa, mentoría y alcance comunitario.",
     "applyVolunteer": "Saba kuba umukorerabushake",
-    "volunteerProcessTitle": "Volunteer process",
+    "volunteerProcessTitle": "Inzira yo kuba umukorerabushake",
     "volunteerProcess": [
-      "Make sure you are ready to begin volunteer work with AIRS.",
-      "Turn in all volunteer paperwork.",
-      "Wait for an email from an AIRS team member to schedule orientation.",
-      "Most volunteer jobs occur Monday–Friday, 9:00 AM–5:00 PM, at or near the North Phoenix office."
+      "Asegúrese de estar listo para comenzar el voluntariado con AIRS.",
+      "Entregue toda la documentación de voluntariado.",
+      "Espere un correo de un miembro del equipo de AIRS para programar la orientación.",
+      "La mayoría de los trabajos de voluntariado ocurren de lunes a viernes, 9:00 AM–5:00 PM, en o cerca de la oficina del norte de Phoenix."
     ],
     "volunteerRoles": [
-      "Transportation to and from medical appointments",
-      "Translation and interpretation",
-      "Teaching English as a second language",
-      "Fundraisers and events",
-      "Office technical support",
-      "Cultural orientation support",
-      "Donation pickup and delivery",
-      "Community advocacy",
-      "Mentoring a refugee family",
-      "Community outreach"
+      "Transporte hacia y desde citas médicas",
+      "Traducción e interpretación",
+      "Enseñanza de inglés como segundo idioma",
+      "Recaudaciones y eventos",
+      "Soporte técnico de oficina",
+      "Apoyo de orientación cultural",
+      "Recogida y entrega de donaciones",
+      "Defensa comunitaria",
+      "Mentoría a una familia refugiada",
+      "Alcance comunitario"
     ],
     "eventsLabel": "Ibikorwa n’amasomo",
-    "eventsTitle": "Monthly education and orientation opportunities.",
+    "eventsTitle": "Amahirwe ya buri kwezi y’uburezi no kumenyerezwa.",
     "viewEvents": "Vugana na AIRS ku matariki",
     "events": [
       {
-        "title": "Financial Class",
-        "date": "Premier mardi @ 11:30 AM",
-        "text": "Financial education session with Wells Fargo."
+        "title": "Clase financiera",
+        "date": "Primer martes @ 11:30 AM",
+        "text": "Sesión de educación financiera con Wells Fargo."
       },
       {
-        "title": "Police Training",
-        "date": "Deuxième mardi @ 11:30 AM",
-        "text": "Community safety and police training with Phoenix PD."
+        "title": "Capacitación policial",
+        "date": "Segundo martes @ 11:30 AM",
+        "text": "Seguridad comunitaria y capacitación policial con Phoenix PD."
       },
       {
-        "title": "Transit Training",
-        "date": "Dernier mardi @ 11:30 AM",
-        "text": "Bus and Light-rail Training with Phoenix Valley Metro."
+        "title": "Capacitación de transporte",
+        "date": "Último martes @ 11:30 AM",
+        "text": "Capacitación de autobús y tren ligero con Phoenix Valley Metro."
       }
     ],
-    "footerText": "AIRS helps refugee and immigrant families access support, resources, and community connections across Arizona.",
+    "footerText": "AIRS ifasha imiryango y’impunzi n’abimukira kubona ubufasha, amakuru n’imikoranire y’umuryango muri Arizona.",
     "footerQuickLinks": "Amahuriro yihuse",
     "footerServicesTitle": "Serivisi",
     "footerGetInvolved": "Gira uruhare",
-    "footerLegalText": "AIRS is a 501(c)(3) nonprofit organization serving refugee and immigrant communities across Arizona.",
+    "footerLegalText": "AIRS ni umuryango udaharanira inyungu wa 501(c)(3) ukorera impunzi n’abimukira muri Arizona.",
     "footerCopyright": "© 2026 AIRS. Uburenganzira bwose burabitswe.",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
     "addPhone": "(602) 944-1821",
     "addEmail": "info@airsaz.org"
-  },
-  "Arabic": {
-    "siteFullName": "خدمات المهاجرين واللاجئين في أريزونا",
-    "nav": [
-      "الرئيسية",
-      "من نحن",
-      "الخدمات",
-      "احصل على المساعدة",
-      "تبرع",
-      "تطوع",
-      "الفعاليات",
-      "اتصل بنا"
-    ],
-    "donateButton": "تبرع",
-    "languageLabel": "اختر اللغة",
-    "heroBadge": "خدمات اللاجئين والمهاجرين في مقاطعة ماريكوبا",
-    "heroTitle": "دعم اللاجئين والمهاجرين من الوصول إلى الاعتماد على الذات.",
-    "heroText": "تقدم AIRS خدمات اجتماعية وتعليمية وإعادة توطين للاجئين والمهاجرين القادمين إلى أريزونا، لمساعدة العائلات على الانتقال بنجاح إلى الحياة المجتمعية.",
-    "getHelpButton": "احصل على المساعدة",
-    "volunteerButton": "تطوع معنا",
-    "statYears": "تأسست عام 1989",
-    "statResettled": "إعادة توطين 1,910",
-    "statLanguages": "خدمات وإحالات",
-    "aboutLabel": "من نحن",
-    "aboutTitle": "خدمت AIRS مجتمعات فينيكس ومقاطعة ماريكوبا لعقود.",
-    "aboutText1": "Arizona Immigrant and Refugee Services est une organisation à but non lucratif 501(c)(3), fondée en 1989 pour fournir des services sociaux, économiques et éducatifs aux résidents du centre-ville de Phoenix. En 2001, AIRS a commencé à réinstaller des réfugiés, dont les jeunes de Kakuma, aussi appelés les Lost Boys, parmi les premières arrivées de l’agence.",
-    "aboutText2": "Depuis 2001, AIRS a réinstallé 1 910 réfugiés et immigrants dans le comté de Maricopa. Les programmes d’AIRS offrent logement, nourriture, vêtements, traduction au besoin, cours d’anglais, formation professionnelle, aide à l’emploi, services d’immigration, orientations et autres soutiens.",
-    "aboutBadges": [
-      "منظمة 501(c)(3)",
-      "تأسست عام 1989",
-      "إعادة التوطين منذ 2001"
-    ],
-    "servicesLabel": "الخدمات",
-    "servicesTitle": "Practical support for resettlement, immigration, employment, education, and daily life.",
-    "servicesText": "AIRS connects clients with direct services, walk-in support, monthly classes, community referrals, and help navigating life in Arizona.",
-    "services": [
-      {
-        "title": "Resettlement Support",
-        "text": "Support for recently arrived refugee and immigrant families, including housing, food, clothing, referrals, and help rebuilding stability."
-      },
-      {
-        "title": "Employment Services",
-        "text": "Job training, employment assistance, workplace preparation, and support connecting clients with local opportunities."
-      },
-      {
-        "title": "Immigration Services",
-        "text": "Walk-in immigration support for relative petitions, citizenship, permanent residency, replacement documents, protected status, and family reunification."
-      },
-      {
-        "title": "Classes & Education",
-        "text": "Monthly classes covering financial topics, police training, hygiene and health, and public transportation orientation."
-      },
-      {
-        "title": "Transportation Help",
-        "text": "Support connecting clients to medical appointments, services, donations, public transportation, and community resources."
-      },
-      {
-        "title": "SIV Family Support",
-        "text": "Walk-in services for Special Immigrant Visa holders including Reception & Placement, Matching Grant, Preferred Communities, Employment Services, and State RRP Benefits."
-      }
-    ],
-    "requestHelp": "اطلب المساعدة",
-    "getHelpLabel": "احصل على المساعدة",
-    "getHelpTitle": "Contact AIRS or visit during service hours.",
-    "getHelpText": "Use this form to contact AIRS about services, support, or general assistance. A team member will follow up using the contact information provided.",
-    "officeInfo": "معلومات المكتب",
-    "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
-    "fax": "Fax : (602) 944-1860",
-    "officeHours": "الاثنين–الجمعة، 9:00 صباحًا–4:30 مساءً",
-    "holidayNote": "المكتب مغلق في العطلات الفدرالية.",
-    "fullName": "الاسم الكامل",
-    "fullNamePlaceholder": "اسمك",
-    "contactMethod": "الهاتف أو البريد الإلكتروني",
-    "contactPlaceholder": "أفضل وسيلة تواصل",
-    "preferredLanguage": "اللغة المفضلة",
-    "serviceNeeded": "الخدمة المطلوبة",
-    "serviceOptions": [
-      "دعم الهجرة",
-      "دعم السكن أو إعادة التوطين",
-      "دعم التوظيف",
-      "دروس أو تعليم",
-      "سؤال عن التبرعات أو التطوع",
-      "أخرى"
-    ],
-    "message": "الرسالة",
-    "messagePlaceholder": "أخبرنا بما تحتاج إلى مساعدة فيه",
-    "consent": "أوافق على أن تتواصل AIRS معي بخصوص طلبي.",
-    "submitRequest": "إرسال الطلب",
-    "officialInfoLabel": "Official AIRS information",
-    "officialInfoTitle": "Core facts carried over from the current AIRS website.",
-    "infoCards": [
-      {
-        "title": "Mission",
-        "text": "AIRS provides social and educational services to meet the needs of refugees and immigrants coming to Arizona by ensuring a successful transition from arrival to self-sufficiency."
-      },
-      {
-        "title": "ECDC Connection",
-        "text": "AIRS is a subsidiary of ECDC and conducts activities with support from federal, state, community, and individual partners."
-      },
-      {
-        "title": "Office Hours",
-        "text": "Monday through Friday, 9:00 AM–4:30 PM. The office is closed on federal holidays."
-      }
-    ],
-    "programDetailsLabel": "Program Details",
-    "programDetailsTitle": "Walk-in services, monthly classes, and SIV support.",
-    "immigrationTitle": "Immigration Specialist",
-    "immigrationIntro": "Walk-in hours are Wednesday and Friday from 11:00 AM–2:00 PM. Please call to make an appointment outside walk-in hours.",
-    "immigrationServices": [
-      "Relative Petitions",
-      "Citizenship",
-      "Permanent Residency",
-      "Replacement of lost or stolen documents",
-      "Special Protected Status / Deferred Enforced Departure",
-      "Family Reunification"
-    ],
-    "classesTitle": "Monthly Class Schedule",
-    "monthlyClasses": [
-      "First Tuesday @ 11:30 AM — Financial Class with Wells Fargo",
-      "Second Tuesday @ 11:30 AM — Police Training with Phoenix PD",
-      "Third Tuesday @ 11:30 AM — Hygiene & Health Class",
-      "Last Tuesday @ 11:30 AM — Bus and Light-rail Training with Phoenix Valley Metro"
-    ],
-    "sivTitle": "Walk-In SIV Services",
-    "sivServices": [
-      "Reception & Placement",
-      "Matching Grant",
-      "Preferred Communities",
-      "Employment Services",
-      "State RRP Benefits"
-    ],
-    "donateTitle": "Support AIRS resettlement services.",
-    "donateText": "Small household items, soft goods, and gift cards can be dropped off at AIRS during office hours. Please call to make an appointment for furniture and large item drop-off.",
-    "donateNow": "تبرع الآن",
-    "donationCategories": "Items AIRS accepts",
-    "donationItems": [
-      "Gift cards for professional clothing, groceries, and thrift stores",
-      "Clean clothing",
-      "Deodorant, soap, shampoo, toothpaste, toilet paper, diapers, and wipes",
-      "Bus passes, safe bikes, bike locks and lights, helmets, car seats, strollers, and wheelchairs",
-      "Dish soap, laundry soap, all-purpose cleaner, and paper towels",
-      "Backpacks, notebooks, pencils, folders, crayons, scissors, glue, and erasers",
-      "Twin sheet sets, twin blankets, and standard bed pillows",
-      "Laptops, desktops, smartphones, and tablets"
-    ],
-    "donationNote": "Gift cards may be mailed to 10240 N 31st Ave #112, Phoenix, AZ 85051. Include your name, address, and gift amount for receipt purposes. For donation receipts, email info@airsaz.org.",
-    "volunteerLabel": "تطوع",
-    "volunteerTitle": "Join the AIRS volunteer family.",
-    "volunteerText": "AIRS volunteers help clients with transportation, language support, ESL teaching, events, technical support, cultural orientation, donation pickup, advocacy, mentoring, and community outreach.",
-    "applyVolunteer": "قدّم للتطوع",
-    "volunteerProcessTitle": "Volunteer process",
-    "volunteerProcess": [
-      "Make sure you are ready to begin volunteer work with AIRS.",
-      "Turn in all volunteer paperwork.",
-      "Wait for an email from an AIRS team member to schedule orientation.",
-      "Most volunteer jobs occur Monday–Friday, 9:00 AM–5:00 PM, at or near the North Phoenix office."
-    ],
-    "volunteerRoles": [
-      "Transportation to and from medical appointments",
-      "Translation and interpretation",
-      "Teaching English as a second language",
-      "Fundraisers and events",
-      "Office technical support",
-      "Cultural orientation support",
-      "Donation pickup and delivery",
-      "Community advocacy",
-      "Mentoring a refugee family",
-      "Community outreach"
-    ],
-    "eventsLabel": "الفعاليات والدروس",
-    "eventsTitle": "Monthly education and orientation opportunities.",
-    "viewEvents": "اتصل بـ AIRS لمعرفة التواريخ",
-    "events": [
-      {
-        "title": "Financial Class",
-        "date": "Premier mardi @ 11:30 AM",
-        "text": "Financial education session with Wells Fargo."
-      },
-      {
-        "title": "Police Training",
-        "date": "Deuxième mardi @ 11:30 AM",
-        "text": "Community safety and police training with Phoenix PD."
-      },
-      {
-        "title": "Transit Training",
-        "date": "Dernier mardi @ 11:30 AM",
-        "text": "Bus and Light-rail Training with Phoenix Valley Metro."
-      }
-    ],
-    "footerText": "AIRS helps refugee and immigrant families access support, resources, and community connections across Arizona.",
-    "footerQuickLinks": "روابط سريعة",
-    "footerServicesTitle": "الخدمات",
-    "footerGetInvolved": "شارك معنا",
-    "footerLegalText": "AIRS is a 501(c)(3) nonprofit organization serving refugee and immigrant communities across Arizona.",
-    "footerCopyright": "© 2026 AIRS. جميع الحقوق محفوظة.",
-    "phonePlaceholder": "(602) 944-1821",
-    "emailPlaceholder": "info@airsaz.org",
-    "addPhone": "(602) 944-1821",
-    "addEmail": "info@airsaz.org"
-  },
-  "Dari": {
-    "siteFullName": "خدمات مهاجرین و پناهندگان آریزونا",
-    "nav": [
-      "خانه",
-      "درباره",
-      "خدمات",
-      "کمک بگیرید",
-      "کمک مالی",
-      "داوطلبی",
-      "رویدادها",
-      "تماس"
-    ],
-    "donateButton": "کمک مالی",
-    "languageLabel": "انتخاب زبان",
-    "heroBadge": "خدمات پناهندگان و مهاجرین در شهرستان ماریکوپا",
-    "heroTitle": "حمایت از پناهندگان و مهاجرین از زمان ورود تا خودکفایی.",
-    "heroText": "AIRS خدمات اجتماعی، آموزشی و اسکان مجدد را برای پناهندگان و مهاجرینی که به آریزونا می‌آیند فراهم می‌کند و به خانواده‌ها کمک می‌کند با موفقیت وارد زندگی اجتماعی شوند.",
-    "getHelpButton": "کمک بگیرید",
-    "volunteerButton": "با ما داوطلب شوید",
-    "statYears": "تأسیس در 1989",
-    "statResettled": "1,910 نفر اسکان داده شده",
-    "statLanguages": "خدمات و معرفی‌ها",
-    "aboutLabel": "ما کی هستیم",
-    "aboutTitle": "AIRS برای دهه‌ها به جوامع فینیکس و شهرستان ماریکوپا خدمت کرده است.",
-    "aboutText1": "Arizona Immigrant and Refugee Services est une organisation à but non lucratif 501(c)(3), fondée en 1989 pour fournir des services sociaux, économiques et éducatifs aux résidents du centre-ville de Phoenix. En 2001, AIRS a commencé à réinstaller des réfugiés, dont les jeunes de Kakuma, aussi appelés les Lost Boys, parmi les premières arrivées de l’agence.",
-    "aboutText2": "Depuis 2001, AIRS a réinstallé 1 910 réfugiés et immigrants dans le comté de Maricopa. Les programmes d’AIRS offrent logement, nourriture, vêtements, traduction au besoin, cours d’anglais, formation professionnelle, aide à l’emploi, services d’immigration, orientations et autres soutiens.",
-    "aboutBadges": [
-      "نهاد 501(c)(3)",
-      "تأسیس در 1989",
-      "اسکان مجدد از 2001"
-    ],
-    "servicesLabel": "خدمات",
-    "servicesTitle": "Practical support for resettlement, immigration, employment, education, and daily life.",
-    "servicesText": "AIRS connects clients with direct services, walk-in support, monthly classes, community referrals, and help navigating life in Arizona.",
-    "services": [
-      {
-        "title": "Resettlement Support",
-        "text": "Support for recently arrived refugee and immigrant families, including housing, food, clothing, referrals, and help rebuilding stability."
-      },
-      {
-        "title": "Employment Services",
-        "text": "Job training, employment assistance, workplace preparation, and support connecting clients with local opportunities."
-      },
-      {
-        "title": "Immigration Services",
-        "text": "Walk-in immigration support for relative petitions, citizenship, permanent residency, replacement documents, protected status, and family reunification."
-      },
-      {
-        "title": "Classes & Education",
-        "text": "Monthly classes covering financial topics, police training, hygiene and health, and public transportation orientation."
-      },
-      {
-        "title": "Transportation Help",
-        "text": "Support connecting clients to medical appointments, services, donations, public transportation, and community resources."
-      },
-      {
-        "title": "SIV Family Support",
-        "text": "Walk-in services for Special Immigrant Visa holders including Reception & Placement, Matching Grant, Preferred Communities, Employment Services, and State RRP Benefits."
-      }
-    ],
-    "requestHelp": "درخواست کمک",
-    "getHelpLabel": "کمک بگیرید",
-    "getHelpTitle": "Contact AIRS or visit during service hours.",
-    "getHelpText": "Use this form to contact AIRS about services, support, or general assistance. A team member will follow up using the contact information provided.",
-    "officeInfo": "معلومات دفتر",
-    "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
-    "fax": "Fax : (602) 944-1860",
-    "officeHours": "دوشنبه تا جمعه، 9:00 صبح تا 4:30 بعد از چاشت",
-    "holidayNote": "دفتر در رخصتی‌های فدرال بسته است.",
-    "fullName": "نام کامل",
-    "fullNamePlaceholder": "نام شما",
-    "contactMethod": "تلفن یا ایمیل",
-    "contactPlaceholder": "بهترین راه تماس",
-    "preferredLanguage": "زبان ترجیحی",
-    "serviceNeeded": "خدمت مورد نیاز",
-    "serviceOptions": [
-      "حمایت مهاجرت",
-      "حمایت مسکن یا اسکان مجدد",
-      "حمایت کاریابی",
-      "صنف‌ها یا آموزش",
-      "سؤال درباره کمک مالی یا داوطلبی",
-      "دیگر"
-    ],
-    "message": "پیام",
-    "messagePlaceholder": "برای ما بگویید در چه مورد به کمک نیاز دارید",
-    "consent": "من موافقم که AIRS درباره درخواست من با من تماس بگیرد.",
-    "submitRequest": "ارسال درخواست",
-    "officialInfoLabel": "Official AIRS information",
-    "officialInfoTitle": "Core facts carried over from the current AIRS website.",
-    "infoCards": [
-      {
-        "title": "Mission",
-        "text": "AIRS provides social and educational services to meet the needs of refugees and immigrants coming to Arizona by ensuring a successful transition from arrival to self-sufficiency."
-      },
-      {
-        "title": "ECDC Connection",
-        "text": "AIRS is a subsidiary of ECDC and conducts activities with support from federal, state, community, and individual partners."
-      },
-      {
-        "title": "Office Hours",
-        "text": "Monday through Friday, 9:00 AM–4:30 PM. The office is closed on federal holidays."
-      }
-    ],
-    "programDetailsLabel": "Program Details",
-    "programDetailsTitle": "Walk-in services, monthly classes, and SIV support.",
-    "immigrationTitle": "Immigration Specialist",
-    "immigrationIntro": "Walk-in hours are Wednesday and Friday from 11:00 AM–2:00 PM. Please call to make an appointment outside walk-in hours.",
-    "immigrationServices": [
-      "Relative Petitions",
-      "Citizenship",
-      "Permanent Residency",
-      "Replacement of lost or stolen documents",
-      "Special Protected Status / Deferred Enforced Departure",
-      "Family Reunification"
-    ],
-    "classesTitle": "Monthly Class Schedule",
-    "monthlyClasses": [
-      "First Tuesday @ 11:30 AM — Financial Class with Wells Fargo",
-      "Second Tuesday @ 11:30 AM — Police Training with Phoenix PD",
-      "Third Tuesday @ 11:30 AM — Hygiene & Health Class",
-      "Last Tuesday @ 11:30 AM — Bus and Light-rail Training with Phoenix Valley Metro"
-    ],
-    "sivTitle": "Walk-In SIV Services",
-    "sivServices": [
-      "Reception & Placement",
-      "Matching Grant",
-      "Preferred Communities",
-      "Employment Services",
-      "State RRP Benefits"
-    ],
-    "donateTitle": "Support AIRS resettlement services.",
-    "donateText": "Small household items, soft goods, and gift cards can be dropped off at AIRS during office hours. Please call to make an appointment for furniture and large item drop-off.",
-    "donateNow": "اکنون کمک کنید",
-    "donationCategories": "Items AIRS accepts",
-    "donationItems": [
-      "Gift cards for professional clothing, groceries, and thrift stores",
-      "Clean clothing",
-      "Deodorant, soap, shampoo, toothpaste, toilet paper, diapers, and wipes",
-      "Bus passes, safe bikes, bike locks and lights, helmets, car seats, strollers, and wheelchairs",
-      "Dish soap, laundry soap, all-purpose cleaner, and paper towels",
-      "Backpacks, notebooks, pencils, folders, crayons, scissors, glue, and erasers",
-      "Twin sheet sets, twin blankets, and standard bed pillows",
-      "Laptops, desktops, smartphones, and tablets"
-    ],
-    "donationNote": "Gift cards may be mailed to 10240 N 31st Ave #112, Phoenix, AZ 85051. Include your name, address, and gift amount for receipt purposes. For donation receipts, email info@airsaz.org.",
-    "volunteerLabel": "داوطلبی",
-    "volunteerTitle": "Join the AIRS volunteer family.",
-    "volunteerText": "AIRS volunteers help clients with transportation, language support, ESL teaching, events, technical support, cultural orientation, donation pickup, advocacy, mentoring, and community outreach.",
-    "applyVolunteer": "درخواست داوطلبی",
-    "volunteerProcessTitle": "Volunteer process",
-    "volunteerProcess": [
-      "Make sure you are ready to begin volunteer work with AIRS.",
-      "Turn in all volunteer paperwork.",
-      "Wait for an email from an AIRS team member to schedule orientation.",
-      "Most volunteer jobs occur Monday–Friday, 9:00 AM–5:00 PM, at or near the North Phoenix office."
-    ],
-    "volunteerRoles": [
-      "Transportation to and from medical appointments",
-      "Translation and interpretation",
-      "Teaching English as a second language",
-      "Fundraisers and events",
-      "Office technical support",
-      "Cultural orientation support",
-      "Donation pickup and delivery",
-      "Community advocacy",
-      "Mentoring a refugee family",
-      "Community outreach"
-    ],
-    "eventsLabel": "رویدادها و صنف‌ها",
-    "eventsTitle": "Monthly education and orientation opportunities.",
-    "viewEvents": "برای تاریخ‌ها با AIRS تماس بگیرید",
-    "events": [
-      {
-        "title": "Financial Class",
-        "date": "Premier mardi @ 11:30 AM",
-        "text": "Financial education session with Wells Fargo."
-      },
-      {
-        "title": "Police Training",
-        "date": "Deuxième mardi @ 11:30 AM",
-        "text": "Community safety and police training with Phoenix PD."
-      },
-      {
-        "title": "Transit Training",
-        "date": "Dernier mardi @ 11:30 AM",
-        "text": "Bus and Light-rail Training with Phoenix Valley Metro."
-      }
-    ],
-    "footerText": "AIRS helps refugee and immigrant families access support, resources, and community connections across Arizona.",
-    "footerQuickLinks": "لینک‌های سریع",
-    "footerServicesTitle": "خدمات",
-    "footerGetInvolved": "همراه شوید",
-    "footerLegalText": "AIRS is a 501(c)(3) nonprofit organization serving refugee and immigrant communities across Arizona.",
-    "footerCopyright": "© 2026 AIRS. همه حقوق محفوظ است.",
-    "phonePlaceholder": "(602) 944-1821",
-    "emailPlaceholder": "info@airsaz.org",
-    "addPhone": "(602) 944-1821",
-    "addEmail": "info@airsaz.org"
   }
-};
-
-
-Object.assign(localizedContent.Spanish, { privacyNotice: "Su información solo será usada por AIRS para responder a su solicitud.", askAboutDonations: "Preguntar sobre donaciones", paypalNotice: "Las donaciones se procesan de forma segura mediante PayPal. Confirme el enlace oficial de donación de AIRS antes del lanzamiento final.", donationNoteLabel: "Nota de donación:", getDirections: "(Obtener indicaciones)" });
-Object.assign(localizedContent.French, { privacyNotice: "Vos informations seront utilisées uniquement par AIRS pour répondre à votre demande.", askAboutDonations: "Questions sur les dons", paypalNotice: "Les dons sont traités en toute sécurité par PayPal. Veuillez confirmer le lien officiel de don AIRS avant le lancement final.", donationNoteLabel: "Note de don :", getDirections: "(Itinéraire)" });
-Object.assign(localizedContent.Swahili, { privacyNotice: "Taarifa zako zitatumiwa na AIRS kujibu ombi lako pekee.", askAboutDonations: "Uliza Kuhusu Michango", paypalNotice: "Michango huchakatwa kwa usalama kupitia PayPal. Tafadhali thibitisha kiungo rasmi cha AIRS kabla ya uzinduzi wa mwisho.", donationNoteLabel: "Taarifa ya mchango:", getDirections: "(Pata maelekezo)" });
-Object.assign(localizedContent.Kinyarwanda, { privacyNotice: "Amakuru yawe azakoreshwa na AIRS gusa mu gusubiza ubusabe bwawe.", askAboutDonations: "Baza ku nkunga", paypalNotice: "Inkunga itunganywa mu mutekano binyuze kuri PayPal. Emeza linki yemewe ya AIRS mbere yo gushyira ku mugaragaro.", donationNoteLabel: "Icyitonderwa cy’inkunga:", getDirections: "(Bona icyerekezo)" });
-Object.assign(localizedContent.Arabic, { privacyNotice: "سيتم استخدام معلوماتك فقط من قبل AIRS للرد على طلبك.", askAboutDonations: "اسأل عن التبرعات", paypalNotice: "تتم معالجة التبرعات بأمان عبر PayPal. يرجى تأكيد رابط التبرع الرسمي لـ AIRS قبل الإطلاق النهائي.", donationNoteLabel: "ملاحظة التبرع:", getDirections: "(الحصول على الاتجاهات)" });
-Object.assign(localizedContent.Dari, { privacyNotice: "معلومات شما فقط توسط AIRS برای پاسخ به درخواست شما استفاده می‌شود.", askAboutDonations: "درباره کمک مالی بپرسید", paypalNotice: "کمک‌های مالی به‌صورت امن از طریق PayPal پردازش می‌شود. لطفاً لینک رسمی کمک مالی AIRS را پیش از راه‌اندازی نهایی تأیید کنید.", donationNoteLabel: "یادداشت کمک مالی:", getDirections: "(دریافت مسیر)" });
-
-localizedContent.Pashto = {
-  ...translations.English,
-  siteFullName: "د اریزونا د کډوالو او پناه غوښتونکو خدمتونه",
-  nav: ["کور", "زموږ په اړه", "خدمتونه", "مرسته ترلاسه کړئ", "مرسته وکړئ", "رضاکار شئ", "پېښې", "اړیکه"],
-  donateButton: "مرسته وکړئ",
-  languageLabel: "ژبه وټاکئ",
-  heroBadge: "په ماریکوپا کاونټي کې د پناه غوښتونکو او کډوالو خدمتونه",
-  heroTitle: "د پناه غوښتونکو او کډوالو ملاتړ، له راتګ څخه تر ځان بساینې پورې.",
-  heroText: "AIRS اریزونا ته راتلونکو پناه غوښتونکو او کډوالو ته ټولنیز، تعلیمي او د بیا مېشتېدو خدمتونه برابروي او کورنیو سره مرسته کوي چې په ټولنیز ژوند کې بریالۍ انتقال وکړي.",
-  getHelpButton: "مرسته ترلاسه کړئ",
-  volunteerButton: "زموږ سره رضاکار شئ",
-  statYears: "په ۱۹۸۹ کې تاسیس شوی",
-  statResettled: "۱٬۹۱۰ کسان بیا مېشت شوي",
-  statLanguages: "خدمتونه او راجع کول",
-  aboutLabel: "موږ څوک یو",
-  aboutTitle: "AIRS د فینکس او ماریکوپا کاونټي ټولنو ته د لسیزو راهیسې خدمت کوي.",
-  aboutText1: "Arizona Immigrant and Refugee Services یو 501(c)(3) غیرانتفاعي سازمان دی چې په ۱۹۸۹ کې د فینکس د داخلي ښار اوسېدونکو ته ټولنیز، اقتصادي او تعلیمي خدمتونو لپاره جوړ شو. په ۲۰۰۱ کې AIRS د پناه غوښتونکو بیا مېشتول پیل کړل، چې د Kakuma Youth یا Lost Boys ډلې د لومړیو راتلونکو کسانو له ډلې څخه وې.",
-  aboutText2: "له ۲۰۰۱ راهیسې، AIRS په ماریکوپا کاونټي کې ۱٬۹۱۰ پناه غوښتونکي او کډوال بیا مېشت کړي دي. د AIRS پروګرامونه تازه راغلو پناه غوښتونکو او قانوني کډوالو ته کور، خواړه، کالي، د اړتیا په وخت ژباړه، د انګلیسي زده کړه، د کار روزنه، د کار مرسته، د کډوالۍ خدمتونه، راجع کول او نور ملاتړ برابروي.",
-  aboutBadges: ["501(c)(3) غیرانتفاعي", "په ۱۹۸۹ کې تاسیس شوی", "بیا مېشتېدنه له ۲۰۰۱ راهیسې"],
-  servicesLabel: "خدمتونه",
-  servicesTitle: "د بیا مېشتېدو، کډوالۍ، کار، زده کړې او ورځني ژوند لپاره عملي ملاتړ.",
-  servicesText: "AIRS مراجعین له مستقیمو خدمتونو، بې له نوبته ملاتړ، میاشتنیو ټولګیو، ټولنیزو راجع کولو او په اریزونا کې د ژوند له لارښوونې سره نښلوي.",
-  services: [
-    { title: "د بیا مېشتېدو ملاتړ", text: "تازه راغلو پناه غوښتونکو او کډوالو ته ملاتړ، چې کور، خواړه، کالي، راجع کول او د ثبات بیا جوړولو مرسته پکې شامله ده." },
-    { title: "د کار خدمتونه", text: "د کار روزنه، د کار موندنې مرسته، د کار ځای چمتووالی او له ځایي فرصتونو سره د مراجعینو نښلول." },
-    { title: "د کډوالۍ خدمتونه", text: "بې له نوبته د کورنۍ عریضو، تابعیت، دایمي استوګنې، بدیلو اسنادو، خوندي حالت او کورنۍ بیا یوځای کولو ملاتړ." },
-    { title: "ټولګي او زده کړه", text: "میاشتني ټولګي د مالي موضوعاتو، پولیس روزنې، روغتیا او حفظ الصحې، او عامه ترانسپورت لارښوونې په اړه." },
-    { title: "د ترانسپورت مرسته", text: "له طبي ملاقاتونو، خدمتونو، مرستو، عامه ترانسپورت او ټولنیزو سرچینو سره د مراجعینو نښلول." },
-    { title: "د SIV کورنیو ملاتړ", text: "د ځانګړي کډوال ویزې لرونکو لپاره بې له نوبته خدمتونه، لکه Reception & Placement، Matching Grant، Preferred Communities، Employment Services او State RRP Benefits." },
-  ],
-  requestHelp: "د مرستې غوښتنه",
-  getHelpLabel: "مرسته ترلاسه کړئ",
-  getHelpTitle: "له AIRS سره اړیکه ونیسئ یا د خدمت ساعتونو کې دفتر ته ورشئ.",
-  getHelpText: "د خدمتونو، ملاتړ یا عمومي مرستې لپاره له AIRS سره د اړیکې لپاره دا فورمه وکاروئ. د ټیم یو غړی به د ورکړل شوو اړیکو له لارې درسره اړیکه ونیسي.",
-  officeInfo: "د دفتر معلومات",
-  location: "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
-  fax: "فکس: (602) 944-1860",
-  officeHours: "دوشنبه تر جمعې، 9:00 AM–4:30 PM",
-  holidayNote: "دفتر په فدرالي رخصتیو کې تړلی وي.",
-  fullName: "بشپړ نوم",
-  fullNamePlaceholder: "ستاسو نوم",
-  contactMethod: "تلیفون یا ایمیل",
-  contactPlaceholder: "تر ټولو ښه اړیکه",
-  preferredLanguage: "غوره ژبه",
-  serviceNeeded: "اړین خدمت",
-  serviceOptions: ["د کډوالۍ ملاتړ", "د کور یا بیا مېشتېدو ملاتړ", "د کار ملاتړ", "ټولګي یا زده کړه", "د مرستې یا رضاکارۍ پوښتنه", "نور"],
-  message: "پیغام",
-  messagePlaceholder: "موږ ته ووایاست چې په څه کې مرسته ته اړتیا لرئ",
-  consent: "زه منم چې AIRS زما د غوښتنې په اړه له ما سره اړیکه ونیسي.",
-  submitRequest: "غوښتنه ولېږئ",
-  officialInfoLabel: "د AIRS رسمي معلومات",
-  officialInfoTitle: "هغه اصلي معلومات چې د اوسني AIRS ویب پاڼې څخه ساتل شوي دي.",
-  infoCards: [
-    { title: "ماموریت", text: "AIRS اریزونا ته راتلونکو پناه غوښتونکو او کډوالو اړتیاوو پوره کولو لپاره ټولنیز او تعلیمي خدمتونه وړاندې کوي او له راتګ څخه تر ځان بساینې پورې بریالی انتقال یقیني کوي." },
-    { title: "د ECDC اړیکه", text: "AIRS د ECDC فرعي اداره ده او خپل فعالیتونه د فدرالي، ایالتي، ټولنیزو او انفرادي شریکانو په ملاتړ ترسره کوي." },
-    { title: "د دفتر ساعتونه", text: "دوشنبه تر جمعې، 9:00 AM–4:30 PM. دفتر په فدرالي رخصتیو کې تړلی وي." },
-  ],
-  programDetailsLabel: "د پروګرام جزییات",
-  programDetailsTitle: "بې له نوبته خدمتونه، میاشتني ټولګي او SIV ملاتړ.",
-  immigrationTitle: "د کډوالۍ متخصص",
-  immigrationIntro: "بې له نوبته ساعتونه چهارشنبه او جمعه له 11:00 AM څخه تر 2:00 PM پورې دي. له دې ساعتونو بهر د ملاقات لپاره مهرباني وکړئ زنګ ووهئ.",
-  immigrationServices: ["د خپلوانو عریضې", "تابعیت", "دایمي استوګنه", "د ورک یا غلا شوو اسنادو بدلول", "ځانګړی خوندي حالت / Deferred Enforced Departure", "د کورنۍ بیا یوځای کول"],
-  classesTitle: "د میاشتنیو ټولګیو مهالویش",
-  monthlyClasses: ["لومړۍ سه شنبه @ 11:30 AM — د Wells Fargo مالي ټولګی", "دوهمه سه شنبه @ 11:30 AM — د Phoenix PD پولیس روزنه", "درېیمه سه شنبه @ 11:30 AM — د حفظ الصحې او روغتیا ټولګی", "وروستۍ سه شنبه @ 11:30 AM — د Phoenix Valley Metro بس او لایټ رېل روزنه"],
-  sivTitle: "بې له نوبته SIV خدمتونه",
-  sivServices: ["Reception & Placement", "Matching Grant", "Preferred Communities", "Employment Services", "State RRP Benefits"],
-  donateTitle: "د AIRS د بیا مېشتېدو خدمتونو ملاتړ وکړئ.",
-  donateText: "کوچني کورني توکي، نرم توکي او ګفټ کارتونه د دفتر په ساعتونو کې AIRS ته سپارل کېدای شي. د فرنیچر او لویو توکو د سپارلو لپاره مهرباني وکړئ د ملاقات لپاره زنګ ووهئ.",
-  donateNow: "اوس مرسته وکړئ",
-  donationCategories: "هغه توکي چې AIRS یې مني",
-  donationItems: ["د مسلکي کالیو، خوراکي توکو او thrift stores لپاره ګفټ کارتونه", "پاک کالي", "ډیوډورنټ، صابون، شامپو، د غاښونو کریم، تشناب کاغذ، ډایپرونه او wipes", "بس پاسونه، خوندي بایسکلونه، قلفونه او څراغونه، هیلمټونه، د موټر څوکۍ، strollers او wheelchairs", "د لوښو صابون، د کاليو صابون، عمومي پاکوونکی او کاغذي تولیې", "بکسونه، کتابچې، پنسلونه، فولډرونه، رنګونه، قیچي، ګلو او پاکوونکي", "د Twin کټ شیتونه، کمپلې او عادي بالښتونه", "لپټاپونه، ډیسټاپونه، سمارټ فونونه او ټابلېټونه"],
-  donationNote: "ګفټ کارتونه دې پته ته لېږل کېدای شي: 10240 N 31st Ave #112, Phoenix, AZ 85051. د رسید لپاره خپل نوم، پته او د ډالۍ اندازه ولیکئ. د مرستې رسید لپاره info@airsaz.org ته ایمیل وکړئ.",
-  volunteerLabel: "رضاکار",
-  volunteerTitle: "د AIRS د رضاکارانو کورنۍ سره یوځای شئ.",
-  volunteerText: "د AIRS رضاکاران د ترانسپورت، ژبې ملاتړ، ESL تدریس، پېښو، تخنیکي ملاتړ، کلتوري لارښوونې، د مرستو راټولولو، advocacy، mentorۍ او ټولنیز outreach کې مرسته کوي.",
-  applyVolunteer: "د رضاکارۍ لپاره غوښتنه وکړئ",
-  volunteerProcessTitle: "د رضاکارۍ پروسه",
-  volunteerProcess: ["ډاډ ترلاسه کړئ چې تاسو د AIRS سره رضاکار کار پیلولو ته چمتو یاست.", "ټول رضاکاري اسناد وسپارئ.", "د orientation مهالویش لپاره د AIRS د ټیم له ایمیل څخه انتظار وکړئ.", "ډېری رضاکاري کارونه دوشنبه تر جمعې، 9:00 AM–5:00 PM، د شمالي فینکس دفتر ته نږدې ترسره کېږي."],
-  volunteerRoles: ["طبي ملاقاتونو ته ترانسپورت", "ژباړه او تفسیر", "د انګلیسي دوهمې ژبې تدریس", "فنډرېزرونه او پېښې", "د دفتر تخنیکي ملاتړ", "کلتوري orientation ملاتړ", "د مرستو اخیستل او رسول", "ټولنیز advocacy", "د یوې پناه غوښتونکې کورنۍ mentorۍ", "ټولنیز outreach"],
-  eventsLabel: "پېښې او ټولګي",
-  eventsTitle: "میاشتني تعلیمي او orientation فرصتونه.",
-  viewEvents: "د نېټو لپاره AIRS سره اړیکه ونیسئ",
-  events: [
-    { title: "مالي ټولګی", date: "لومړۍ سه شنبه @ 11:30 AM", text: "د Wells Fargo سره مالي زده کړه." },
-    { title: "پولیس روزنه", date: "دوهمه سه شنبه @ 11:30 AM", text: "د Phoenix PD سره د ټولنې خوندیتوب او پولیس روزنه." },
-    { title: "د ترانسپورت روزنه", date: "وروستۍ سه شنبه @ 11:30 AM", text: "د Phoenix Valley Metro د بس او لایټ رېل روزنه." },
-  ],
-  footerText: "AIRS په اریزونا کې د پناه غوښتونکو او کډوالو کورنیو سره مرسته کوي چې خدمتونو، سرچینو او ټولنیزو اړیکو ته لاسرسی ومومي.",
-  footerQuickLinks: "چټک لینکونه",
-  footerServicesTitle: "خدمتونه",
-  footerGetInvolved: "ګډون وکړئ",
-  footerLegalText: "AIRS یو 501(c)(3) غیرانتفاعي سازمان دی. وروستۍ لیکنه، د محرمیت پالیسي، د مرستو لینکونه او د غیرانتفاعي معلومات له AIRS سره د پیل مخکې تایید کړئ.",
-  footerCopyright: "© 2026 AIRS. ټول حقوق خوندي دي.",
-  getDirections: "(لارښوونې ترلاسه کړئ)",
-  donationNoteLabel: "د مرستې یادونه:",
-  privacyNotice: "ستاسو معلومات به یوازې AIRS وکاروي ترڅو ستاسو غوښتنې ته ځواب ووایي.",
-  formSuccess: "مننه. ستاسو غوښتنه ترلاسه شوه او AIRS به ژر تعقیب وکړي.",
-  formError: "یو څه ناسم شول. مهرباني وکړئ بیا هڅه وکړئ یا مستقیم له AIRS سره اړیکه ونیسئ.",
-  sending: "لېږل کېږي...",
-  askAboutDonations: "د مرستو په اړه پوښتنه وکړئ",
-  paypalNotice: "مرستې په خوندي ډول د PayPal له لارې پروسس کېږي. مهرباني وکړئ د وروستي پیل مخکې د AIRS رسمي PayPal لینک تایید کړئ."
-};
-
-localizedContent.Ukrainian = {
-  ...translations.English,
-  siteFullName: "Служби іммігрантів і біженців Аризони",
-  nav: ["Головна", "Про нас", "Послуги", "Отримати допомогу", "Пожертви", "Волонтерство", "Події", "Контакти"],
-  donateButton: "Пожертвувати",
-  languageLabel: "Виберіть мову",
-  heroBadge: "Послуги для біженців та іммігрантів у окрузі Марікопа",
-  heroTitle: "Підтримка біженців та іммігрантів від прибуття до самостійності.",
-  heroText: "AIRS надає соціальні, освітні та послуги з переселення для біженців та іммігрантів, які прибувають до Аризони, допомагаючи сім’ям успішно перейти до життя в громаді.",
-  getHelpButton: "Отримати допомогу",
-  volunteerButton: "Стати волонтером",
-  statYears: "Засновано у 1989 році",
-  statResettled: "1 910 переселених",
-  statLanguages: "Послуги та направлення",
-  aboutLabel: "Хто ми",
-  aboutTitle: "AIRS десятиліттями служить громадам Фінікса та округу Марікопа.",
-  aboutText1: "Arizona Immigrant and Refugee Services — це неприбуткова організація 501(c)(3), заснована у 1989 році для надання соціальних, економічних та освітніх послуг мешканцям внутрішніх районів Фінікса. У 2001 році AIRS почала переселяти біженців, зокрема молодь Kakuma, також відому як Lost Boys, серед перших прибулих.",
-  aboutText2: "З 2001 року AIRS переселила 1 910 біженців та іммігрантів в окрузі Марікопа. Програми AIRS забезпечують новоприбулих біженців та легальних іммігрантів житлом, їжею, одягом, перекладом за потреби, навчанням англійської мови, професійною підготовкою, допомогою з працевлаштуванням, імміграційними послугами, направленнями та іншою підтримкою.",
-  aboutBadges: ["Неприбуткова 501(c)(3)", "Засновано у 1989 році", "Переселення з 2001 року"],
-  servicesLabel: "Послуги",
-  servicesTitle: "Практична підтримка з переселення, імміграції, працевлаштування, освіти та повсякденного життя.",
-  servicesText: "AIRS поєднує клієнтів із прямими послугами, підтримкою без попереднього запису, щомісячними заняттями, громадськими направленнями та допомогою в адаптації до життя в Аризоні.",
-  services: [
-    { title: "Підтримка переселення", text: "Підтримка новоприбулих біженців та іммігрантів, включно з житлом, їжею, одягом, направленнями та допомогою у відновленні стабільності." },
-    { title: "Послуги працевлаштування", text: "Професійна підготовка, допомога з працевлаштуванням, підготовка до роботи та підтримка у зв’язку з місцевими можливостями." },
-    { title: "Імміграційні послуги", text: "Підтримка без попереднього запису для родинних петицій, громадянства, постійного проживання, заміни документів, захищеного статусу та возз’єднання сім’ї." },
-    { title: "Заняття та освіта", text: "Щомісячні заняття з фінансових тем, поліцейського тренінгу, гігієни та здоров’я, а також орієнтації щодо громадського транспорту." },
-    { title: "Допомога з транспортом", text: "Підтримка у доступі до медичних зустрічей, послуг, пожертв, громадського транспорту та ресурсів громади." },
-    { title: "Підтримка сімей SIV", text: "Послуги без попереднього запису для власників Special Immigrant Visa, включно з Reception & Placement, Matching Grant, Preferred Communities, Employment Services та State RRP Benefits." },
-  ],
-  requestHelp: "Запросити допомогу",
-  getHelpLabel: "Отримати допомогу",
-  getHelpTitle: "Зв’яжіться з AIRS або відвідайте офіс у години роботи.",
-  getHelpText: "Використайте цю форму, щоб звернутися до AIRS щодо послуг, підтримки або загальної допомоги. Член команди зв’яжеться з вами за наданою контактною інформацією.",
-  officeInfo: "Інформація про офіс",
-  location: "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
-  fax: "Факс: (602) 944-1860",
-  officeHours: "Понеділок–п’ятниця, 9:00 AM–4:30 PM",
-  holidayNote: "Офіс зачинений у федеральні свята.",
-  fullName: "Повне ім’я",
-  fullNamePlaceholder: "Ваше ім’я",
-  contactMethod: "Телефон або електронна пошта",
-  contactPlaceholder: "Найкращий спосіб зв’язку",
-  preferredLanguage: "Бажана мова",
-  serviceNeeded: "Потрібна послуга",
-  serviceOptions: ["Імміграційна підтримка", "Підтримка з житлом або переселенням", "Підтримка з працевлаштуванням", "Заняття або освіта", "Питання про пожертви або волонтерство", "Інше"],
-  message: "Повідомлення",
-  messagePlaceholder: "Розкажіть, з чим вам потрібна допомога",
-  consent: "Я погоджуюся, що AIRS може зв’язатися зі мною щодо мого запиту.",
-  submitRequest: "Надіслати запит",
-  officialInfoLabel: "Офіційна інформація AIRS",
-  officialInfoTitle: "Основні факти, перенесені з поточного сайту AIRS.",
-  infoCards: [
-    { title: "Місія", text: "AIRS надає соціальні та освітні послуги для задоволення потреб біженців та іммігрантів, які прибувають до Аризони, забезпечуючи успішний перехід від прибуття до самостійності." },
-    { title: "Зв’язок з ECDC", text: "AIRS є дочірньою організацією ECDC і здійснює діяльність за підтримки федеральних, штатних, громадських та індивідуальних партнерів." },
-    { title: "Години роботи офісу", text: "Понеділок–п’ятниця, 9:00 AM–4:30 PM. Офіс зачинений у федеральні свята." },
-  ],
-  programDetailsLabel: "Деталі програм",
-  programDetailsTitle: "Послуги без запису, щомісячні заняття та підтримка SIV.",
-  immigrationTitle: "Імміграційний спеціаліст",
-  immigrationIntro: "Години прийому без запису: середа та п’ятниця з 11:00 AM до 2:00 PM. Будь ласка, зателефонуйте, щоб записатися поза цими годинами.",
-  immigrationServices: ["Родинні петиції", "Громадянство", "Постійне проживання", "Заміна втрачених або викрадених документів", "Спеціальний захищений статус / Deferred Enforced Departure", "Возз’єднання сім’ї"],
-  classesTitle: "Щомісячний розклад занять",
-  monthlyClasses: ["Перший вівторок @ 11:30 AM — фінансовий клас з Wells Fargo", "Другий вівторок @ 11:30 AM — тренінг з поліцією Phoenix PD", "Третій вівторок @ 11:30 AM — клас з гігієни та здоров’я", "Останній вівторок @ 11:30 AM — тренінг з автобусів і Light-rail з Phoenix Valley Metro"],
-  sivTitle: "Послуги SIV без запису",
-  sivServices: ["Reception & Placement", "Matching Grant", "Preferred Communities", "Employment Services", "State RRP Benefits"],
-  donateTitle: "Підтримайте послуги переселення AIRS.",
-  donateText: "Невеликі побутові речі, м’які товари та подарункові картки можна приносити до AIRS у години роботи офісу. Будь ласка, телефонуйте, щоб домовитися про передачу меблів та великих речей.",
-  donateNow: "Пожертвувати зараз",
-  donationCategories: "Речі, які приймає AIRS",
-  donationItems: ["Подарункові картки для професійного одягу, продуктів і секонд-хендів", "Чистий одяг", "Дезодорант, мило, шампунь, зубна паста, туалетний папір, підгузки та серветки", "Автобусні проїзні, безпечні велосипеди, замки й ліхтарі, шоломи, автокрісла, візочки та інвалідні візки", "Засіб для посуду, пральний засіб, універсальний очищувач і паперові рушники", "Рюкзаки, зошити, олівці, папки, крейда, ножиці, клей і гумки", "Комплекти простирадл twin, ковдри twin і стандартні подушки", "Ноутбуки, настільні комп’ютери, смартфони та планшети"],
-  donationNote: "Подарункові картки можна надіслати на адресу 10240 N 31st Ave #112, Phoenix, AZ 85051. Для квитанції вкажіть ім’я, адресу та суму подарунка. Для квитанцій про пожертви напишіть на info@airsaz.org.",
-  volunteerLabel: "Волонтерство",
-  volunteerTitle: "Приєднайтеся до волонтерської родини AIRS.",
-  volunteerText: "Волонтери AIRS допомагають з транспортом, мовною підтримкою, викладанням ESL, подіями, технічною підтримкою, культурною орієнтацією, збором пожертв, адвокацією, наставництвом та громадською роботою.",
-  applyVolunteer: "Подати заявку на волонтерство",
-  volunteerProcessTitle: "Процес волонтерства",
-  volunteerProcess: ["Переконайтеся, що ви готові почати волонтерську роботу з AIRS.", "Подайте всі волонтерські документи.", "Очікуйте електронного листа від команди AIRS для планування орієнтації.", "Більшість волонтерських робіт відбувається понеділок–п’ятниця, 9:00 AM–5:00 PM, в офісі Північного Фінікса або поруч."],
-  volunteerRoles: ["Транспорт до та з медичних зустрічей", "Переклад і усний переклад", "Викладання англійської як другої мови", "Фандрейзери та події", "Офісна технічна підтримка", "Підтримка культурної орієнтації", "Збір і доставка пожертв", "Громадська адвокація", "Наставництво для сім’ї біженців", "Громадська робота"],
-  eventsLabel: "Події та заняття",
-  eventsTitle: "Щомісячні освітні та орієнтаційні можливості.",
-  viewEvents: "Зв’яжіться з AIRS щодо дат",
-  events: [
-    { title: "Фінансовий клас", date: "Перший вівторок @ 11:30 AM", text: "Фінансова освіта з Wells Fargo." },
-    { title: "Поліцейський тренінг", date: "Другий вівторок @ 11:30 AM", text: "Громадська безпека та поліцейський тренінг з Phoenix PD." },
-    { title: "Транспортний тренінг", date: "Останній вівторок @ 11:30 AM", text: "Навчання користуванню автобусом і Light-rail з Phoenix Valley Metro." },
-  ],
-  footerText: "AIRS допомагає сім’ям біженців та іммігрантів отримувати доступ до підтримки, ресурсів і зв’язків у громаді по всій Аризоні.",
-  footerQuickLinks: "Швидкі посилання",
-  footerServicesTitle: "Послуги",
-  footerGetInvolved: "Долучитися",
-  footerLegalText: "AIRS є неприбутковою організацією 501(c)(3). Перевірте остаточний текст, політику конфіденційності, посилання для пожертв та дані неприбуткової організації з AIRS перед запуском.",
-  footerCopyright: "© 2026 AIRS. Усі права захищено.",
-  getDirections: "(Отримати маршрут)",
-  donationNoteLabel: "Примітка щодо пожертв:",
-  privacyNotice: "Вашу інформацію AIRS використовуватиме лише для відповіді на ваш запит.",
-  formSuccess: "Дякуємо. Ваш запит отримано, і AIRS незабаром зв’яжеться з вами.",
-  formError: "Щось пішло не так. Спробуйте ще раз або зв’яжіться з AIRS напряму.",
-  sending: "Надсилання...",
-  askAboutDonations: "Запитати про пожертви",
-  paypalNotice: "Пожертви безпечно обробляються через PayPal. Будь ласка, підтвердьте офіційне посилання AIRS PayPal перед остаточним запуском."
-};
-
-
-const translatedNav = {
-  Spanish: ["Inicio", "Acerca de", "Servicios", "Obtener Ayuda", "Donar", "Voluntariado", "Eventos", "Contacto"],
-  Arabic: ["الرئيسية", "من نحن", "الخدمات", "احصل على المساعدة", "تبرع", "تطوع", "الفعاليات", "اتصل بنا"],
-  Dari: ["خانه", "درباره", "خدمات", "کمک بگیرید", "کمک مالی", "داوطلبی", "رویدادها", "تماس"],
-  Pashto: ["کور", "زموږ په اړه", "خدمتونه", "مرسته ترلاسه کړئ", "مرسته وکړئ", "رضاکار شئ", "پېښې", "اړیکه"],
-  Ukrainian: ["Головна", "Про нас", "Послуги", "Отримати допомогу", "Пожертви", "Волонтерство", "Події", "Контакти"],
-  Swahili: ["Nyumbani", "Kuhusu", "Huduma", "Pata Msaada", "Changia", "Jitolee", "Matukio", "Mawasiliano"],
-  French: ["Accueil", "À propos", "Services", "Obtenir de l’aide", "Faire un don", "Bénévolat", "Événements", "Contact"],
-  Kinyarwanda: ["Ahabanza", "Ibyerekeye", "Serivisi", "Saba ubufasha", "Tanga inkunga", "Ba umukorerabushake", "Ibikorwa", "Twandikire"],
-};
-
-const translatedUi = {
-  Spanish: { donateButton: "Donar", getHelpButton: "Obtener ayuda", volunteerButton: "Ser voluntario", languageLabel: "Seleccionar idioma" },
-  Arabic: { donateButton: "تبرع", getHelpButton: "احصل على المساعدة", volunteerButton: "تطوع معنا", languageLabel: "اختر اللغة" },
-  Dari: { donateButton: "کمک مالی", getHelpButton: "کمک بگیرید", volunteerButton: "با ما داوطلب شوید", languageLabel: "انتخاب زبان" },
-  Pashto: { donateButton: "مرسته وکړئ", getHelpButton: "مرسته ترلاسه کړئ", volunteerButton: "زموږ سره رضاکار شئ", languageLabel: "ژبه وټاکئ" },
-  Ukrainian: { donateButton: "Пожертвувати", getHelpButton: "Отримати допомогу", volunteerButton: "Стати волонтером", languageLabel: "Виберіть мову" },
-  Swahili: { donateButton: "Changia", getHelpButton: "Pata Msaada", volunteerButton: "Jitolee Nasi", languageLabel: "Chagua lugha" },
-  French: { donateButton: "Faire un don", getHelpButton: "Obtenir de l’aide", volunteerButton: "Devenir bénévole", languageLabel: "Choisir la langue" },
-  Kinyarwanda: { donateButton: "Tanga inkunga", getHelpButton: "Saba ubufasha", volunteerButton: "Ba umukorerabushake", languageLabel: "Hitamo ururimi" },
 };
 
 const serviceIcons = [Home, Briefcase, FileText, GraduationCap, Truck, ShieldCheck];
