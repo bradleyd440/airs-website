@@ -2103,7 +2103,7 @@ function Volunteer({ t, isRtl }) {
           <a href="#contact" className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-teal-500 px-6 py-3 font-black text-white hover:bg-teal-400">{t.applyVolunteer} <DirectionalArrow isRtl={isRtl} /></a>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
-          {t.volunteerRoles.map((role) => <div key={role} className="flex items-center justify-between rounded-3xl border border-white/10 bg-white/10 p-5"><span className="font-black">{role}</span><DirectionalArrow isRtl={isRtl} className="text-teal-300" size={20} /></div>)}
+          {t.volunteerRoles.map((role) => <div key={role} className="rounded-3xl border border-white/10 bg-white/5 p-5"><span className="block font-black leading-7 text-white">{role}</span></div>)}
         </div>
       </div>
     </section>
