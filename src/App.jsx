@@ -101,7 +101,7 @@ const translations = {
     consent: "I agree that AIRS may contact me about my request.",
     submitRequest: "Submit Request",
     officialInfoLabel: "Official AIRS information",
-    officialInfoTitle: "Core facts carried over from the current AIRS website.",
+    officialInfoTitle: "Trusted community support for refugees and immigrants in Arizona.",
     infoCards: [
       { title: "Mission", text: "AIRS provides social and educational services to meet the needs of refugees and immigrants coming to Arizona by ensuring a successful transition from arrival to self-sufficiency." },
       { title: "ECDC Connection", text: "AIRS is a subsidiary of ECDC and conducts activities with support from federal, state, community, and individual partners." },
@@ -242,7 +242,7 @@ const localizedContent = {
     "consent": "Acepto que AIRS pueda contactarme sobre mi solicitud.",
     "submitRequest": "Enviar solicitud",
     "officialInfoLabel": "Información oficial de AIRS",
-    "officialInfoTitle": "Datos principales conservados del sitio actual de AIRS.",
+    "officialInfoTitle": "Apoyo comunitario confiable para refugiados e inmigrantes en Arizona.",
     "infoCards": [
       {
         "title": "Misión",
@@ -441,7 +441,7 @@ const localizedContent = {
     "consent": "J’accepte qu’AIRS me contacte au sujet de ma demande.",
     "submitRequest": "Envoyer la demande",
     "officialInfoLabel": "Informations officielles d’AIRS",
-    "officialInfoTitle": "Faits principaux repris du site actuel d’AIRS.",
+    "officialInfoTitle": "Un soutien communautaire fiable pour les réfugiés et immigrants en Arizona.",
     "infoCards": [
       {
         "title": "Mission",
@@ -632,7 +632,7 @@ const localizedContent = {
       "دعم السكن أو إعادة التوطين",
       "دعم التوظيف",
       "دروس أو تعليم",
-      "سؤال عن التبرعات أو التطوع",
+      "سؤال عن التبرعات",
       "أخرى"
     ],
     "message": "الرسالة",
@@ -640,7 +640,7 @@ const localizedContent = {
     "consent": "أوافق على أن تتواصل AIRS معي بخصوص طلبي.",
     "submitRequest": "إرسال الطلب",
     "officialInfoLabel": "معلومات AIRS الرسمية",
-    "officialInfoTitle": "معلومات أساسية من موقع AIRS الحالي.",
+    "officialInfoTitle": "دعم مجتمعي موثوق للاجئين والمهاجرين في أريزونا.",
     "infoCards": [
       {
         "title": "المهمة",
@@ -831,7 +831,7 @@ const localizedContent = {
       "دعم السكن أو إعادة التوطين",
       "دعم التوظيف",
       "دروس أو تعليم",
-      "سؤال عن التبرعات أو التطوع",
+      "سؤال عن التبرعات",
       "أخرى"
     ],
     "message": "پیام",
@@ -839,7 +839,7 @@ const localizedContent = {
     "consent": "من موافقم که AIRS درباره درخواست من با من تماس بگیرد.",
     "submitRequest": "ارسال درخواست",
     "officialInfoLabel": "معلومات AIRS الرسمية",
-    "officialInfoTitle": "معلومات أساسية من موقع AIRS الحالي.",
+    "officialInfoTitle": "دعم مجتمعي موثوق للاجئين والمهاجرين في أريزونا.",
     "infoCards": [
       {
         "title": "المهمة",
@@ -1030,7 +1030,7 @@ const localizedContent = {
       "دعم السكن أو إعادة التوطين",
       "دعم التوظيف",
       "دروس أو تعليم",
-      "سؤال عن التبرعات أو التطوع",
+      "سؤال عن التبرعات",
       "أخرى"
     ],
     "message": "پیغام",
@@ -1038,7 +1038,7 @@ const localizedContent = {
     "consent": "زه موافق یم چې AIRS زما د غوښتنې په اړه راسره اړیکه ونیسي.",
     "submitRequest": "غوښتنه واستوئ",
     "officialInfoLabel": "معلومات AIRS الرسمية",
-    "officialInfoTitle": "معلومات أساسية من موقع AIRS الحالي.",
+    "officialInfoTitle": "دعم مجتمعي موثوق للاجئين والمهاجرين في أريزونا.",
     "infoCards": [
       {
         "title": "المهمة",
@@ -1229,7 +1229,7 @@ const localizedContent = {
           "Підтримка з житлом або ресетлментом",
           "Підтримка з працевлаштуванням",
           "Заняття або освіта",
-          "Питання щодо пожертв або волонтерства",
+          "Питання щодо пожертв",
           "Інше"
       ],
       "message": "Повідомлення",
@@ -1237,7 +1237,7 @@ const localizedContent = {
       "consent": "Я погоджуюся, що AIRS може зв’язатися зі мною щодо мого запиту.",
       "submitRequest": "Надіслати запит",
       "officialInfoLabel": "Офіційна інформація AIRS",
-      "officialInfoTitle": "Основні факти, перенесені з поточного сайту AIRS.",
+      "officialInfoTitle": "Надійна громадська підтримка для біженців та іммігрантів в Аризоні.",
       "infoCards": [
           {
               "title": "Місія",
@@ -1436,7 +1436,7 @@ const localizedContent = {
     "consent": "Nakubali kwamba AIRS inaweza kuwasiliana nami kuhusu ombi langu.",
     "submitRequest": "Tuma Ombi",
     "officialInfoLabel": "Taarifa rasmi za AIRS",
-    "officialInfoTitle": "Taarifa kuu zilizohamishwa kutoka tovuti ya sasa ya AIRS.",
+    "officialInfoTitle": "Msaada wa jamii unaoaminika kwa wakimbizi na wahamiaji Arizona.",
     "infoCards": [
       {
         "title": "Misión",
@@ -1635,7 +1635,7 @@ const localizedContent = {
     "consent": "Nemeye ko AIRS ishobora kunyandikira cyangwa kumpamagara ku busabe bwanjye.",
     "submitRequest": "Ohereza ubusabe",
     "officialInfoLabel": "Amakuru yemewe ya AIRS",
-    "officialInfoTitle": "Amakuru y’ingenzi yakuwe ku rubuga rwa AIRS rw’ubu.",
+    "officialInfoTitle": "Ubufasha bwizewe bw’umuryango ku mpunzi n’abimukira muri Arizona.",
     "infoCards": [
       {
         "title": "Misión",
@@ -1755,6 +1755,34 @@ const sectionClass = "mx-auto max-w-7xl px-5 py-20 lg:px-8";
 function getSectionId(label, t) {
   const index = t.nav.indexOf(label);
   return sectionIds[index] || label.toLowerCase().replaceAll(" ", "-");
+}
+
+
+function scrollToRequestForm(requestKeyword) {
+  const form = document.getElementById("request-form");
+  if (form) {
+    form.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  window.setTimeout(() => {
+    const select = document.querySelector('select[name="serviceNeeded"]');
+    if (!select) return;
+
+    const normalizedKeyword = requestKeyword.toLowerCase();
+    const match = Array.from(select.options).find((option) =>
+      option.textContent.toLowerCase().includes(normalizedKeyword)
+    );
+
+    if (match) {
+      select.value = match.value;
+      select.dispatchEvent(new Event("change", { bubbles: true }));
+    }
+
+    const messageBox = document.querySelector('textarea[name="message"]');
+    if (messageBox && !messageBox.value) {
+      messageBox.focus();
+    }
+  }, 250);
 }
 
 function SectionLabel({ children, color = "text-teal-700" }) {
@@ -1925,8 +1953,10 @@ function GetHelp({ t, language }) {
             </div>
           </div>
         </div>
-        <form onSubmit={handleSubmit} className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
-          <input type="hidden" name="_subject" value="New AIRS Help Request" />
+        <form id="request-form" onSubmit={handleSubmit} className="scroll-mt-28 rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
+          <input type="hidden" name="_subject" value="New AIRS Website Request" />
+          <input type="hidden" name="formSource" value="AIRS website contact, donation, and volunteer form" />
+          <input type="hidden" name="formSource" value="AIRS website contact, donation, and volunteer form" />
           <div className="grid gap-4 sm:grid-cols-2">
             <label className="grid gap-2 text-sm font-black text-slate-700">
               {t.fullName}
@@ -1976,7 +2006,7 @@ function OfficialInfo({ t }) {
       <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
           <SectionLabel>{t.officialInfoLabel}</SectionLabel>
-          <h2 className="mt-3 max-w-3xl text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">{t.officialInfoTitle}</h2>
+          <h2 className="mt-3 max-w-3xl text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">{t.officialInfoTitle}</h2>
           <div className="mt-8 grid gap-5">
             {t.infoCards.map((item) => (
               <div key={item.title} className={cardClass}>
@@ -2053,12 +2083,13 @@ function Donate({ t, isRtl }) {
                 <DirectionalArrow isRtl={isRtl} />
               </a>
 
-              <a
-                href="#contact"
+              <button
+                type="button"
+                onClick={() => scrollToRequestForm("donation")}
                 className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/20 bg-white/10 px-5 py-3 font-black text-white transition hover:bg-white/15"
               >
                 {t.askAboutDonations || "Ask About Donations"}
-              </a>
+              </button>
             </div>
 
             <p className="mt-4 text-sm font-semibold leading-6 text-teal-50">
@@ -2100,7 +2131,13 @@ function Volunteer({ t, isRtl }) {
               {t.volunteerProcess.map((step, index) => <li key={step}>{index + 1}. {step}</li>)}
             </ol>
           </div>
-          <a href="#contact" className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-teal-500 px-6 py-3 font-black text-white hover:bg-teal-400">{t.applyVolunteer} <DirectionalArrow isRtl={isRtl} /></a>
+          <button
+            type="button"
+            onClick={() => scrollToRequestForm("volunteer")}
+            className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-teal-500 px-6 py-3 font-black text-white hover:bg-teal-400"
+          >
+            {t.applyVolunteer} <DirectionalArrow isRtl={isRtl} />
+          </button>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
           {t.volunteerRoles.map((role) => <div key={role} className="rounded-3xl border border-white/10 bg-white/5 p-5"><span className="block font-black leading-7 text-white">{role}</span></div>)}
