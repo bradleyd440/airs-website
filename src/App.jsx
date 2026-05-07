@@ -95,7 +95,7 @@ const translations = {
     contactPlaceholder: "Best contact",
     preferredLanguage: "Preferred Language",
     serviceNeeded: "Service Needed",
-    serviceOptions: ["Immigration support", "Housing or resettlement support", "Employment support", "Classes or education", "Donation or volunteer question", "Other"],
+    serviceOptions: ["Immigration support", "Housing or resettlement support", "Employment support", "Classes or education", "Donation question", "Volunteer application / question", "Other"],
     message: "Message",
     messagePlaceholder: "Tell us what you need help with",
     consent: "I agree that AIRS may contact me about my request.",
@@ -234,7 +234,7 @@ const localizedContent = {
       "Apoyo de vivienda o reasentamiento",
       "Apoyo de empleo",
       "Clases o educación",
-      "Pregunta sobre donaciones o voluntariado",
+      "Pregunta sobre donaciones",
       "Otro"
     ],
     "message": "Mensaje",
@@ -433,7 +433,7 @@ const localizedContent = {
       "Soutien au logement ou à la réinstallation",
       "Soutien à l’emploi",
       "Cours ou éducation",
-      "Question sur les dons ou le bénévolat",
+      "Question sur les dons",
       "Autre"
     ],
     "message": "Message",
@@ -1428,7 +1428,7 @@ const localizedContent = {
       "Apoyo de vivienda o reasentamiento",
       "Apoyo de empleo",
       "Clases o educación",
-      "Pregunta sobre donaciones o voluntariado",
+      "Pregunta sobre donaciones",
       "Otro"
     ],
     "message": "Ujumbe",
@@ -1627,7 +1627,7 @@ const localizedContent = {
       "Apoyo de vivienda o reasentamiento",
       "Apoyo de empleo",
       "Clases o educación",
-      "Pregunta sobre donaciones o voluntariado",
+      "Pregunta sobre donaciones",
       "Otro"
     ],
     "message": "Ubutumwa",
@@ -1925,9 +1925,8 @@ function GetHelp({ t, language }) {
             </div>
           </div>
         </div>
-        <form id="volunteer-form" onSubmit={handleSubmit} className="scroll-mt-28 rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
-          <input type="hidden" name="_subject" value="New AIRS Website Request" />
-          <input type="hidden" name="formSource" value="AIRS website contact and volunteer form" />
+        <form onSubmit={handleSubmit} className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
+          <input type="hidden" name="_subject" value="New AIRS Help Request" />
           <div className="grid gap-4 sm:grid-cols-2">
             <label className="grid gap-2 text-sm font-black text-slate-700">
               {t.fullName}
@@ -2101,22 +2100,7 @@ function Volunteer({ t, isRtl }) {
               {t.volunteerProcess.map((step, index) => <li key={step}>{index + 1}. {step}</li>)}
             </ol>
           </div>
-          <a
-            href="#volunteer-form"
-            onClick={() => {
-              setTimeout(() => {
-                const select = document.querySelector('select[name="serviceNeeded"]');
-                if (!select) return;
-                const volunteerOption = Array.from(select.options).find((option) =>
-                  /volunteer|volunt|tario|tariat|تطوع|داوطلب|رضاکار|волонтер|jitolee|bukorerabushake|ubukorerabushake/i.test(option.textContent)
-                );
-                if (volunteerOption) select.value = volunteerOption.value;
-              }, 100);
-            }}
-            className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-teal-500 px-6 py-3 font-black text-white hover:bg-teal-400"
-          >
-            {t.applyVolunteer} <DirectionalArrow isRtl={isRtl} />
-          </a>
+          <a href="#contact" className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-teal-500 px-6 py-3 font-black text-white hover:bg-teal-400">{t.applyVolunteer} <DirectionalArrow isRtl={isRtl} /></a>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
           {t.volunteerRoles.map((role) => <div key={role} className="rounded-3xl border border-white/10 bg-white/5 p-5"><span className="block font-black leading-7 text-white">{role}</span></div>)}
