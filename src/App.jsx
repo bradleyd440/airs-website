@@ -2003,34 +2003,34 @@ function GetHelp({ t, language }) {
             </div>
           </div>
         </div>
-        <motion.form id="request-form" onSubmit={handleSubmit} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.35 }} className="scroll-mt-28 rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
+        <motion.form id="request-form" onSubmit={handleSubmit} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.35 }} className="min-w-0 scroll-mt-28 rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
           <input type="hidden" name="_subject" value="New AIRS Website Request" />
           <input type="hidden" name="formSource" value="AIRS website contact, donation, and volunteer form" />
-          <div className="grid gap-4 sm:grid-cols-2">
-            <label className="grid gap-2 text-sm font-black text-slate-700">
+          <div className="grid min-w-0 gap-4 sm:grid-cols-2">
+            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.fullName}
-              <input name="fullName" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.fullNamePlaceholder} />
+              <input name="fullName" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.fullNamePlaceholder} />
             </label>
-            <label className="grid gap-2 text-sm font-black text-slate-700">
+            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.contactMethod}
-              <input name="contact" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.contactPlaceholder} />
+              <input name="contact" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.contactPlaceholder} />
             </label>
-            <label className="grid gap-2 text-sm font-black text-slate-700">
+            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.preferredLanguage}
-              <select name="preferredLanguage" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
+              <select name="preferredLanguage" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
                 {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
               </select>
             </label>
-            <label className="grid gap-2 text-sm font-black text-slate-700">
+            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.serviceNeeded}
-              <select name="serviceNeeded" required className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
+              <select name="serviceNeeded" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
                 {t.serviceOptions.map((option) => <option key={option} value={option}>{option}</option>)}
               </select>
             </label>
           </div>
           <label className="mt-4 grid gap-2 text-sm font-black text-slate-700">
             {t.message}
-            <textarea name="message" required rows="5" className="rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.messagePlaceholder} />
+            <textarea name="message" required rows="5" className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.messagePlaceholder} />
           </label>
           <label className="mt-4 flex gap-3 text-sm leading-6 text-slate-600">
             <input name="consent" required type="checkbox" className="mt-1" /> {t.consent}
@@ -2196,7 +2196,7 @@ function Volunteer({ t, isRtl }) {
             {t.applyVolunteer} <DirectionalArrow isRtl={isRtl} />
           </button>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid min-w-0 gap-4 sm:grid-cols-2">
           {t.volunteerRoles.map((role) => <div key={role} className="rounded-3xl border border-white/10 bg-white/5 p-5"><span className="block font-black leading-7 text-white">{role}</span></div>)}
         </div>
       </div>
