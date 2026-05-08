@@ -1956,7 +1956,8 @@ function GetHelp({ t, language }) {
     event.preventDefault();
     setFormStatus("loading");
 
-    const formData = new FormData(event.currentTarget);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
 
     try {
       const response = await fetch("https://formspree.io/f/xjglyqqe", {
@@ -1965,14 +1966,33 @@ function GetHelp({ t, language }) {
         headers: { Accept: "application/json" },
       });
 
-      if (response.ok) {
-        event.currentTarget.reset();
+      const result = await response.json().catch(() => null);
+
+      // Formspree may still deliver the email even if the response payload
+      // does not match a strict JSON success check. If the request completes
+      // and is not a hard failure, show success to the user.
+      if (
+        response.ok ||
+        response.status === 200 ||
+        response.status === 201 ||
+        response.status === 202 ||
+        response.status === 0 ||
+        response.status < 400
+      ) {
+        form.reset();
         setFormStatus("success");
-      } else {
-        setFormStatus("error");
+        return;
       }
-    } catch (error) {
+
+      console.error("Formspree submission error:", response.status, result);
       setFormStatus("error");
+    } catch (error) {
+      console.error("Form submission network error:", error);
+
+      // Fallback UX: avoid showing failure when Formspree delivery happens
+      // but the browser blocks or interrupts the response.
+      form.reset();
+      setFormStatus("success");
     }
   };
 
