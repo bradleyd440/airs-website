@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -2007,33 +2008,33 @@ function GetHelp({ t, language }) {
           <input type="hidden" name="_subject" value="New AIRS Website Request" />
           <input type="hidden" name="formSource" value="AIRS website contact, donation, and volunteer form" />
           <div className="grid min-w-0 gap-4 sm:grid-cols-2">
-            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
+            <label htmlFor="fullName" className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.fullName}
-              <input name="fullName" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.fullNamePlaceholder} />
+              <input id="fullName" name="fullName" autoComplete="name" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.fullNamePlaceholder} />
             </label>
-            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
+            <label htmlFor="contact" className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.contactMethod}
-              <input name="contact" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.contactPlaceholder} />
+              <input id="contact" name="contact" autoComplete="email" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.contactPlaceholder} />
             </label>
-            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
+            <label htmlFor="preferredLanguage" className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.preferredLanguage}
-              <select name="preferredLanguage" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
+              <select id="preferredLanguage" name="preferredLanguage" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
                 {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
               </select>
             </label>
-            <label className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
+            <label htmlFor="serviceNeeded" className="grid min-w-0 gap-2 text-sm font-black text-slate-700">
               {t.serviceNeeded}
-              <select name="serviceNeeded" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
+              <select id="serviceNeeded" name="serviceNeeded" required className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700">
                 {t.serviceOptions.map((option) => <option key={option} value={option}>{option}</option>)}
               </select>
             </label>
           </div>
-          <label className="mt-4 grid gap-2 text-sm font-black text-slate-700">
+          <label htmlFor="message" className="mt-4 grid gap-2 text-sm font-black text-slate-700">
             {t.message}
-            <textarea name="message" required rows="5" className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.messagePlaceholder} />
+            <textarea id="message" name="message" autoComplete="off" required rows="5" className="w-full min-w-0 rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:border-teal-700" placeholder={t.messagePlaceholder} />
           </label>
           <label className="mt-4 flex gap-3 text-sm leading-6 text-slate-600">
-            <input name="consent" required type="checkbox" className="mt-1" /> {t.consent}
+            <input id="consent" name="consent" required type="checkbox" className="mt-1" /> {t.consent}
           </label>
           <p className="mt-3 text-xs font-semibold leading-5 text-slate-500">{t.privacyNotice || "Your information will only be used by AIRS to respond to your request."}</p>
           <button type="submit" disabled={formStatus === "loading"} className="mt-6 w-full rounded-2xl bg-teal-700 px-6 py-3 font-black text-white transition hover:bg-teal-800 disabled:cursor-not-allowed disabled:opacity-70">
