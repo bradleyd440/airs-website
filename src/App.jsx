@@ -2094,14 +2094,7 @@ function OfficialInfo({ t }) {
             ))}
           </div>
         </div>
-        <div className="airs-family-mobile-card w-full overflow-hidden rounded-[2rem] shadow-xl sm:h-[34rem]">
-          <img
-            src={familyImage}
-            alt="AIRS family and community support"
-            className="h-full w-full object-cover object-center"
-            loading="lazy"
-          />
-        </div>
+        <img src={familyImage} alt="AIRS family and community support" className="h-[34rem] w-full rounded-[2rem] object-cover shadow-xl" loading="lazy" />
       </div>
     </section>
   );
@@ -2147,7 +2140,7 @@ function Donate({ t, isRtl }) {
           <img
             src={donationsImage}
             alt="Volunteers organizing donation boxes for families"
-            className="h-64 w-full object-cover"
+            className="h-72 w-full object-cover object-top sm:h-80 lg:h-96"
             loading="lazy"
           />
           <div className="p-8">
@@ -2261,23 +2254,6 @@ export default function App() {
 
   return (
     <div className={`min-h-screen overflow-x-hidden bg-slate-50 text-slate-900 ${isRtl ? "text-right" : "text-left"}`} dir={direction} lang={languageCode}>
-      <style>{`
-        @media (max-width: 639px) {
-          .airs-family-mobile-card {
-            height: 180px !important;
-            max-height: 180px !important;
-          }
-
-          .airs-family-mobile-card img {
-            height: 180px !important;
-            max-height: 180px !important;
-            width: 100% !important;
-            object-fit: cover !important;
-            object-position: center center !important;
-          }
-        }
-      `}</style>
-
       <Navbar language={language} setLanguage={setLanguage} t={t} />
       <main>
         <Hero t={t} isRtl={isRtl} />
