@@ -37,7 +37,13 @@ const phoneHref = "tel:+16029441821";
 const emailHref = "mailto:info@airsaz.org";
 
 const languageNames = {
-  English: { English: "English", Spanish: "Spanish", Arabic: "Arabic", Dari: "Dari", Pashto: "Pashto", Ukrainian: "Ukrainian", Swahili: "Swahili", French: "French", Kinyarwanda: "Kinyarwanda" },
+  English: { English: "English", Spanish: "Spanish", Arabic: "Arabic", Dari: "Dari", Pashto: "Pashto", Ukrainian: "Ukrainian", Swahili: "Swahili", French: "French", Kinyarwanda: "Kinyarwanda",
+    "privacyNotice": "Your information will only be used by AIRS to respond to your request.",
+    "getDirections": "(Get Directions)",
+    "footerTrust501": "501(c)(3) Nonprofit",
+    "footerTrustSince": "Serving Arizona since 1989",
+    "footerTrustCommunity": "Refugee & immigrant community support",
+},
   Spanish: { English: "Inglés", Spanish: "Español", Arabic: "Árabe", Dari: "Dari", Pashto: "Pastún", Ukrainian: "Ucraniano", Swahili: "Suajili", French: "Francés", Kinyarwanda: "Kinyarwanda" },
   Arabic: { English: "الإنجليزية", Spanish: "الإسبانية", Arabic: "العربية", Dari: "الدَرية", Pashto: "البشتوية", Ukrainian: "الأوكرانية", Swahili: "السواحيلية", French: "الفرنسية", Kinyarwanda: "الكينيارواندا" },
   Dari: { English: "انگلیسی", Spanish: "اسپانیایی", Arabic: "عربی", Dari: "دری", Pashto: "پشتو", Ukrainian: "اوکراینی", Swahili: "سواحیلی", French: "فرانسوی", Kinyarwanda: "کینیارواندا" },
@@ -240,6 +246,7 @@ const localizedContent = {
       "Apoyo de empleo",
       "Clases o educación",
       "Pregunta sobre donaciones",
+      "Solicitud o pregunta de voluntariado",
       "Otro"
     ],
     "message": "Mensaje",
@@ -353,6 +360,15 @@ const localizedContent = {
     "footerGetInvolved": "Participar",
     "footerLegalText": "AIRS es una organización sin fines de lucro 501(c)(3) que sirve a comunidades refugiadas e inmigrantes en Arizona.",
     "footerCopyright": "© 2026 AIRS. Todos los derechos reservados.",
+    "sendingLabel": "Enviando...",
+    "successMessage": "Gracias. Su solicitud ha sido recibida y AIRS hará seguimiento pronto.",
+    "errorMessage": "Algo salió mal. Intente nuevamente o contacte a AIRS directamente.",
+    "backToTopLabel": "Volver arriba",
+    "privacyNotice": "Su información solo será utilizada por AIRS para responder a su solicitud.",
+    "getDirections": "(Obtener direcciones)",
+    "footerTrust501": "Organización sin fines de lucro 501(c)(3)",
+    "footerTrustSince": "Sirviendo a Arizona desde 1989",
+    "footerTrustCommunity": "Apoyo comunitario para refugiados e inmigrantes",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
     "addPhone": "(602) 944-1821",
@@ -439,6 +455,7 @@ const localizedContent = {
       "Soutien à l’emploi",
       "Cours ou éducation",
       "Question sur les dons",
+      "Demande ou question de bénévolat",
       "Autre"
     ],
     "message": "Message",
@@ -552,6 +569,15 @@ const localizedContent = {
     "footerGetInvolved": "Participer",
     "footerLegalText": "AIRS est une organisation à but non lucratif 501(c)(3) au service des communautés réfugiées et immigrantes en Arizona.",
     "footerCopyright": "© 2026 AIRS. Tous droits réservés.",
+    "sendingLabel": "Envoi...",
+    "successMessage": "Merci. Votre demande a été reçue et AIRS vous répondra bientôt.",
+    "errorMessage": "Une erreur s’est produite. Veuillez réessayer ou contacter AIRS directement.",
+    "backToTopLabel": "Retour en haut",
+    "privacyNotice": "Vos informations seront utilisées uniquement par AIRS pour répondre à votre demande.",
+    "getDirections": "(Obtenir l’itinéraire)",
+    "footerTrust501": "Organisation à but non lucratif 501(c)(3)",
+    "footerTrustSince": "Au service de l’Arizona depuis 1989",
+    "footerTrustCommunity": "Soutien communautaire aux réfugiés et immigrants",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
     "addPhone": "(602) 944-1821",
@@ -638,6 +664,7 @@ const localizedContent = {
       "دعم التوظيف",
       "دروس أو تعليم",
       "سؤال عن التبرعات",
+      "طلب أو سؤال عن التطوع",
       "أخرى"
     ],
     "message": "الرسالة",
@@ -751,6 +778,15 @@ const localizedContent = {
     "footerGetInvolved": "شارك معنا",
     "footerLegalText": "AIRS منظمة غير ربحية مسجلة 501(c)(3) تخدم مجتمعات اللاجئين والمهاجرين في أريزونا.",
     "footerCopyright": "© 2026 AIRS. جميع الحقوق محفوظة.",
+    "sendingLabel": "جارٍ الإرسال...",
+    "successMessage": "شكرًا لك. تم استلام طلبك وستتواصل AIRS معك قريبًا.",
+    "errorMessage": "حدث خطأ ما. يرجى المحاولة مرة أخرى أو التواصل مع AIRS مباشرة.",
+    "backToTopLabel": "العودة إلى الأعلى",
+    "privacyNotice": "سيتم استخدام معلوماتك فقط من قبل AIRS للرد على طلبك.",
+    "getDirections": "(الحصول على الاتجاهات)",
+    "footerTrust501": "منظمة غير ربحية 501(c)(3)",
+    "footerTrustSince": "نخدم أريزونا منذ عام 1989",
+    "footerTrustCommunity": "دعم مجتمعي للاجئين والمهاجرين",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
     "addPhone": "(602) 944-1821",
@@ -951,7 +987,16 @@ const localizedContent = {
       "footerGetInvolved": "همراه شوید",
       "footerLegalText": "AIRS یک نهاد غیرانتفاعی 501(c)(3) است که به جوامع پناهنده و مهاجر در آریزونا خدمت می‌کند.",
       "footerCopyright": "© 2026 AIRS. همه حقوق محفوظ است.",
-      "phonePlaceholder": "(602) 944-1821",
+      "sendingLabel": "در حال ارسال...",
+    "successMessage": "تشکر. درخواست شما دریافت شد و AIRS به زودی پیگیری خواهد کرد.",
+    "errorMessage": "مشکلی رخ داد. لطفاً دوباره تلاش کنید یا مستقیم با AIRS تماس بگیرید.",
+    "backToTopLabel": "بازگشت به بالا",
+    "privacyNotice": "معلومات شما فقط توسط AIRS برای پاسخ به درخواست شما استفاده خواهد شد.",
+    "getDirections": "(دریافت مسیر)",
+    "footerTrust501": "نهاد غیرانتفاعی 501(c)(3)",
+    "footerTrustSince": "خدمت به آریزونا از سال 1989",
+    "footerTrustCommunity": "حمایت اجتماعی برای پناهندگان و مهاجرین",
+    "phonePlaceholder": "(602) 944-1821",
       "emailPlaceholder": "info@airsaz.org",
       "addPhone": "(602) 944-1821",
       "addEmail": "info@airsaz.org"
@@ -1151,7 +1196,16 @@ const localizedContent = {
       "footerGetInvolved": "ګډون وکړئ",
       "footerLegalText": "AIRS د 501(c)(3) غیرانتفاعي اداره ده چې په اریزونا کې د کډوالو او مهاجرینو ټولنو ته خدمت کوي.",
       "footerCopyright": "© 2026 AIRS. ټول حقوق خوندي دي.",
-      "phonePlaceholder": "(602) 944-1821",
+      "sendingLabel": "لېږل کېږي...",
+    "successMessage": "مننه. ستاسو غوښتنه ترلاسه شوه او AIRS به ژر تعقیب وکړي.",
+    "errorMessage": "یو څه ستونزه رامنځته شوه. مهرباني وکړئ بیا هڅه وکړئ یا مستقیم له AIRS سره اړیکه ونیسئ.",
+    "backToTopLabel": "بېرته پورته",
+    "privacyNotice": "ستاسو معلومات به یوازې د AIRS له خوا ستاسو غوښتنې ته د ځواب لپاره وکارول شي.",
+    "getDirections": "(لارښوونې ترلاسه کړئ)",
+    "footerTrust501": "501(c)(3) غیرانتفاعي اداره",
+    "footerTrustSince": "له 1989 راهیسې اریزونا ته خدمت",
+    "footerTrustCommunity": "د کډوالو او مهاجرینو ټولنیز ملاتړ",
+    "phonePlaceholder": "(602) 944-1821",
       "emailPlaceholder": "info@airsaz.org",
       "addPhone": "(602) 944-1821",
       "addEmail": "info@airsaz.org"
@@ -1350,7 +1404,16 @@ const localizedContent = {
       "footerGetInvolved": "Долучитися",
       "footerLegalText": "AIRS є некомерційною організацією 501(c)(3), що служить громадам біженців та іммігрантів в Арiзоні.",
       "footerCopyright": "© 2026 AIRS. Усі права захищені.",
-      "phonePlaceholder": "(602) 944-1821",
+      "sendingLabel": "Надсилання...",
+    "successMessage": "Дякуємо. Ваш запит отримано, і AIRS незабаром зв’яжеться з вами.",
+    "errorMessage": "Щось пішло не так. Спробуйте ще раз або зв’яжіться з AIRS напряму.",
+    "backToTopLabel": "Повернутися вгору",
+    "privacyNotice": "Вашу інформацію буде використано AIRS лише для відповіді на ваш запит.",
+    "getDirections": "(Отримати маршрут)",
+    "footerTrust501": "Некомерційна організація 501(c)(3)",
+    "footerTrustSince": "Служимо Аризоні з 1989 року",
+    "footerTrustCommunity": "Підтримка громад біженців та іммігрантів",
+    "phonePlaceholder": "(602) 944-1821",
       "emailPlaceholder": "info@airsaz.org",
       "addPhone": "(602) 944-1821",
       "addEmail": "info@airsaz.org"
@@ -1436,6 +1499,7 @@ const localizedContent = {
       "Apoyo de empleo",
       "Clases o educación",
       "Pregunta sobre donaciones",
+      "Solicitud o pregunta de voluntariado",
       "Otro"
     ],
     "message": "Ujumbe",
@@ -1549,6 +1613,15 @@ const localizedContent = {
     "footerGetInvolved": "Shiriki",
     "footerLegalText": "AIRS ni shirika lisilo la faida la 501(c)(3) linalohudumia jamii za wakimbizi na wahamiaji Arizona.",
     "footerCopyright": "© 2026 AIRS. Haki zote zimehifadhiwa.",
+    "sendingLabel": "Inatuma...",
+    "successMessage": "Asante. Ombi lako limepokelewa na AIRS itawasiliana nawe hivi karibuni.",
+    "errorMessage": "Kuna hitilafu imetokea. Tafadhali jaribu tena au wasiliana moja kwa moja na AIRS.",
+    "backToTopLabel": "Rudi juu",
+    "privacyNotice": "Taarifa zako zitatumiwa tu na AIRS kujibu ombi lako.",
+    "getDirections": "(Pata maelekezo)",
+    "footerTrust501": "Shirika lisilo la faida 501(c)(3)",
+    "footerTrustSince": "Tunahudumia Arizona tangu 1989",
+    "footerTrustCommunity": "Msaada wa jamii kwa wakimbizi na wahamiaji",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
     "addPhone": "(602) 944-1821",
@@ -1635,6 +1708,7 @@ const localizedContent = {
       "Apoyo de empleo",
       "Clases o educación",
       "Pregunta sobre donaciones",
+      "Solicitud o pregunta de voluntariado",
       "Otro"
     ],
     "message": "Ubutumwa",
@@ -1748,6 +1822,15 @@ const localizedContent = {
     "footerGetInvolved": "Gira uruhare",
     "footerLegalText": "AIRS ni umuryango udaharanira inyungu wa 501(c)(3) ukorera impunzi n’abimukira muri Arizona.",
     "footerCopyright": "© 2026 AIRS. Uburenganzira bwose burabitswe.",
+    "sendingLabel": "Birimo koherezwa...",
+    "successMessage": "Murakoze. Ubusabe bwanyu bwakiriwe kandi AIRS izabakurikirana vuba.",
+    "errorMessage": "Habaye ikibazo. Mwongere mugerageze cyangwa muvugane na AIRS ako kanya.",
+    "backToTopLabel": "Subira hejuru",
+    "privacyNotice": "Amakuru yawe azakoreshwa na AIRS gusa mu gusubiza ubusabe bwawe.",
+    "getDirections": "(Bona icyerekezo)",
+    "footerTrust501": "Umuryango udaharanira inyungu 501(c)(3)",
+    "footerTrustSince": "Dukorera Arizona kuva mu 1989",
+    "footerTrustCommunity": "Ubufasha bw’umuryango ku mpunzi n’abimukira",
     "phonePlaceholder": "(602) 944-1821",
     "emailPlaceholder": "info@airsaz.org",
     "addPhone": "(602) 944-1821",
@@ -1866,7 +1949,7 @@ function Navbar({ language, setLanguage, t }) {
           {t.nav.map((item) => <a key={item} href={`#${getSectionId(item, t)}`} className="text-sm font-bold text-slate-700 transition hover:text-teal-700">{item}</a>)}
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
-          <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-700 outline-none focus:border-teal-700" aria-label={t.languageLabel}>
+          <select id="desktopLanguageSelector" name="desktopLanguageSelector" value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-700 outline-none focus:border-teal-700" aria-label={t.languageLabel}>
             {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
           </select>
           <a href="#donate" className="rounded-xl bg-orange-500 px-5 py-2.5 text-sm font-black text-white shadow-sm transition hover:bg-orange-600">{t.donateButton}</a>
@@ -1877,7 +1960,7 @@ function Navbar({ language, setLanguage, t }) {
         <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.18 }} className="border-t border-slate-200 bg-white px-5 py-4 shadow-lg lg:hidden">
           <div className="grid gap-2">
             {t.nav.map((item) => <a key={item} href={`#${getSectionId(item, t)}`} onClick={() => setMobileOpen(false)} className="rounded-xl px-3 py-2 text-sm font-bold text-slate-700 hover:bg-slate-100">{item}</a>)}
-            <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold" aria-label={t.languageLabel}>
+            <select id="mobileLanguageSelector" name="mobileLanguageSelector" value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold" aria-label={t.languageLabel}>
               {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
             </select>
           </div>
@@ -1903,7 +1986,7 @@ function Hero({ t, isRtl }) {
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.55, delay: 0.1 }} className="relative">
           <div className="relative overflow-hidden rounded-[2rem] shadow-2xl ring-1 ring-white/10">
-            <img src={originalHeroImage} alt="AIRS community group photo" className="h-[420px] w-full object-cover brightness-90" loading="eager" />
+            <img src={originalHeroImage} alt="AIRS community group photo" className="h-[320px] w-full object-cover object-center brightness-90 sm:h-[420px]" loading="eager" />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/65 via-slate-950/10 to-transparent" />
             <div className="absolute bottom-5 left-5 right-5 rounded-3xl bg-white/92 p-5 shadow-xl backdrop-blur">
               <div className="grid grid-cols-3 gap-3 text-center">
@@ -1940,7 +2023,7 @@ function Services({ t, isRtl }) {
           <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">{t.servicesTitle}</h2>
           <p className="mt-4 text-lg leading-8 text-slate-600">{t.servicesText}</p>
         </div>
-        <img src={officeImage} alt="Client support meeting in an office" className="h-72 w-full rounded-[2rem] object-cover shadow-xl" loading="lazy" />
+        <img src={officeImage} alt="Client support meeting in an office" className="h-64 w-full rounded-[2rem] object-cover object-center shadow-xl sm:h-72" loading="lazy" />
       </div>
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {t.services.map((service, index) => { const Icon = serviceIcons[index]; return <div key={service.title} className={cardClass}><div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-700"><Icon size={24} /></div><h3 className="text-xl font-black text-slate-950">{service.title}</h3><p className="mt-3 leading-7 text-slate-600">{service.text}</p><a href="#get-help" className="mt-5 inline-flex items-center gap-2 font-black text-teal-700">{t.requestHelp} <DirectionalArrow isRtl={isRtl} size={17} /></a></div>; })}
@@ -2094,7 +2177,7 @@ function OfficialInfo({ t }) {
             ))}
           </div>
         </div>
-        <img src={familyImage} alt="AIRS family and community support" className="h-[34rem] w-full rounded-[2rem] object-cover shadow-xl" loading="lazy" />
+        <img src={familyImage} alt="AIRS family and community support" className="h-72 w-full rounded-[2rem] object-cover object-center shadow-xl sm:h-[34rem]" loading="lazy" />
       </div>
     </section>
   );
