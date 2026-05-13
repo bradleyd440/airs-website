@@ -22,10 +22,10 @@ import {
   X,
 } from "lucide-react";
 
-import originalHeroImage from "./assets/hero-family.png";
-import familyImage from "./assets/airs-family.png";
-import officeImage from "./assets/airs-office.png";
-import donationsImage from "./assets/airs-donations.png";
+import originalHeroImage from "./assets/hero-family.jpg";
+import familyImage from "./assets/airs-family.jpg";
+import officeImage from "./assets/airs-office.jpg";
+import donationsImage from "./assets/airs-donations.jpg";
 import airsLogo from "./assets/airs-logo.png";
 
 const languages = ["English", "Spanish", "Arabic", "Dari", "Pashto", "Ukrainian", "Swahili", "French", "Kinyarwanda"];
