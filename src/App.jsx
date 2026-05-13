@@ -22,8 +22,8 @@ import {
   X,
 } from "lucide-react";
 
-import originalHeroImage from "./assets/original-refugees-group.jpg";
-import familyImage from "./assets/airs-family.jpg";
+import originalHeroImage from "./assets/hero-family.png";
+import familyImage from "./assets/airs-family.png";
 import officeImage from "./assets/airs-office.jpg";
 import donationsImage from "./assets/airs-donations.jpg";
 import airsLogo from "./assets/airs-logo.png";
