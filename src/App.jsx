@@ -1866,7 +1866,7 @@ function Navbar({ language, setLanguage, t }) {
           {t.nav.map((item) => <a key={item} href={`#${getSectionId(item, t)}`} className="text-sm font-bold text-slate-700 transition hover:text-teal-700">{item}</a>)}
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
-          <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-700 outline-none focus:border-teal-700" aria-label={t.languageLabel}>
+          <select id="desktopLanguageSelector" name="desktopLanguageSelector" value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-700 outline-none focus:border-teal-700" aria-label={t.languageLabel}>
             {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
           </select>
           <a href="#donate" className="rounded-xl bg-orange-500 px-5 py-2.5 text-sm font-black text-white shadow-sm transition hover:bg-orange-600">{t.donateButton}</a>
@@ -1877,7 +1877,7 @@ function Navbar({ language, setLanguage, t }) {
         <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.18 }} className="border-t border-slate-200 bg-white px-5 py-4 shadow-lg lg:hidden">
           <div className="grid gap-2">
             {t.nav.map((item) => <a key={item} href={`#${getSectionId(item, t)}`} onClick={() => setMobileOpen(false)} className="rounded-xl px-3 py-2 text-sm font-bold text-slate-700 hover:bg-slate-100">{item}</a>)}
-            <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold" aria-label={t.languageLabel}>
+            <select id="mobileLanguageSelector" name="mobileLanguageSelector" value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold" aria-label={t.languageLabel}>
               {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
             </select>
           </div>
@@ -1903,7 +1903,7 @@ function Hero({ t, isRtl }) {
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.55, delay: 0.1 }} className="relative">
           <div className="relative overflow-hidden rounded-[2rem] shadow-2xl ring-1 ring-white/10">
-            <img src={originalHeroImage} alt="AIRS community group photo" className="h-[320px] w-full object-cover object-center brightness-90 sm:h-[420px]" loading="eager" />
+            <img src={originalHeroImage} alt="AIRS community group photo" className="h-[420px] w-full object-cover brightness-90" loading="eager" />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/65 via-slate-950/10 to-transparent" />
             <div className="absolute bottom-5 left-5 right-5 rounded-3xl bg-white/92 p-5 shadow-xl backdrop-blur">
               <div className="grid grid-cols-3 gap-3 text-center">
@@ -1940,7 +1940,7 @@ function Services({ t, isRtl }) {
           <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">{t.servicesTitle}</h2>
           <p className="mt-4 text-lg leading-8 text-slate-600">{t.servicesText}</p>
         </div>
-        <img src={officeImage} alt="Client support meeting in an office" className="h-64 w-full rounded-[2rem] object-cover object-center shadow-xl sm:h-72" loading="lazy" />
+        <img src={officeImage} alt="Client support meeting in an office" className="h-72 w-full rounded-[2rem] object-cover shadow-xl" loading="lazy" />
       </div>
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {t.services.map((service, index) => { const Icon = serviceIcons[index]; return <div key={service.title} className={cardClass}><div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-700"><Icon size={24} /></div><h3 className="text-xl font-black text-slate-950">{service.title}</h3><p className="mt-3 leading-7 text-slate-600">{service.text}</p><a href="#get-help" className="mt-5 inline-flex items-center gap-2 font-black text-teal-700">{t.requestHelp} <DirectionalArrow isRtl={isRtl} size={17} /></a></div>; })}
@@ -2094,7 +2094,7 @@ function OfficialInfo({ t }) {
             ))}
           </div>
         </div>
-        <img src={familyImage} alt="AIRS family and community support" className="h-72 w-full rounded-[2rem] object-cover object-center shadow-xl sm:h-[34rem]" loading="lazy" />
+        <img src={familyImage} alt="AIRS family and community support" className="h-[34rem] w-full rounded-[2rem] object-cover shadow-xl" loading="lazy" />
       </div>
     </section>
   );
@@ -2140,7 +2140,7 @@ function Donate({ t, isRtl }) {
           <img
             src={donationsImage}
             alt="Volunteers organizing donation boxes for families"
-            className="h-72 w-full object-cover object-top sm:h-80 lg:h-96"
+            className="h-64 w-full object-cover"
             loading="lazy"
           />
           <div className="p-8">
