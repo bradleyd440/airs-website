@@ -24,8 +24,8 @@ import {
 
 import originalHeroImage from "./assets/hero-family.png";
 import familyImage from "./assets/airs-family.png";
-import officeImage from "./assets/airs-office.jpg";
-import donationsImage from "./assets/airs-donations.jpg";
+import officeImage from "./assets/airs-office.png";
+import donationsImage from "./assets/airs-donations.png";
 import airsLogo from "./assets/airs-logo.png";
 
 const languages = ["English", "Spanish", "Arabic", "Dari", "Pashto", "Ukrainian", "Swahili", "French", "Kinyarwanda"];
@@ -1866,7 +1866,7 @@ function Navbar({ language, setLanguage, t }) {
           {t.nav.map((item) => <a key={item} href={`#${getSectionId(item, t)}`} className="text-sm font-bold text-slate-700 transition hover:text-teal-700">{item}</a>)}
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
-          <select id="desktopLanguageSelector" name="desktopLanguageSelector" value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-700 outline-none focus:border-teal-700" aria-label={t.languageLabel}>
+          <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-700 outline-none focus:border-teal-700" aria-label={t.languageLabel}>
             {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
           </select>
           <a href="#donate" className="rounded-xl bg-orange-500 px-5 py-2.5 text-sm font-black text-white shadow-sm transition hover:bg-orange-600">{t.donateButton}</a>
@@ -1877,7 +1877,7 @@ function Navbar({ language, setLanguage, t }) {
         <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.18 }} className="border-t border-slate-200 bg-white px-5 py-4 shadow-lg lg:hidden">
           <div className="grid gap-2">
             {t.nav.map((item) => <a key={item} href={`#${getSectionId(item, t)}`} onClick={() => setMobileOpen(false)} className="rounded-xl px-3 py-2 text-sm font-bold text-slate-700 hover:bg-slate-100">{item}</a>)}
-            <select id="mobileLanguageSelector" name="mobileLanguageSelector" value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold" aria-label={t.languageLabel}>
+            <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold" aria-label={t.languageLabel}>
               {languages.map((lang) => <option key={lang} value={lang}>{languageNames[language]?.[lang] || lang}</option>)}
             </select>
           </div>
@@ -2140,7 +2140,7 @@ function Donate({ t, isRtl }) {
           <img
             src={donationsImage}
             alt="Volunteers organizing donation boxes for families"
-            className="h-64 w-full object-cover"
+            className="h-auto w-full object-contain"
             loading="lazy"
           />
           <div className="p-8">
