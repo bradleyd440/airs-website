@@ -67,7 +67,7 @@ const translations = {
     getHelpButton: "Get Help",
     volunteerButton: "Volunteer With Us",
     statYears: "Founded in 1989",
-    statResettled: "1,910 resettled",
+    statResettled: "4000+ resettled",
     statLanguages: "Services + referrals",
     aboutLabel: "Who We Are",
     aboutTitle: "AIRS has served Phoenix and Maricopa County communities for decades.",
