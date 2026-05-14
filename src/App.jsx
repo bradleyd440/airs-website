@@ -27,14 +27,30 @@ import familyImage from "./assets/airs-family.jpg";
 import officeImage from "./assets/airs-office.jpg";
 import donationsImage from "./assets/airs-donations.jpg";
 import airsLogo from "./assets/airs-logo.png";
+import gallery1 from "./assets/gallery-1.png";
+import gallery2 from "./assets/gallery-2.png";
+import gallery3 from "./assets/gallery-3.png";
+import gallery4 from "./assets/gallery-4.png";
+import gallery5 from "./assets/gallery-5.png";
+import gallery6 from "./assets/gallery-6.png";
 
 const languages = ["English", "Spanish", "Arabic", "Dari", "Pashto", "Ukrainian", "Swahili", "French", "Kinyarwanda"];
 const languageDirections = { Arabic: "rtl", Dari: "rtl", Pashto: "rtl" };
 const languageCodes = { English: "en", Spanish: "es", Arabic: "ar", Dari: "fa-AF", Pashto: "ps", Ukrainian: "uk", Swahili: "sw", French: "fr", Kinyarwanda: "rw" };
-const sectionIds = ["home", "about", "services", "get-help", "donate", "volunteer", "events", "contact"];
+const sectionIds = ["home", "about", "services", "get-help", "donate", "volunteer", "gallery", "events", "contact"];
 const mapsUrl = "https://www.google.com/maps/dir/?api=1&destination=10240+N+31st+Ave+Suite+112+Phoenix+AZ+85051";
 const phoneHref = "tel:+16029441821";
 const emailHref = "mailto:info@airsaz.org";
+
+const galleryImages = [
+  { src: gallery1, alt: "AIRS community support event" },
+  { src: gallery2, alt: "Volunteers helping refugee and immigrant families" },
+  { src: gallery3, alt: "Community outreach and support" },
+  { src: gallery4, alt: "Families receiving assistance" },
+  { src: gallery5, alt: "AIRS volunteers and community partners" },
+  { src: gallery6, alt: "Educational and community programs" },
+];
+
 
 const languageNames = {
   English: { English: "English", Spanish: "Spanish", Arabic: "Arabic", Dari: "Dari", Pashto: "Pashto", Ukrainian: "Ukrainian", Swahili: "Swahili", French: "French", Kinyarwanda: "Kinyarwanda",
@@ -58,7 +74,7 @@ const translations = {
   English: {
     siteName: "AIRS",
     siteFullName: "Arizona Immigrant & Refugee Services",
-    nav: ["Home", "About", "Services", "Get Help", "Donate", "Volunteer", "Events", "Contact"],
+    nav: ["Home", "About", "Services", "Get Help", "Donate", "Volunteer", "Gallery", "Events", "Contact"],
     donateButton: "Donate",
     languageLabel: "Select language",
     heroBadge: "Refugee and immigrant services in Maricopa County",
@@ -145,6 +161,9 @@ const translations = {
     volunteerProcessTitle: "Volunteer process",
     volunteerProcess: ["Make sure you are ready to begin volunteer work with AIRS.", "Turn in all volunteer paperwork.", "Wait for an email from an AIRS team member to schedule orientation.", "Most volunteer jobs occur Monday–Friday, 9:00 AM–5:00 PM, at or near the North Phoenix office."],
     volunteerRoles: ["Transportation to and from medical appointments", "Translation and interpretation", "Teaching English as a second language", "Fundraisers and events", "Office technical support", "Cultural orientation support", "Donation pickup and delivery", "Community advocacy", "Mentoring a refugee family", "Community outreach"],
+    galleryLabel: "Community Gallery",
+    galleryTitle: "Moments of support, community, and new beginnings.",
+    galleryText: "A glimpse into the families, volunteers, events, and community support that make AIRS possible.",
     eventsLabel: "Events & Classes",
     eventsTitle: "Monthly education and orientation opportunities.",
     viewEvents: "Contact AIRS for dates",
@@ -174,6 +193,7 @@ const localizedContent = {
       "Obtener Ayuda",
       "Donar",
       "Voluntariado",
+      "Galería",
       "Eventos",
       "Contacto"
     ],
@@ -334,6 +354,9 @@ const localizedContent = {
       "Mentoría a una familia refugiada",
       "Alcance comunitario"
     ],
+    "galleryLabel": "Galería comunitaria",
+    "galleryTitle": "Momentos de apoyo, comunidad y nuevos comienzos.",
+    "galleryText": "Una mirada a las familias, voluntarios, eventos y apoyo comunitario que hacen posible el trabajo de AIRS.",
     "eventsLabel": "Eventos y clases",
     "eventsTitle": "Oportunidades mensuales de educación y orientación.",
     "viewEvents": "Contacte a AIRS para fechas",
@@ -383,6 +406,7 @@ const localizedContent = {
       "Obtenir de l’aide",
       "Faire un don",
       "Bénévolat",
+      "Galerie",
       "Événements",
       "Contact"
     ],
@@ -543,6 +567,9 @@ const localizedContent = {
       "Mentorat d’une famille réfugiée",
       "Sensibilisation communautaire"
     ],
+    "galleryLabel": "Galerie communautaire",
+    "galleryTitle": "Moments de soutien, de communauté et de nouveaux départs.",
+    "galleryText": "Un aperçu des familles, bénévoles, événements et soutiens communautaires qui rendent le travail d’AIRS possible.",
     "eventsLabel": "Événements et cours",
     "eventsTitle": "Possibilités mensuelles d’éducation et d’orientation.",
     "viewEvents": "Contactez AIRS pour les dates",
@@ -592,6 +619,7 @@ const localizedContent = {
       "احصل على المساعدة",
       "تبرع",
       "تطوع",
+      "المعرض",
       "الفعاليات",
       "اتصل بنا"
     ],
@@ -752,6 +780,9 @@ const localizedContent = {
       "إرشاد عائلة لاجئة",
       "التواصل المجتمعي"
     ],
+    "galleryLabel": "معرض المجتمع",
+    "galleryTitle": "لحظات من الدعم والمجتمع والبدايات الجديدة.",
+    "galleryText": "لمحة عن العائلات والمتطوعين والفعاليات والدعم المجتمعي الذي يجعل عمل AIRS ممكنًا.",
     "eventsLabel": "الفعاليات والدروس",
     "eventsTitle": "فرص شهرية للتعليم والتوجيه.",
     "viewEvents": "تواصل مع AIRS لمعرفة التواريخ",
@@ -801,6 +832,7 @@ const localizedContent = {
           "کمک بگیرید",
           "کمک مالی",
           "داوطلبی",
+          "گالری",
           "رویدادها",
           "تماس"
       ],
@@ -961,6 +993,9 @@ const localizedContent = {
           "رهنمایی یک خانواده پناهنده",
           "ارتباط با جامعه"
       ],
+      "galleryLabel": "گالری جامعه",
+      "galleryTitle": "لحظاتی از حمایت، جامعه و شروع‌های تازه.",
+      "galleryText": "نگاهی به خانواده‌ها، داوطلبان، رویدادها و حمایت اجتماعی که کار AIRS را ممکن می‌سازد.",
       "eventsLabel": "رویدادها و صنف‌ها",
       "eventsTitle": "فرصت‌های ماهانه برای آموزش و آشنایی.",
       "viewEvents": "برای تاریخ‌ها با AIRS تماس بگیرید",
@@ -1010,6 +1045,7 @@ const localizedContent = {
           "مرسته ترلاسه کړئ",
           "مرسته وکړئ",
           "رضاکاري",
+          "ګالري",
           "پېښې",
           "اړیکه"
       ],
@@ -1170,6 +1206,9 @@ const localizedContent = {
           "د یوې کډوالې کورنۍ لارښوونه",
           "ټولنیزې اړیکې"
       ],
+      "galleryLabel": "د ټولنې ګالري",
+      "galleryTitle": "د ملاتړ، ټولنې او نوو پیلونو شېبې.",
+      "galleryText": "د هغو کورنیو، رضاکارانو، پېښو او ټولنیز ملاتړ یوه کتنه چې د AIRS کار ممکن کوي.",
       "eventsLabel": "پېښې او ټولګي",
       "eventsTitle": "میاشتني تعلیمي او د پېژندنې فرصتونه.",
       "viewEvents": "د نېټو لپاره له AIRS سره اړیکه ونیسئ",
@@ -1378,7 +1417,10 @@ const localizedContent = {
           "Наставництво для сім’ї біженців",
           "Робота з громадою"
       ],
-      "eventsLabel": "Події та заняття",
+      "galleryLabel": "Галерея громади",
+    "galleryTitle": "Моменти підтримки, спільноти та нових починань.",
+    "galleryText": "Погляд на родини, волонтерів, події та громадську підтримку, які роблять роботу AIRS можливою.",
+    "eventsLabel": "Події та заняття",
       "eventsTitle": "Щомісячні освітні та орієнтаційні можливості.",
       "viewEvents": "Зв’яжіться з AIRS щодо дат",
       "events": [
@@ -2308,6 +2350,45 @@ function Volunteer({ t, isRtl }) {
   );
 }
 
+
+function CommunityGallery({ t }) {
+  return (
+    <section id="gallery" className="bg-slate-50 py-20 sm:py-24">
+      <div className={sectionClass}>
+        <div className="max-w-3xl">
+          <SectionLabel color="text-teal-700">{t.galleryLabel || "Community Gallery"}</SectionLabel>
+          <h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">
+            {t.galleryTitle || "Moments of support, community, and new beginnings."}
+          </h2>
+          <p className="mt-5 text-lg leading-8 text-slate-600">
+            {t.galleryText || "A glimpse into the families, volunteers, events, and community support that make AIRS possible."}
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {galleryImages.map((image, index) => (
+            <motion.div
+              key={image.alt}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45, delay: index * 0.06 }}
+              viewport={{ once: true, margin: "-80px" }}
+              className="group overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-slate-200"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+                className="h-64 w-full object-cover object-center transition duration-500 group-hover:scale-105 sm:h-72"
+              />
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Events({ t }) {
   return <section id="events" className={sectionClass}><div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end"><div><SectionLabel>{t.eventsLabel}</SectionLabel><h2 className="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">{t.eventsTitle}</h2></div><a href="#contact" className="inline-flex items-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 py-3 font-black text-slate-800 shadow-sm">{t.viewEvents} <CalendarDays size={18} /></a></div><div className="mt-8 grid gap-5 md:grid-cols-3">{t.events.map((event) => <div key={event.title} className={cardClass}><p className="text-sm font-black text-orange-600">{event.date}</p><h3 className="mt-3 text-xl font-black text-slate-950">{event.title}</h3><p className="mt-3 text-slate-600">{event.text}</p></div>)}</div></section>;
 }
@@ -2347,6 +2428,7 @@ export default function App() {
         <ProgramDetails t={t} />
         <Donate t={t} isRtl={isRtl} />
         <Volunteer t={t} isRtl={isRtl} />
+        <CommunityGallery t={t} />
         <Events t={t} />
       </main>
       <ContactFooter t={t} />
