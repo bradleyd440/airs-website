@@ -1967,8 +1967,8 @@ function BrandLogo({ compact = false }) {
         alt="Arizona Immigrant & Refugee Services logo"
         className={`${
           compact
-            ? "h-20 max-w-[280px] sm:h-24 sm:max-w-[340px] lg:h-28 lg:max-w-[420px]"
-            : "h-24 max-w-[340px] sm:h-28 sm:max-w-[420px] lg:h-32 lg:max-w-[480px]"
+            ? "h-24 max-w-[320px] sm:h-28 sm:max-w-[400px] lg:h-32 lg:max-w-[480px]"
+            : "h-28 max-w-[380px] sm:h-32 sm:max-w-[480px] lg:h-36 lg:max-w-[560px]"
         } w-auto object-contain`}
       />
     </div>
