@@ -94,12 +94,34 @@ const translations = {
     servicesTitle: "Practical support for resettlement, immigration, employment, education, and daily life.",
     servicesText: "AIRS connects clients with direct services, walk-in support, monthly classes, community referrals, and help navigating life in Arizona.",
     services: [
-      { title: "Resettlement Support", text: "Support for recently arrived refugees and immigrants, including housing, food, clothing, referrals, and help rebuilding stability." },
-      { title: "Employment Services", text: "Job training, employment assistance, workplace preparation, and support connecting clients with local opportunities." },
-      { title: "Immigration Services", text: "Walk-in immigration support for relative petitions, citizenship, permanent residency, replacement documents, protected status, and family reunification." },
-      { title: "Classes & Education", text: "Monthly classes covering financial topics, police training, hygiene and health, and public transportation orientation." },
-      { title: "Transportation Help", text: "Support connecting clients to medical appointments, services, donations, public transportation, and community resources." },
-      { title: "SIV Family Support", text: "Walk-in services for Special Immigrant Visa holders including Reception & Placement, Matching Grant, Preferred Communities, Employment Services, and State RRP Benefits." },
+      {
+        title: "Resettlement Support",
+        text: "Support for recently arrived refugees and immigrants, including housing, food, clothing, referrals, and help rebuilding stability."
+      },
+      {
+        title: "Matching Grant (MG)",
+        text: "Supportive self-sufficiency services for eligible refugee families through employment preparation, financial guidance, rental assistance support, and community integration assistance."
+      },
+      {
+        title: "Case Coordination (CO)",
+        text: "Individualized case management services helping refugee and immigrant families navigate resources, appointments, documentation, healthcare, education, and community services."
+      },
+      {
+        title: "Preferred Communities (GAPS)(PIR)(ICM)",
+        text: "GAPS Program support services including UHP, ASA, and REA support for ORR eligible beneficiaries. PIR provides initial placement and resettlement support for newly arrived refugees and walk-in clients. ICM (Intensive Case Management) delivers targeted medical and stabilization support services for ORR eligible beneficiaries requiring additional assistance."
+      },
+      {
+        title: "Immigration Inhouse Council",
+        text: "Walk-in immigration support for relative petitions, citizenship, permanent residency, replacement documents, protected status, and family reunification."
+      },
+      {
+        title: "Classes & Education",
+        text: "Monthly classes covering financial topics, police training, hygiene and health, cultural orientation, immigration Q&A sessions, and public transportation orientation including bus and light-rail training."
+      },
+      {
+        title: "SIV Family Support",
+        text: "Walk-in services for Special Immigrant Visa holders including Reception & Placement, Matching Grant, Preferred Communities, Employment Services, and State RRP Benefits."
+      },
     ],
     requestHelp: "Request help",
     getHelpLabel: "Get Help",
@@ -110,7 +132,7 @@ const translations = {
     phonePlaceholder: "(602) 944-1821",
     emailPlaceholder: "info@airsaz.org",
     fax: "Fax: (602) 944-1860",
-    officeHours: "Monday–Friday, 9:00 AM–4:30 PM",
+    officeHours: "Monday–Friday, 9:00 AM–5:00 PM",
     holidayNote: "Office closed on federal holidays.",
     fullName: "Full Name",
     fullNamePlaceholder: "Your name",
@@ -132,19 +154,21 @@ const translations = {
     infoCards: [
       { title: "Mission", text: "AIRS provides social and educational services to meet the needs of refugees and immigrants coming to Arizona by ensuring a successful transition from arrival to self-sufficiency." },
       { title: "ECDC Connection", text: "AIRS is a subsidiary of ECDC and conducts activities with support from federal, state, community, and individual partners." },
-      { title: "Office Hours", text: "Monday through Friday, 9:00 AM–4:30 PM. The office is closed on federal holidays." },
+      { title: "Office Hours", text: "Monday through Friday, 9:00 AM–5:00 PM. The office is closed on federal holidays." },
     ],
     programDetailsLabel: "Program Details",
     programDetailsTitle: "Walk-in services, monthly classes, and SIV support.",
-    immigrationTitle: "Immigration Specialist",
+    immigrationTitle: "Immigration Inhouse Council",
     immigrationIntro: "Walk-in hours are Wednesday and Friday from 11:00 AM–2:00 PM. Please call to make an appointment outside walk-in hours.",
     immigrationServices: ["Relative Petitions", "Citizenship", "Permanent Residency", "Replacement of lost or stolen documents", "Special Protected Status / Deferred Enforced Departure", "Family Reunification"],
     classesTitle: "Monthly Class Schedule",
     monthlyClasses: [
-      "First Tuesday @ 11:30 AM — Financial Class with Wells Fargo",
-      "Second Tuesday @ 11:30 AM — Police Training with Phoenix PD",
-      "Third Tuesday @ 11:30 AM — Hygiene & Health Class",
-      "Last Tuesday @ 11:30 AM — Bus and Light-rail Training with Phoenix Valley Metro",
+      "Financial Class with Wells Fargo",
+      "Police Training with Phoenix PD",
+      "Hygiene & Health Class",
+      "Cultural Orientation Class",
+      "Bi-Monthly — Immigration Q&A Session",
+      "Bus and Light-rail Training with Phoenix Valley Metro",
     ],
     sivTitle: "Walk-In SIV Services",
     sivServices: ["Reception & Placement", "Matching Grant", "Preferred Communities", "Employment Services", "State RRP Benefits"],
@@ -168,9 +192,9 @@ const translations = {
     eventsTitle: "Monthly education and orientation opportunities.",
     viewEvents: "Contact AIRS for dates",
     events: [
-      { title: "Financial Class", date: "First Tuesday @ 11:30 AM", text: "Financial education session with Wells Fargo." },
-      { title: "Police Training", date: "Second Tuesday @ 11:30 AM", text: "Community safety and police training with Phoenix PD." },
-      { title: "Transit Training", date: "Last Tuesday @ 11:30 AM", text: "Bus and Light-rail Training with Phoenix Valley Metro." },
+      { title: "Financial Class", text: "Financial education session with Wells Fargo." },
+      { title: "Police Training", text: "Community safety and police training with Phoenix PD." },
+      { title: "Transit Training", text: "Bus and Light-rail Training with Phoenix Valley Metro." },
     ],
     footerText: "AIRS helps refugee and immigrant families access support, resources, and community connections across Arizona.",
     footerQuickLinks: "Quick Links",
@@ -252,7 +276,7 @@ const localizedContent = {
     "officeInfo": "Información de oficina",
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
     "fax": "Fax: (602) 944-1860",
-    "officeHours": "Lunes a viernes, 9:00 AM–4:30 PM",
+    "officeHours": "Lunes a viernes, 9:00 AM–5:00 PM",
     "holidayNote": "La oficina cierra en días feriados federales.",
     "fullName": "Nombre completo",
     "fullNamePlaceholder": "Su nombre",
@@ -286,12 +310,12 @@ const localizedContent = {
       },
       {
         "title": "Horario de oficina",
-        "text": "Lunes a viernes, 9:00 AM–4:30 PM. La oficina cierra en días feriados federales."
+        "text": "Lunes a viernes, 9:00 AM–5:00 PM. La oficina cierra en días feriados federales."
       }
     ],
     "programDetailsLabel": "Detalles del programa",
     "programDetailsTitle": "Servicios sin cita, clases mensuales y apoyo SIV.",
-    "immigrationTitle": "Especialista de inmigración",
+    "immigrationTitle": "Immigration Inhouse Council",
     "immigrationIntro": "El horario sin cita es miércoles y viernes de 11:00 AM a 2:00 PM. Llame para programar una cita fuera de ese horario.",
     "immigrationServices": [
       "Peticiones de familiares",
@@ -465,7 +489,7 @@ const localizedContent = {
     "officeInfo": "Informations du bureau",
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
     "fax": "Fax : (602) 944-1860",
-    "officeHours": "Lundi–vendredi, 9:00 AM–4:30 PM",
+    "officeHours": "Lundi–vendredi, 9:00 AM–5:00 PM",
     "holidayNote": "Le bureau est fermé les jours fériés fédéraux.",
     "fullName": "Nom complet",
     "fullNamePlaceholder": "Votre nom",
@@ -499,12 +523,12 @@ const localizedContent = {
       },
       {
         "title": "Heures de bureau",
-        "text": "Lundi à vendredi, 9:00 AM–4:30 PM. Le bureau est fermé les jours fériés fédéraux."
+        "text": "Lundi à vendredi, 9:00 AM–5:00 PM. Le bureau est fermé les jours fériés fédéraux."
       }
     ],
     "programDetailsLabel": "Détails des programmes",
     "programDetailsTitle": "Services sans rendez-vous, cours mensuels et soutien SIV.",
-    "immigrationTitle": "Spécialiste en immigration",
+    "immigrationTitle": "Immigration Inhouse Council",
     "immigrationIntro": "Les heures sans rendez-vous sont mercredi et vendredi de 11:00 AM à 2:00 PM. Veuillez appeler pour prendre rendez-vous en dehors de ces heures.",
     "immigrationServices": [
       "Pétitions familiales",
@@ -678,7 +702,7 @@ const localizedContent = {
     "officeInfo": "معلومات المكتب",
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
     "fax": "فاكس: (602) 944-1860",
-    "officeHours": "الاثنين إلى الجمعة، 9:00 صباحًا – 4:30 مساءً",
+    "officeHours": "الاثنين إلى الجمعة، 9:00 صباحًا – 5:00 مساءً",
     "holidayNote": "المكتب مغلق في العطلات الفيدرالية.",
     "fullName": "الاسم الكامل",
     "fullNamePlaceholder": "اسمك",
@@ -712,12 +736,12 @@ const localizedContent = {
       },
       {
         "title": "ساعات المكتب",
-        "text": "من الاثنين إلى الجمعة، 9:00 صباحًا – 4:30 مساءً. المكتب مغلق في العطلات الفيدرالية."
+        "text": "من الاثنين إلى الجمعة، 9:00 صباحًا – 5:00 مساءً. المكتب مغلق في العطلات الفيدرالية."
       }
     ],
     "programDetailsLabel": "تفاصيل البرامج",
     "programDetailsTitle": "خدمات بدون موعد، ودروس شهرية، ودعم SIV.",
-    "immigrationTitle": "أخصائي الهجرة",
+    "immigrationTitle": "Immigration Inhouse Council",
     "immigrationIntro": "ساعات الحضور بدون موعد هي الأربعاء والجمعة من 11:00 صباحًا إلى 2:00 مساءً. يرجى الاتصال لتحديد موعد خارج هذه الساعات.",
     "immigrationServices": [
       "طلبات الأقارب",
@@ -891,7 +915,7 @@ const localizedContent = {
       "officeInfo": "معلومات دفتر",
       "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
       "fax": "فکس: (602) 944-1860",
-      "officeHours": "دوشنبه تا جمعه، 9:00 صبح–4:30 بعدازظهر",
+      "officeHours": "دوشنبه تا جمعه، 9:00 صبح–5:00 بعدازظهر",
       "holidayNote": "دفتر در تعطیلات فدرال بسته است.",
       "fullName": "نام کامل",
       "fullNamePlaceholder": "نام شما",
@@ -925,12 +949,12 @@ const localizedContent = {
           },
           {
               "title": "ساعات دفتر",
-              "text": "دوشنبه تا جمعه، 9:00 صبح–4:30 بعدازظهر. دفتر در تعطیلات فدرال بسته است."
+              "text": "دوشنبه تا جمعه، 9:00 صبح–5:00 بعدازظهر. دفتر در تعطیلات فدرال بسته است."
           }
       ],
       "programDetailsLabel": "جزئیات برنامه‌ها",
       "programDetailsTitle": "خدمات بدون وقت قبلی، صنف‌های ماهانه و حمایت SIV.",
-      "immigrationTitle": "متخصص مهاجرت",
+      "immigrationTitle": "Immigration Inhouse Council",
       "immigrationIntro": "ساعات مراجعه بدون وقت قبلی چهارشنبه و جمعه از 11:00 صبح تا 2:00 بعدازظهر است. برای گرفتن وقت خارج از این ساعات لطفاً تماس بگیرید.",
       "immigrationServices": [
           "درخواست‌های خانوادگی",
@@ -1316,7 +1340,7 @@ const localizedContent = {
       "officeInfo": "Інформація про офіс",
       "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
       "fax": "Факс: (602) 944-1860",
-      "officeHours": "Понеділок–п’ятниця, 9:00 AM–4:30 PM",
+      "officeHours": "Понеділок–п’ятниця, 9:00 AM–5:00 PM",
       "holidayNote": "Офіс зачинений у федеральні свята.",
       "fullName": "Повне ім’я",
       "fullNamePlaceholder": "Ваше ім’я",
@@ -1349,7 +1373,7 @@ const localizedContent = {
           },
           {
               "title": "Години роботи офісу",
-              "text": "Понеділок–п’ятниця, 9:00 AM–4:30 PM. Офіс зачинений у федеральні свята."
+              "text": "Понеділок–п’ятниця, 9:00 AM–5:00 PM. Офіс зачинений у федеральні свята."
           }
       ],
       "programDetailsLabel": "Деталі програм",
@@ -1527,7 +1551,7 @@ const localizedContent = {
     "officeInfo": "Taarifa za ofisi",
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
     "fax": "Faksi: (602) 944-1860",
-    "officeHours": "Jumatatu–Ijumaa, 9:00 AM–4:30 PM",
+    "officeHours": "Jumatatu–Ijumaa, 9:00 AM–5:00 PM",
     "holidayNote": "Ofisi hufungwa siku za sikukuu za serikali kuu.",
     "fullName": "Jina kamili",
     "fullNamePlaceholder": "Jina lako",
@@ -1561,7 +1585,7 @@ const localizedContent = {
       },
       {
         "title": "Horario de oficina",
-        "text": "Lunes a viernes, 9:00 AM–4:30 PM. La oficina cierra en días feriados federales."
+        "text": "Lunes a viernes, 9:00 AM–5:00 PM. La oficina cierra en días feriados federales."
       }
     ],
     "programDetailsLabel": "Maelezo ya programu",
@@ -1736,7 +1760,7 @@ const localizedContent = {
     "officeInfo": "Amakuru y’ibiro",
     "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
     "fax": "Fax: (602) 944-1860",
-    "officeHours": "Kuwa mbere–kuwa gatanu, 9:00 AM–4:30 PM",
+    "officeHours": "Kuwa mbere–kuwa gatanu, 9:00 AM–5:00 PM",
     "holidayNote": "Ibiro bifungwa ku minsi mikuru ya leta.",
     "fullName": "Amazina yose",
     "fullNamePlaceholder": "Amazina yawe",
@@ -1770,7 +1794,7 @@ const localizedContent = {
       },
       {
         "title": "Horario de oficina",
-        "text": "Lunes a viernes, 9:00 AM–4:30 PM. La oficina cierra en días feriados federales."
+        "text": "Lunes a viernes, 9:00 AM–5:00 PM. La oficina cierra en días feriados federales."
       }
     ],
     "programDetailsLabel": "Ibisobanuro bya porogaramu",
@@ -1880,7 +1904,7 @@ const localizedContent = {
   }
 };
 
-const serviceIcons = [Home, Briefcase, FileText, GraduationCap, Truck, ShieldCheck];
+const serviceIcons = [Home, HandHeart, Users, ShieldCheck, FileText, GraduationCap, ShieldCheck];
 const cardClass = "rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-xl";
 const sectionClass = "mx-auto max-w-7xl px-5 py-20 lg:px-8";
 
@@ -1967,8 +1991,8 @@ function BrandLogo({ compact = false }) {
         alt="Arizona Immigrant & Refugee Services logo"
         className={`${
           compact
-            ? "h-24 max-w-[320px] sm:h-28 sm:max-w-[400px] lg:h-32 lg:max-w-[480px]"
-            : "h-28 max-w-[380px] sm:h-32 sm:max-w-[480px] lg:h-36 lg:max-w-[560px]"
+            ? "h-20 max-w-[280px] sm:h-24 sm:max-w-[340px] lg:h-28 lg:max-w-[420px]"
+            : "h-24 max-w-[340px] sm:h-28 sm:max-w-[420px] lg:h-32 lg:max-w-[480px]"
         } w-auto object-contain`}
       />
     </div>
@@ -2072,7 +2096,7 @@ function Services({ t, isRtl }) {
         <img src={officeImage} alt="Client support meeting in an office" className="h-64 w-full rounded-[2rem] object-cover object-center shadow-xl sm:h-72" loading="lazy" />
       </div>
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {t.services.map((service, index) => { const Icon = serviceIcons[index]; return <div key={service.title} className={cardClass}><div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-700"><Icon size={24} /></div><h3 className="text-xl font-black text-slate-950">{service.title}</h3><p className="mt-3 leading-7 text-slate-600">{service.text}</p><a href="#get-help" className="mt-5 inline-flex items-center gap-2 font-black text-teal-700">{t.requestHelp} <DirectionalArrow isRtl={isRtl} size={17} /></a></div>; })}
+        {t.services.map((service, index) => { const Icon = serviceIcons[index] || HandHeart; return <div key={service.title} className={cardClass}><div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-700"><Icon size={24} /></div><h3 className="text-xl font-black text-slate-950">{service.title}</h3><p className="mt-3 leading-7 text-slate-600">{service.text}</p><a href="#get-help" className="mt-5 inline-flex items-center gap-2 font-black text-teal-700">{t.requestHelp} <DirectionalArrow isRtl={isRtl} size={17} /></a></div>; })}
       </div>
     </section>
   );
