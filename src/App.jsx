@@ -22,10 +22,11 @@ import {
   X,
 } from "lucide-react";
 
+import officeImage from "./assets/refugee-family-arrival.jpg";
 import originalHeroImage from "./assets/hero-family.jpg";
 import familyImage from "./assets/airs-family.jpg";
-import officeImage from "./assets/airs-office.jpg";
 import donationsImage from "./assets/airs-donations.jpg";
+
 import airsLogo from "./assets/airs-logo.png";
 import gallery1 from "./assets/gallery-1.png";
 import gallery2 from "./assets/gallery-2.png";
@@ -2143,8 +2144,24 @@ function Services({ t, isRtl }) {
         </div>
         <img src={officeImage} alt="Client support meeting in an office" className="h-64 w-full rounded-[2rem] object-cover object-center shadow-xl sm:h-72" loading="lazy" />
       </div>
+
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {t.services.map((service, index) => { const Icon = serviceIcons[index] || HandHeart; return <div key={service.title} className={cardClass}><div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-700"><Icon size={24} /></div><h3 className="text-xl font-black text-slate-950">{service.title}</h3><p className="mt-3 leading-7 text-slate-600">{service.text}</p><a href="#get-help" className="mt-5 inline-flex items-center gap-2 font-black text-teal-700">{t.requestHelp} <DirectionalArrow isRtl={isRtl} size={17} /></a></div>; })}
+        {t.services.map((service, index) => {
+          const Icon = serviceIcons[index] || HandHeart;
+
+          return (
+            <div key={service.title} className={cardClass}>
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-700">
+                <Icon size={24} />
+              </div>
+              <h3 className="text-xl font-black text-slate-950">{service.title}</h3>
+              <p className="mt-3 leading-7 text-slate-600">{service.text}</p>
+              <a href="#get-help" className="mt-5 inline-flex items-center gap-2 font-black text-teal-700">
+                {t.requestHelp} <DirectionalArrow isRtl={isRtl} size={17} />
+              </a>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
