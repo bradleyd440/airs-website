@@ -249,20 +249,24 @@ const localizedContent = {
         "text": "Apoyo para familias refugiadas e inmigrantes recién llegadas, incluyendo vivienda, alimentos, ropa, referencias y ayuda para reconstruir estabilidad."
       },
       {
-        "title": "Servicios de empleo",
-        "text": "Capacitación laboral, asistencia de empleo, preparación para el trabajo y apoyo para conectar a clientes con oportunidades locales."
+        "title": "Matching Grant (MG)",
+        "text": "Servicios de autosuficiencia para familias refugiadas elegibles, incluyendo preparación laboral, orientación financiera, apoyo de asistencia de renta e integración comunitaria."
       },
       {
-        "title": "Servicios de inmigración",
+        "title": "Coordinación de casos (CO)",
+        "text": "Servicios individualizados de coordinación de casos para ayudar a familias refugiadas e inmigrantes a navegar recursos, citas, documentación, atención médica, educación y servicios comunitarios."
+      },
+      {
+        "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+        "text": "Servicios del programa GAPS, incluyendo apoyo UHP, ASA y REA para beneficiarios elegibles de ORR. PIR ofrece apoyo de colocación inicial y reasentamiento para refugiados recién llegados y clientes sin cita. ICM brinda manejo intensivo de casos con apoyo médico y de estabilización para beneficiarios elegibles de ORR que requieren asistencia adicional."
+      },
+      {
+        "title": "Consejería interna de inmigración",
         "text": "Apoyo migratorio sin cita para peticiones familiares, ciudadanía, residencia permanente, documentos de reemplazo, estatus protegido y reunificación familiar."
       },
       {
         "title": "Clases y educación",
-        "text": "Clases mensuales sobre finanzas, capacitación policial, higiene y salud, y orientación sobre transporte público."
-      },
-      {
-        "title": "Ayuda de transporte",
-        "text": "Apoyo para conectar a clientes con citas médicas, servicios, donaciones, transporte público y recursos comunitarios."
+        "text": "Clases mensuales sobre finanzas, capacitación policial, higiene y salud, orientación cultural, sesiones de preguntas y respuestas de inmigración, y orientación de transporte público incluyendo autobús y tren ligero."
       },
       {
         "title": "Apoyo a familias SIV",
@@ -462,20 +466,24 @@ const localizedContent = {
         "text": "Soutien aux familles réfugiées et immigrantes récemment arrivées, y compris logement, nourriture, vêtements, orientations et aide à reconstruire la stabilité."
       },
       {
-        "title": "Services d’emploi",
-        "text": "Formation professionnelle, aide à l’emploi, préparation au travail et soutien pour relier les clients aux opportunités locales."
+        "title": "Matching Grant (MG)",
+        "text": "Services d’autonomie pour les familles réfugiées admissibles, comprenant la préparation à l’emploi, l’orientation financière, le soutien à l’aide au loyer et l’intégration communautaire."
       },
       {
-        "title": "Services d’immigration",
+        "title": "Coordination de cas (CO)",
+        "text": "Services individualisés de coordination de cas aidant les familles réfugiées et immigrantes à naviguer les ressources, rendez-vous, documents, soins de santé, éducation et services communautaires."
+      },
+      {
+        "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+        "text": "Services du programme GAPS, incluant le soutien UHP, ASA et REA pour les bénéficiaires admissibles à l’ORR. PIR offre un soutien de placement initial et de réinstallation pour les réfugiés nouvellement arrivés et les clients sans rendez-vous. ICM fournit une gestion intensive de cas avec soutien médical ciblé et stabilisation pour les bénéficiaires admissibles à l’ORR nécessitant une aide supplémentaire."
+      },
+      {
+        "title": "Conseil interne en immigration",
         "text": "Soutien d’immigration sans rendez-vous pour les pétitions familiales, la citoyenneté, la résidence permanente, les documents de remplacement, le statut protégé et la réunification familiale."
       },
       {
         "title": "Cours et éducation",
-        "text": "Cours mensuels sur les finances, la formation avec la police, l’hygiène et la santé, et l’orientation au transport public."
-      },
-      {
-        "title": "Aide au transport",
-        "text": "Soutien pour relier les clients aux rendez-vous médicaux, services, dons, transport public et ressources communautaires."
+        "text": "Cours mensuels sur les finances, la formation avec la police, l’hygiène et la santé, l’orientation culturelle, les séances de questions-réponses sur l’immigration et l’orientation au transport public, y compris bus et métro léger."
       },
       {
         "title": "Soutien aux familles SIV",
@@ -675,20 +683,24 @@ const localizedContent = {
         "text": "دعم للعائلات اللاجئة والمهاجرة الوافدة حديثًا، بما في ذلك السكن، والطعام، والملابس، والإحالات، والمساعدة في بناء الاستقرار."
       },
       {
-        "title": "خدمات التوظيف",
-        "text": "تدريب مهني، ومساعدة في البحث عن عمل، والاستعداد لسوق العمل، وربط العملاء بالفرص المحلية."
+        "title": "Matching Grant (MG)",
+        "text": "خدمات دعم الاكتفاء الذاتي للعائلات اللاجئة المؤهلة، بما في ذلك الاستعداد للعمل، والإرشاد المالي، ودعم المساعدة الإيجارية، والاندماج المجتمعي."
       },
       {
-        "title": "خدمات الهجرة",
+        "title": "تنسيق الحالات (CO)",
+        "text": "خدمات تنسيق حالات فردية تساعد العائلات اللاجئة والمهاجرة في الوصول إلى الموارد، والمواعيد، والوثائق، والرعاية الصحية، والتعليم، والخدمات المجتمعية."
+      },
+      {
+        "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+        "text": "خدمات برنامج GAPS بما في ذلك دعم UHP وASA وREA للمستفيدين المؤهلين من ORR. يوفر PIR دعم التوطين الأولي وإعادة التوطين للاجئين الوافدين حديثًا والعملاء بدون موعد. يقدم ICM إدارة حالات مكثفة مع دعم طبي واستقرار للمستفيدين المؤهلين من ORR الذين يحتاجون إلى مساعدة إضافية."
+      },
+      {
+        "title": "مستشار الهجرة الداخلي",
         "text": "دعم في قضايا الهجرة بدون موعد، بما في ذلك طلبات الأقارب، والجنسية، والإقامة الدائمة، واستبدال الوثائق، والحماية الخاصة، ولمّ شمل الأسرة."
       },
       {
         "title": "الدروس والتعليم",
-        "text": "دروس شهرية تشمل المواضيع المالية، والتدريب مع الشرطة، والنظافة والصحة، والتوجيه حول استخدام وسائل النقل العام."
-      },
-      {
-        "title": "المساعدة في النقل",
-        "text": "مساعدة العملاء في الوصول إلى المواعيد الطبية، والخدمات، والتبرعات، ووسائل النقل العام، والموارد المجتمعية."
+        "text": "دروس شهرية تشمل المواضيع المالية، والتدريب مع الشرطة، والنظافة والصحة، والتوجيه الثقافي، وجلسات أسئلة وأجوبة حول الهجرة، والتوجيه حول النقل العام بما في ذلك الحافلات والقطار الخفيف."
       },
       {
         "title": "دعم عائلات SIV",
@@ -882,26 +894,30 @@ const localizedContent = {
       "servicesLabel": "خدمات",
       "servicesTitle": "حمایت عملی برای اسکان مجدد، مهاجرت، کار، آموزش و زندگی روزمره.",
       "servicesText": "AIRS مراجعین را به خدمات مستقیم، حمایت بدون وقت قبلی، صنف‌های ماهانه، معرفی‌های اجتماعی و کمک برای زندگی در آریزونا وصل می‌کند.",
-      "services": [
+        "services": [
           {
               "title": "حمایت اسکان مجدد",
               "text": "حمایت برای خانواده‌های پناهنده و مهاجر تازه‌وارد، از جمله مسکن، غذا، لباس، معرفی‌ها و کمک برای ایجاد ثبات."
           },
           {
-              "title": "خدمات کاریابی",
-              "text": "آموزش کاری، کمک در کاریابی، آمادگی برای محیط کار و حمایت برای وصل کردن مراجعین با فرصت‌های محلی."
+              "title": "Matching Grant (MG)",
+              "text": "خدمات حمایت از خودکفایی برای خانواده‌های پناهنده واجد شرایط، شامل آمادگی کاری، رهنمایی مالی، حمایت کمک کرایه و ادغام اجتماعی."
           },
           {
-              "title": "خدمات مهاجرتی",
+              "title": "هماهنگی قضیه (CO)",
+              "text": "خدمات هماهنگی قضیه به شکل فردی برای کمک به خانواده‌های پناهنده و مهاجر در دسترسی به منابع، ملاقات‌ها، اسناد، خدمات صحی، آموزش و خدمات اجتماعی."
+          },
+          {
+              "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+              "text": "خدمات برنامه GAPS شامل حمایت UHP، ASA و REA برای مستفیدین واجد شرایط ORR. PIR حمایت جای‌گیری اولیه و اسکان مجدد را برای پناهندگان تازه‌وارد و مراجعین بدون وقت قبلی فراهم می‌کند. ICM مدیریت شدید قضایا با حمایت طبی و ثبات‌سازی را برای مستفیدین واجد شرایط ORR که به کمک اضافی نیاز دارند ارائه می‌کند."
+          },
+          {
+              "title": "مشاور داخلی مهاجرت",
               "text": "حمایت مهاجرتی بدون وقت قبلی برای درخواست‌های خانوادگی، تابعیت، اقامت دائم، اسناد جایگزین، وضعیت محافظت‌شده و پیوستن خانواده."
           },
           {
               "title": "صنف‌ها و آموزش",
-              "text": "صنف‌های ماهانه در مورد موضوعات مالی، آموزش با پولیس، صحت و نظافت، و آشنایی با ترانسپورت عمومی."
-          },
-          {
-              "title": "کمک ترانسپورت",
-              "text": "کمک برای وصل کردن مراجعین به ملاقات‌های صحی، خدمات، کمک‌های اهدایی، ترانسپورت عمومی و منابع اجتماعی."
+              "text": "صنف‌های ماهانه درباره موضوعات مالی، آموزش با پولیس، صحت و نظافت، آشنایی فرهنگی، جلسات پرسش و پاسخ مهاجرت و آشنایی با ترانسپورت عمومی از جمله بس و قطار سبک."
           },
           {
               "title": "حمایت از خانواده‌های SIV",
@@ -1095,30 +1111,34 @@ const localizedContent = {
       "servicesLabel": "خدمات",
       "servicesTitle": "د بیا مېشتېدو، مهاجرت، کار، تعلیم او ورځني ژوند لپاره عملي ملاتړ.",
       "servicesText": "AIRS مراجعین له مستقیمو خدماتو، بې‌نوبته ملاتړ، میاشتنیو ټولګیو، ټولنیزو راجع کولو او په اریزونا کې د ژوند د تنظیم له مرستې سره نښلوي.",
-      "services": [
+        "services": [
           {
               "title": "د بیا مېشتېدو ملاتړ",
-              "text": "د تازه راغلو کډوالو او مهاجرینو کورنیو لپاره ملاتړ، لکه کور، خواړه، کالي، راجع کول او د ثبات په بیا جوړولو کې مرسته."
+              "text": "د نوو راغلو کډوالو او مهاجرو کورنیو ملاتړ، په شمول کور، خواړه، کالي، راجع کول او د ثبات بیا جوړولو مرسته."
           },
           {
-              "title": "د کارموندنې خدمات",
-              "text": "د کار روزنه، د کار موندنې مرسته، د کار ځای چمتووالی او د سیمه‌ییزو فرصتونو سره د مراجعینو نښلول."
+              "title": "Matching Grant (MG)",
+              "text": "د وړ کډوالو کورنیو لپاره د ځان بسیاینې ملاتړ، په شمول د کار چمتووالی، مالي لارښوونه، د کرایې مرستې ملاتړ او ټولنیز ادغام."
           },
           {
-              "title": "د مهاجرت خدمات",
-              "text": "بې‌نوبته د مهاجرت ملاتړ د کورنۍ غوښتنلیکونو، تابعیت، دایمي استوګنې، د اسنادو بدلولو، خوندي حالت او د کورنۍ یوځای کولو لپاره."
+              "title": "د قضیې همغږي (CO)",
+              "text": "انفرادي د قضیې همغږي خدمتونه چې کډوالو او مهاجرو کورنیو سره د سرچینو، ملاقاتونو، اسنادو، روغتیايي خدمتونو، زده کړې او ټولنیزو خدمتونو په موندلو کې مرسته کوي."
           },
           {
-              "title": "ټولګي او تعلیم",
-              "text": "میاشتني ټولګي د مالي موضوعاتو، د پولیسو روزنې، حفظ الصحې او روغتیا، او عامه ترانسپورت د پېژندنې په اړه."
+              "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+              "text": "د GAPS پروګرام خدمتونه چې د ORR وړ ګټه اخیستونکو لپاره UHP، ASA او REA ملاتړ پکې شامل دی. PIR د نوو راغلو کډوالو او بې‌نوبته مراجعینو لپاره د لومړني ځای پر ځای کولو او بیا مېشتېدو ملاتړ برابروي. ICM د ORR وړ ګټه اخیستونکو لپاره چې اضافي مرستې ته اړتیا لري، د شدیدې قضیې مدیریت، طبي او ثبات ملاتړ وړاندې کوي."
           },
           {
-              "title": "د ترانسپورت مرسته",
-              "text": "د مراجعینو د طبي ملاقاتونو، خدماتو، مرستو، عامه ترانسپورت او ټولنیزو سرچینو سره د نښلولو ملاتړ."
+              "title": "د مهاجرت داخلي مشاور",
+              "text": "بې‌نوبته مهاجرتي ملاتړ د کورنۍ غوښتنلیکونو، تابعیت، دایمي اقامت، د بدیل اسنادو، محافظتي حالت او د کورنۍ یوځای کېدو لپاره."
+          },
+          {
+              "title": "ټولګي او زده کړه",
+              "text": "میاشتني ټولګي د مالي موضوعاتو، د پولیسو روزنې، حفظ الصحې او روغتیا، کلتوري پېژندنې، د مهاجرت پوښتنې او ځواب غونډو، او د عامه ترانسپورت پېژندنې لپاره، په شمول بس او لایټ ریل روزنه."
           },
           {
               "title": "د SIV کورنیو ملاتړ",
-              "text": "د Special Immigrant Visa لرونکو لپاره بې‌نوبته خدمات، لکه Reception & Placement، Matching Grant، Preferred Communities، Employment Services او State RRP Benefits."
+              "text": "د ځانګړې مهاجرت ویزې لرونکو لپاره بې‌نوبته خدمات، په شمول Reception & Placement، Matching Grant، Preferred Communities، Employment Services او State RRP Benefits."
           }
       ],
       "requestHelp": "د مرستې غوښتنه",
@@ -1308,31 +1328,35 @@ const localizedContent = {
       "servicesTitle": "Практична підтримка з ресетлменту, імміграції, працевлаштування, освіти та повсякденного життя.",
       "servicesText": "AIRS поєднує клієнтів із прямими послугами, допомогою без попереднього запису, щомісячними заняттями, громадськими направленнями та підтримкою в адаптації до життя в Арiзоні.",
       "services": [
-          {
-              "title": "Підтримка ресетлменту",
-              "text": "Підтримка для нещодавно прибулих сімей біженців та іммігрантів, включно з житлом, їжею, одягом, направленнями та допомогою у відновленні стабільності."
-          },
-          {
-              "title": "Послуги з працевлаштування",
-              "text": "Професійна підготовка, допомога з пошуком роботи, підготовка до робочого середовища та підтримка у зв’язку з місцевими можливостями."
-          },
-          {
-              "title": "Імміграційні послуги",
-              "text": "Імміграційна допомога без попереднього запису щодо сімейних петицій, громадянства, постійного проживання, заміни документів, захищеного статусу та возз’єднання сім’ї."
-          },
-          {
-              "title": "Заняття та освіта",
-              "text": "Щомісячні заняття з фінансових тем, навчання з поліцією, гігієни та здоров’я, а також орієнтації щодо громадського транспорту."
-          },
-          {
-              "title": "Допомога з транспортом",
-              "text": "Підтримка у доступі до медичних прийомів, послуг, пожертв, громадського транспорту та ресурсів громади."
-          },
-          {
-              "title": "Підтримка сімей SIV",
-              "text": "Послуги без попереднього запису для власників Special Immigrant Visa, включно з Reception & Placement, Matching Grant, Preferred Communities, Employment Services та State RRP Benefits."
-          }
-      ],
+      {
+        "title": "Підтримка переселення",
+        "text": "Підтримка для нещодавно прибулих біженців та іммігрантів, включаючи житло, їжу, одяг, направлення та допомогу у відновленні стабільності."
+      },
+      {
+        "title": "Matching Grant (MG)",
+        "text": "Послуги підтримки самозабезпечення для відповідних сімей біженців, включаючи підготовку до працевлаштування, фінансові консультації, підтримку орендної допомоги та інтеграцію в громаду."
+      },
+      {
+        "title": "Координація справ (CO)",
+        "text": "Індивідуальні послуги координації справ, що допомагають сім’ям біженців та іммігрантів орієнтуватися в ресурсах, зустрічах, документах, охороні здоров’я, освіті та громадських послугах."
+      },
+      {
+        "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+        "text": "Послуги програми GAPS, включаючи підтримку UHP, ASA та REA для бенефіціарів, які відповідають вимогам ORR. PIR надає підтримку початкового розміщення та переселення для новоприбулих біженців і клієнтів без попереднього запису. ICM забезпечує інтенсивне ведення справ із цільовою медичною та стабілізаційною підтримкою для відповідних бенефіціарів ORR, які потребують додаткової допомоги."
+      },
+      {
+        "title": "Внутрішня імміграційна консультація",
+        "text": "Імміграційна підтримка без попереднього запису для сімейних петицій, громадянства, постійного проживання, заміни документів, захищеного статусу та возз’єднання сім’ї."
+      },
+      {
+        "title": "Заняття та освіта",
+        "text": "Щомісячні заняття з фінансових тем, навчання з поліцією, гігієни та здоров’я, культурної орієнтації, сесій запитань і відповідей щодо імміграції, а також орієнтації громадським транспортом, включаючи автобус і легкорейковий транспорт."
+      },
+      {
+        "title": "Підтримка сімей SIV",
+        "text": "Послуги без попереднього запису для власників спеціальної імміграційної візи, включаючи Reception & Placement, Matching Grant, Preferred Communities, Employment Services та державні пільги RRP."
+      }
+    ],
       "requestHelp": "Запросити допомогу",
       "getHelpLabel": "Отримати допомогу",
       "getHelpTitle": "Зв’яжіться з AIRS або відвідайте офіс у години надання послуг.",
@@ -1520,28 +1544,32 @@ const localizedContent = {
     "servicesText": "AIRS huwaunganisha wateja na huduma za moja kwa moja, msaada wa bila miadi, madarasa ya kila mwezi, rufaa za jamii na msaada wa kuzoea maisha Arizona.",
     "services": [
       {
-        "title": "Msaada wa Makazi Mapya",
-        "text": "Msaada kwa familia mpya za wakimbizi na wahamiaji, ikiwa ni pamoja na makazi, chakula, mavazi, rufaa na kujenga uthabiti."
+        "title": "Msaada wa makazi mapya",
+        "text": "Msaada kwa familia za wakimbizi na wahamiaji waliowasili hivi karibuni, ikijumuisha makazi, chakula, mavazi, rufaa na msaada wa kujenga utulivu."
       },
       {
-        "title": "Huduma za Ajira",
-        "text": "Mafunzo ya kazi, msaada wa ajira, maandalizi ya mahali pa kazi na kuunganisha wateja na fursa za eneo."
+        "title": "Matching Grant (MG)",
+        "text": "Huduma za kusaidia kujitegemea kwa familia za wakimbizi zinazostahiki, ikijumuisha maandalizi ya ajira, mwongozo wa kifedha, msaada wa kodi ya nyumba na ujumuishaji wa jamii."
       },
       {
-        "title": "Huduma za Uhamiaji",
-        "text": "Msaada wa uhamiaji bila miadi kwa maombi ya ndugu, uraia, ukaazi wa kudumu, hati mbadala, hadhi ya ulinzi na kuunganisha familia."
+        "title": "Uratibu wa kesi (CO)",
+        "text": "Huduma za uratibu wa kesi binafsi zinazosaidia familia za wakimbizi na wahamiaji kupata rasilimali, miadi, nyaraka, huduma za afya, elimu na huduma za jamii."
       },
       {
-        "title": "Madarasa na Elimu",
-        "text": "Madarasa ya kila mwezi kuhusu fedha, mafunzo ya polisi, usafi na afya, na maelekezo ya usafiri wa umma."
+        "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+        "text": "Huduma za Programu ya GAPS ikijumuisha msaada wa UHP, ASA na REA kwa wanufaika wanaostahiki ORR. PIR hutoa msaada wa uwekaji wa awali na makazi mapya kwa wakimbizi wapya na wateja wa kutembea bila miadi. ICM hutoa usimamizi wa kina wa kesi pamoja na msaada wa matibabu na utulivu kwa wanufaika wanaostahiki ORR wanaohitaji msaada wa ziada."
       },
       {
-        "title": "Msaada wa Usafiri",
-        "text": "Kuwasaidia wateja kufika kwenye miadi ya matibabu, huduma, michango, usafiri wa umma na rasilimali za jamii."
+        "title": "Ushauri wa ndani wa uhamiaji",
+        "text": "Msaada wa uhamiaji bila miadi kwa maombi ya familia, uraia, ukaazi wa kudumu, nyaraka mbadala, hadhi ya ulinzi na kuunganishwa kwa familia."
       },
       {
-        "title": "Msaada kwa Familia za SIV",
-        "text": "Huduma za bila miadi kwa wenye visa maalum vya wahamiaji, ikiwa ni pamoja na Reception & Placement, Matching Grant, Preferred Communities, Employment Services na State RRP Benefits."
+        "title": "Madarasa na elimu",
+        "text": "Madarasa ya kila mwezi kuhusu fedha, mafunzo ya polisi, usafi na afya, utamaduni, vipindi vya maswali na majibu kuhusu uhamiaji, na maelekezo ya usafiri wa umma ikijumuisha basi na treni nyepesi."
+      },
+      {
+        "title": "Msaada kwa familia za SIV",
+        "text": "Huduma bila miadi kwa wamiliki wa Special Immigrant Visa, ikijumuisha Reception & Placement, Matching Grant, Preferred Communities, Employment Services na State RRP Benefits."
       }
     ],
     "requestHelp": "Omba msaada",
@@ -1653,6 +1681,9 @@ const localizedContent = {
       "Mentoría a una familia refugiada",
       "Alcance comunitario"
     ],
+    "galleryLabel": "Matunzio ya Jamii",
+    "galleryTitle": "Nyakati za msaada, jamii, na mwanzo mpya.",
+    "galleryText": "Mtazamo wa familia, wajitoleaji, matukio, na msaada wa jamii unaofanikisha kazi ya AIRS.",
     "eventsLabel": "Matukio na madarasa",
     "eventsTitle": "Fursa za elimu na maelekezo za kila mwezi.",
     "viewEvents": "Wasiliana na AIRS kwa tarehe",
@@ -1729,28 +1760,32 @@ const localizedContent = {
     "servicesText": "AIRS ihuza abakiriya na serivisi zitaziguye, ubufasha nta gahunda, amasomo ya buri kwezi, koherezwa mu muryango n’ubufasha bwo kumenyera ubuzima muri Arizona.",
     "services": [
       {
-        "title": "Msaada wa Makazi Mapya",
-        "text": "Msaada kwa familia mpya za wakimbizi na wahamiaji, ikiwa ni pamoja na makazi, chakula, mavazi, rufaa na kujenga uthabiti."
+        "title": "Ubufasha bwo kwimuka no gutura",
+        "text": "Ubufasha ku miryango y’impunzi n’abimukira bashya, harimo icumbi, ibiribwa, imyambaro, koherezwa ku zindi serivisi no gufasha kubaka ituze."
       },
       {
-        "title": "Huduma za Ajira",
-        "text": "Mafunzo ya kazi, msaada wa ajira, maandalizi ya mahali pa kazi na kuunganisha wateja na fursa za eneo."
+        "title": "Matching Grant (MG)",
+        "text": "Serivisi zifasha imiryango y’impunzi yujuje ibisabwa kwigira, harimo kwitegura akazi, inama z’imari, ubufasha bw’ubukode no kwinjira mu muryango."
       },
       {
-        "title": "Huduma za Uhamiaji",
-        "text": "Msaada wa uhamiaji bila miadi kwa maombi ya ndugu, uraia, ukaazi wa kudumu, hati mbadala, hadhi ya ulinzi na kuunganisha familia."
+        "title": "Guhuza dosiye (CO)",
+        "text": "Serivisi zihariye zo guhuza dosiye zifasha imiryango y’impunzi n’abimukira kubona ibikoresho, gahunda, inyandiko, serivisi z’ubuzima, uburezi na serivisi z’umuryango."
       },
       {
-        "title": "Madarasa na Elimu",
-        "text": "Madarasa ya kila mwezi kuhusu fedha, mafunzo ya polisi, usafi na afya, na maelekezo ya usafiri wa umma."
+        "title": "Preferred Communities (GAPS)(PIR)(ICM)",
+        "text": "Serivisi za GAPS Program zirimo ubufasha bwa UHP, ASA na REA ku bagenerwabikorwa bujuje ibisabwa bya ORR. PIR itanga ubufasha bwo gushyirwa bwa mbere no gutuzwa ku mpunzi nshya n’abaza batari bafite gahunda. ICM itanga icungamutungo rikomeye rya dosiye hamwe n’ubufasha bw’ubuvuzi no gutuza ku bagenerwabikorwa bujuje ibisabwa bya ORR bakeneye ubufasha bw’inyongera."
       },
       {
-        "title": "Msaada wa Usafiri",
-        "text": "Kuwasaidia wateja kufika kwenye miadi ya matibabu, huduma, michango, usafiri wa umma na rasilimali za jamii."
+        "title": "Inama z’imbere mu by’abimukira",
+        "text": "Ubufasha mu by’abimukira nta gahunda isabwa ku byifuzo by’umuryango, ubwenegihugu, gutura burundu, gusimbuza inyandiko, status y’uburinzi no kongera guhuza imiryango."
       },
       {
-        "title": "Msaada kwa Familia za SIV",
-        "text": "Huduma za bila miadi kwa wenye visa maalum vya wahamiaji, ikiwa ni pamoja na Reception & Placement, Matching Grant, Preferred Communities, Employment Services na State RRP Benefits."
+        "title": "Amasomo n’uburezi",
+        "text": "Amasomo ya buri kwezi ku by’imari, amahugurwa ya polisi, isuku n’ubuzima, kumenyera umuco, ibiganiro by’ibibazo n’ibisubizo ku bimukira, n’amahugurwa ku gutwara abantu rusange harimo bisi na light rail."
+      },
+      {
+        "title": "Ubufasha ku miryango ya SIV",
+        "text": "Serivisi nta gahunda isabwa ku bafite Special Immigrant Visa, harimo Reception & Placement, Matching Grant, Preferred Communities, Employment Services na State RRP Benefits."
       }
     ],
     "requestHelp": "Saba ubufasha",
@@ -1862,6 +1897,9 @@ const localizedContent = {
       "Mentoría a una familia refugiada",
       "Alcance comunitario"
     ],
+    "galleryLabel": "Amafoto y’Umuryango",
+    "galleryTitle": "Ibihe by’ubufasha, umuryango n’intangiriro nshya.",
+    "galleryText": "Ishusho y’imiryango, abakorerabushake, ibikorwa n’ubufasha bw’umuryango bituma umurimo wa AIRS ushoboka.",
     "eventsLabel": "Ibikorwa n’amasomo",
     "eventsTitle": "Amahirwe ya buri kwezi y’uburezi no kumenyerezwa.",
     "viewEvents": "Vugana na AIRS ku matariki",
