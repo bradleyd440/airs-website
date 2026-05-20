@@ -1991,9 +1991,9 @@ function BrandLogo({ compact = false }) {
         alt="Arizona Immigrant & Refugee Services logo"
         className={`${
           compact
-            ? "h-20 max-w-[280px] sm:h-24 sm:max-w-[340px] lg:h-28 lg:max-w-[420px]"
-            : "h-24 max-w-[340px] sm:h-28 sm:max-w-[420px] lg:h-32 lg:max-w-[480px]"
-        } w-auto object-contain`}
+            ? "h-28 sm:h-32 lg:h-36"
+            : "h-32 sm:h-36 lg:h-40"
+        } w-auto max-w-none object-contain`}
       />
     </div>
   );
@@ -2013,9 +2013,9 @@ function Navbar({ language, setLanguage, t }) {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 shadow-sm backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3 lg:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-0.5 lg:px-8">
         <a href="#home" className="flex items-center"><BrandLogo compact /></a>
-        <nav className="hidden items-center gap-4 xl:gap-6 lg:flex">
+        <nav className="hidden items-center gap-2 xl:gap-3 lg:flex">
           {t.nav.map((item) => <a key={item} href={`#${getSectionId(item, t)}`} className="text-sm font-bold text-slate-700 transition hover:text-teal-700">{item}</a>)}
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
