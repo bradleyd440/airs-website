@@ -330,10 +330,12 @@ const localizedContent = {
       "Reunificación familiar"
     ],
     "classesTitle": "Horario mensual de clases",
-    "monthlyClasses": [
+        "monthlyClasses": [
       "Clase financiera con Wells Fargo",
       "Capacitación policial con Phoenix PD",
       "Clase de higiene y salud",
+      "Clase de orientación cultural",
+      "Bimensual — Sesión de preguntas y respuestas de inmigración",
       "Capacitación de autobús y tren ligero con Phoenix Valley Metro"
     ],
     "sivTitle": "Servicios SIV sin cita",
@@ -547,11 +549,13 @@ const localizedContent = {
       "Réunification familiale"
     ],
     "classesTitle": "Calendrier mensuel des cours",
-    "monthlyClasses": [
+        "monthlyClasses": [
       "Cours financier avec Wells Fargo",
       "Formation avec Phoenix PD",
       "Cours d’hygiène et santé",
-      "Dernier mardi @ 11:30 AM — Formation bus et métro léger avec Phoenix Valley Metro"
+      "Cours d’orientation culturelle",
+      "Bimensuel — Séance de questions-réponses sur l’immigration",
+      "Formation bus et métro léger avec Phoenix Valley Metro"
     ],
     "sivTitle": "Services SIV sans rendez-vous",
     "sivServices": [
@@ -764,11 +768,13 @@ const localizedContent = {
       "لمّ شمل الأسرة"
     ],
     "classesTitle": "جدول الدروس الشهرية",
-    "monthlyClasses": [
-      "الثلاثاء الأول @ 11:30 صباحًا — درس مالي مع Wells Fargo",
-      "الثلاثاء الثاني @ 11:30 صباحًا — تدريب مع شرطة فينيكس",
-      "الثلاثاء الثالث @ 11:30 صباحًا — درس النظافة والصحة",
-      "الثلاثاء الأخير @ 11:30 صباحًا — تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro"
+        "monthlyClasses": [
+      "درس مالي مع Wells Fargo",
+      "تدريب مع شرطة فينيكس",
+      "درس النظافة والصحة",
+      "درس التوجيه الثقافي",
+      "كل شهرين — جلسة أسئلة وأجوبة حول الهجرة",
+      "تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro"
     ],
     "sivTitle": "خدمات SIV بدون موعد",
     "sivServices": [
@@ -825,18 +831,15 @@ const localizedContent = {
     "events": [
       {
         "title": "درس مالي",
-        "date": "الثلاثاء الأول @ 11:30 صباحًا",
-        "text": "جلسة تعليم مالي مع Wells Fargo."
+"text": "جلسة تعليم مالي مع Wells Fargo."
       },
       {
         "title": "تدريب الشرطة",
-        "date": "الثلاثاء الثاني @ 11:30 صباحًا",
-        "text": "تدريب حول السلامة المجتمعية مع شرطة فينيكس."
+"text": "تدريب حول السلامة المجتمعية مع شرطة فينيكس."
       },
       {
         "title": "تدريب المواصلات",
-        "date": "الثلاثاء الأخير @ 11:30 صباحًا",
-        "text": "تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro."
+"text": "تدريب على الحافلات والقطار الخفيف مع Phoenix Valley Metro."
       }
     ],
     "footerText": "تساعد AIRS عائلات اللاجئين والمهاجرين في الوصول إلى الدعم والموارد والروابط المجتمعية في أريزونا.",
@@ -981,11 +984,13 @@ const localizedContent = {
           "پیوستن خانواده"
       ],
       "classesTitle": "برنامه صنف‌های ماهانه",
-      "monthlyClasses": [
-          "سه‌شنبه اول @ 11:30 صبح — صنف مالی با Wells Fargo",
-          "سه‌شنبه دوم @ 11:30 صبح — آموزش با پولیس فینیکس",
-          "سه‌شنبه سوم @ 11:30 صبح — صنف نظافت و صحت",
-          "سه‌شنبه آخر @ 11:30 صبح — آموزش بس و قطار سبک با Phoenix Valley Metro"
+            "monthlyClasses": [
+        "صنف مالی با Wells Fargo",
+        "آموزش با پولیس فینیکس",
+        "صنف نظافت و صحت",
+        "صنف آشنایی فرهنگی",
+        "دو ماه یک‌بار — جلسه پرسش و پاسخ مهاجرت",
+        "آموزش بس و قطار سبک با Phoenix Valley Metro"
       ],
       "sivTitle": "خدمات SIV بدون وقت قبلی",
       "sivServices": [
@@ -1042,18 +1047,15 @@ const localizedContent = {
       "events": [
           {
               "title": "صنف مالی",
-              "date": "سه‌شنبه اول @ 11:30 صبح",
-              "text": "جلسه آموزش مالی با Wells Fargo."
+"text": "جلسه آموزش مالی با Wells Fargo."
           },
           {
               "title": "آموزش پولیس",
-              "date": "سه‌شنبه دوم @ 11:30 صبح",
-              "text": "آموزش امنیت اجتماعی با پولیس فینیکس."
+"text": "آموزش امنیت اجتماعی با پولیس فینیکس."
           },
           {
               "title": "آموزش ترانسپورت",
-              "date": "سه‌شنبه آخر @ 11:30 صبح",
-              "text": "آموزش بس و قطار سبک با Phoenix Valley Metro."
+"text": "آموزش بس و قطار سبک با Phoenix Valley Metro."
           }
       ],
       "footerText": "AIRS به خانواده‌های پناهنده و مهاجر کمک می‌کند تا به حمایت، منابع و ارتباطات اجتماعی در آریزونا دسترسی پیدا کنند.",
@@ -1198,11 +1200,13 @@ const localizedContent = {
           "د کورنۍ یوځای کېدل"
       ],
       "classesTitle": "د میاشتنیو ټولګیو مهالویش",
-      "monthlyClasses": [
-          "لومړۍ سه‌شنبه @ 11:30 سهار — مالي ټولګی له Wells Fargo سره",
-          "دوهمه سه‌شنبه @ 11:30 سهار — د فینکس پولیسو روزنه",
-          "درېیمه سه‌شنبه @ 11:30 سهار — د حفظ الصحې او روغتیا ټولګی",
-          "وروستۍ سه‌شنبه @ 11:30 سهار — د بس او لایټ ریل روزنه له Phoenix Valley Metro سره"
+            "monthlyClasses": [
+        "مالي ټولګی له Wells Fargo سره",
+        "د Phoenix PD سره د پولیسو روزنه",
+        "د حفظ الصحې او روغتیا ټولګی",
+        "د کلتوري پېژندنې ټولګی",
+        "هر دوه میاشتې — د مهاجرت پوښتنې او ځواب غونډه",
+        "د Phoenix Valley Metro سره د بس او لایټ ریل روزنه"
       ],
       "sivTitle": "د SIV بې‌نوبته خدمات",
       "sivServices": [
@@ -1259,18 +1263,15 @@ const localizedContent = {
       "events": [
           {
               "title": "مالي ټولګی",
-              "date": "لومړۍ سه‌شنبه @ 11:30 سهار",
-              "text": "له Wells Fargo سره د مالي زده کړې ناسته."
+"text": "له Wells Fargo سره د مالي زده کړې ناسته."
           },
           {
               "title": "د پولیسو روزنه",
-              "date": "دوهمه سه‌شنبه @ 11:30 سهار",
-              "text": "د فینکس پولیسو سره د ټولنې امنیت روزنه."
+"text": "د فینکس پولیسو سره د ټولنې امنیت روزنه."
           },
           {
               "title": "د ترانسپورت روزنه",
-              "date": "وروستۍ سه‌شنبه @ 11:30 سهار",
-              "text": "د Phoenix Valley Metro سره د بس او لایټ ریل روزنه."
+"text": "د Phoenix Valley Metro سره د بس او لایټ ریل روزنه."
           }
       ],
       "footerText": "AIRS د کډوالو او مهاجرینو کورنیو سره مرسته کوي چې په اریزونا کې ملاتړ، سرچینې او ټولنیزې اړیکې ترلاسه کړي.",
@@ -1413,12 +1414,14 @@ const localizedContent = {
           "Возз’єднання сім’ї"
       ],
       "classesTitle": "Щомісячний розклад занять",
-      "monthlyClasses": [
-          "фінансове заняття з Wells Fargo",
-          "навчання з Phoenix PD",
-          "заняття з гігієни та здоров’я",
-          "Останній вівторок @ 11:30 AM — навчання щодо автобусів і легкої залізниці з Phoenix Valley Metro"
-      ],
+          "monthlyClasses": [
+      "Фінансове заняття з Wells Fargo",
+      "Навчання з Phoenix PD",
+      "Заняття з гігієни та здоров’я",
+      "Заняття з культурної орієнтації",
+      "Двічі на місяць — сесія запитань і відповідей щодо імміграції",
+      "Навчання користуванню автобусом і легкорейковим транспортом з Phoenix Valley Metro"
+    ],
       "sivTitle": "Послуги SIV без попереднього запису",
       "sivServices": [
           "Reception & Placement",
@@ -1629,11 +1632,13 @@ const localizedContent = {
       "Reunificación familiar"
     ],
     "classesTitle": "Ratiba ya madarasa ya kila mwezi",
-    "monthlyClasses": [
-      "Clase financiera con Wells Fargo",
-      "Capacitación policial con Phoenix PD",
-      "Clase de higiene y salud",
-      "Capacitación de autobús y tren ligero con Phoenix Valley Metro"
+        "monthlyClasses": [
+      "Darasa la fedha na Wells Fargo",
+      "Mafunzo ya polisi na Phoenix PD",
+      "Darasa la usafi na afya",
+      "Darasa la utamaduni na maelekezo ya jamii",
+      "Kila baada ya miezi miwili — Kipindi cha maswali na majibu kuhusu uhamiaji",
+      "Mafunzo ya basi na treni nyepesi na Phoenix Valley Metro"
     ],
     "sivTitle": "Huduma za SIV bila miadi",
     "sivServices": [
@@ -1845,11 +1850,13 @@ const localizedContent = {
       "Reunificación familiar"
     ],
     "classesTitle": "Gahunda y’amasomo ya buri kwezi",
-    "monthlyClasses": [
-      "Clase financiera con Wells Fargo",
-      "Capacitación policial con Phoenix PD",
-      "Clase de higiene y salud",
-      "Capacitación de autobús y tren ligero con Phoenix Valley Metro"
+        "monthlyClasses": [
+      "Isomo ry’imari hamwe na Wells Fargo",
+      "Amahugurwa ya polisi hamwe na Phoenix PD",
+      "Isomo ry’isuku n’ubuzima",
+      "Isomo ryo kumenyera umuco",
+      "Buri mezi abiri — Ikiganiro cy’ibibazo n’ibisubizo ku by’abimukira",
+      "Amahugurwa ya bisi na light rail hamwe na Phoenix Valley Metro"
     ],
     "sivTitle": "Serivisi za SIV nta gahunda",
     "sivServices": [
