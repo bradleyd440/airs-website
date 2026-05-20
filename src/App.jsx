@@ -331,10 +331,10 @@ const localizedContent = {
     ],
     "classesTitle": "Horario mensual de clases",
     "monthlyClasses": [
-      "Primer martes @ 11:30 AM — Clase financiera con Wells Fargo",
-      "Segundo martes @ 11:30 AM — Capacitación policial con Phoenix PD",
-      "Tercer martes @ 11:30 AM — Clase de higiene y salud",
-      "Último martes @ 11:30 AM — Capacitación de autobús y tren ligero con Phoenix Valley Metro"
+      "Clase financiera con Wells Fargo",
+      "Capacitación policial con Phoenix PD",
+      "Clase de higiene y salud",
+      "Capacitación de autobús y tren ligero con Phoenix Valley Metro"
     ],
     "sivTitle": "Servicios SIV sin cita",
     "sivServices": [
@@ -391,17 +391,17 @@ const localizedContent = {
     "events": [
       {
         "title": "Clase financiera",
-        "date": "Primer martes @ 11:30 AM",
+        
         "text": "Sesión de educación financiera con Wells Fargo."
       },
       {
         "title": "Capacitación policial",
-        "date": "Segundo martes @ 11:30 AM",
+        
         "text": "Seguridad comunitaria y capacitación policial con Phoenix PD."
       },
       {
         "title": "Capacitación de transporte",
-        "date": "Último martes @ 11:30 AM",
+        
         "text": "Capacitación de autobús y tren ligero con Phoenix Valley Metro."
       }
     ],
@@ -548,9 +548,9 @@ const localizedContent = {
     ],
     "classesTitle": "Calendrier mensuel des cours",
     "monthlyClasses": [
-      "Premier mardi @ 11:30 AM — Cours financier avec Wells Fargo",
-      "Deuxième mardi @ 11:30 AM — Formation avec Phoenix PD",
-      "Troisième mardi @ 11:30 AM — Cours d’hygiène et santé",
+      "Cours financier avec Wells Fargo",
+      "Formation avec Phoenix PD",
+      "Cours d’hygiène et santé",
       "Dernier mardi @ 11:30 AM — Formation bus et métro léger avec Phoenix Valley Metro"
     ],
     "sivTitle": "Services SIV sans rendez-vous",
@@ -608,17 +608,17 @@ const localizedContent = {
     "events": [
       {
         "title": "Cours financier",
-        "date": "Premier mardi @ 11:30 AM",
+        
         "text": "Séance d’éducation financière avec Wells Fargo."
       },
       {
         "title": "Formation police",
-        "date": "Deuxième mardi @ 11:30 AM",
+        
         "text": "Formation sur la sécurité communautaire avec Phoenix PD."
       },
       {
         "title": "Formation transport",
-        "date": "Dernier mardi @ 11:30 AM",
+        
         "text": "Formation bus et métro léger avec Phoenix Valley Metro."
       }
     ],
@@ -1148,7 +1148,7 @@ const localizedContent = {
       "officeInfo": "د دفتر معلومات",
       "location": "10240 N. 31st Ave, Suite 112, Phoenix, AZ 85051",
       "fax": "فکس: (602) 944-1860",
-      "officeHours": "دوشنبه–جمعه، 9:00 سهار–4:30 ماښام",
+      "officeHours": "دوشنبه–جمعه، 9:00 سهار–5:00 ماښام",
       "holidayNote": "دفتر په فدرالي رخصتیو کې تړلی وي.",
       "fullName": "بشپړ نوم",
       "fullNamePlaceholder": "ستاسو نوم",
@@ -1182,7 +1182,7 @@ const localizedContent = {
           },
           {
               "title": "د دفتر ساعتونه",
-              "text": "دوشنبه تر جمعې، 9:00 سهار–4:30 ماښام. دفتر په فدرالي رخصتیو کې تړلی وي."
+              "text": "دوشنبه تر جمعې، 9:00 سهار–5:00 ماښام. دفتر په فدرالي رخصتیو کې تړلی وي."
           }
       ],
       "programDetailsLabel": "د پروګرام جزئیات",
@@ -1414,9 +1414,9 @@ const localizedContent = {
       ],
       "classesTitle": "Щомісячний розклад занять",
       "monthlyClasses": [
-          "Перший вівторок @ 11:30 AM — фінансове заняття з Wells Fargo",
-          "Другий вівторок @ 11:30 AM — навчання з Phoenix PD",
-          "Третій вівторок @ 11:30 AM — заняття з гігієни та здоров’я",
+          "фінансове заняття з Wells Fargo",
+          "навчання з Phoenix PD",
+          "заняття з гігієни та здоров’я",
           "Останній вівторок @ 11:30 AM — навчання щодо автобусів і легкої залізниці з Phoenix Valley Metro"
       ],
       "sivTitle": "Послуги SIV без попереднього запису",
@@ -1474,17 +1474,17 @@ const localizedContent = {
       "events": [
           {
               "title": "Фінансове заняття",
-              "date": "Перший вівторок @ 11:30 AM",
+              
               "text": "Заняття з фінансової освіти з Wells Fargo."
           },
           {
               "title": "Навчання з поліцією",
-              "date": "Другий вівторок @ 11:30 AM",
+              
               "text": "Навчання з громадської безпеки з Phoenix PD."
           },
           {
               "title": "Навчання з транспорту",
-              "date": "Останній вівторок @ 11:30 AM",
+              
               "text": "Навчання щодо автобусів і легкої залізниці з Phoenix Valley Metro."
           }
       ],
@@ -1630,10 +1630,10 @@ const localizedContent = {
     ],
     "classesTitle": "Ratiba ya madarasa ya kila mwezi",
     "monthlyClasses": [
-      "Primer martes @ 11:30 AM — Clase financiera con Wells Fargo",
-      "Segundo martes @ 11:30 AM — Capacitación policial con Phoenix PD",
-      "Tercer martes @ 11:30 AM — Clase de higiene y salud",
-      "Último martes @ 11:30 AM — Capacitación de autobús y tren ligero con Phoenix Valley Metro"
+      "Clase financiera con Wells Fargo",
+      "Capacitación policial con Phoenix PD",
+      "Clase de higiene y salud",
+      "Capacitación de autobús y tren ligero con Phoenix Valley Metro"
     ],
     "sivTitle": "Huduma za SIV bila miadi",
     "sivServices": [
@@ -1690,17 +1690,17 @@ const localizedContent = {
     "events": [
       {
         "title": "Clase financiera",
-        "date": "Primer martes @ 11:30 AM",
+        
         "text": "Sesión de educación financiera con Wells Fargo."
       },
       {
         "title": "Capacitación policial",
-        "date": "Segundo martes @ 11:30 AM",
+        
         "text": "Seguridad comunitaria y capacitación policial con Phoenix PD."
       },
       {
         "title": "Capacitación de transporte",
-        "date": "Último martes @ 11:30 AM",
+        
         "text": "Capacitación de autobús y tren ligero con Phoenix Valley Metro."
       }
     ],
@@ -1846,10 +1846,10 @@ const localizedContent = {
     ],
     "classesTitle": "Gahunda y’amasomo ya buri kwezi",
     "monthlyClasses": [
-      "Primer martes @ 11:30 AM — Clase financiera con Wells Fargo",
-      "Segundo martes @ 11:30 AM — Capacitación policial con Phoenix PD",
-      "Tercer martes @ 11:30 AM — Clase de higiene y salud",
-      "Último martes @ 11:30 AM — Capacitación de autobús y tren ligero con Phoenix Valley Metro"
+      "Clase financiera con Wells Fargo",
+      "Capacitación policial con Phoenix PD",
+      "Clase de higiene y salud",
+      "Capacitación de autobús y tren ligero con Phoenix Valley Metro"
     ],
     "sivTitle": "Serivisi za SIV nta gahunda",
     "sivServices": [
@@ -1906,17 +1906,17 @@ const localizedContent = {
     "events": [
       {
         "title": "Clase financiera",
-        "date": "Primer martes @ 11:30 AM",
+        
         "text": "Sesión de educación financiera con Wells Fargo."
       },
       {
         "title": "Capacitación policial",
-        "date": "Segundo martes @ 11:30 AM",
+        
         "text": "Seguridad comunitaria y capacitación policial con Phoenix PD."
       },
       {
         "title": "Capacitación de transporte",
-        "date": "Último martes @ 11:30 AM",
+        
         "text": "Capacitación de autobús y tren ligero con Phoenix Valley Metro."
       }
     ],
